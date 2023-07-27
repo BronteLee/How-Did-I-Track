@@ -45,25 +45,37 @@ def add_date(file):
     data[0]['date'] = data[0]['dateTime'].split(" ")[0]
     print(data[0])
 
-# daily steps
+# daily steps and adherence
 def daily_steps():
     steps = []
-    data = json.load(open("steps.json", encoding='utf-8'))
+    data = json.load(open("steps-sydney-time.json", encoding='utf-8'))
+    hours = 0
+    hour = ""
     for entry in data:
-        if len(steps) > 5:
-            break
         date = entry['dateTime'].split(" ")[0]
         if len(steps) == 0:
             d = {'date': date, 'steps': int(entry['value'])}
             steps.append(d)
+            hour = entry['dateTime'].split(" ")[1].split(":")[0]
+            hours += 1
         else:
             c_date = steps[-1]['date']
+            c_hour = entry['dateTime'].split(" ")[1].split(":")[0]
             if date == c_date:
                 steps[-1]['steps'] += int(entry['value'])
+                if c_hour != hour:
+                    hours += 1
+                    hour = c_hour
             else:
+                steps[-1]['hours-worn'] = hours
                 d = {'date': date, 'steps': int(entry['value'])}
                 steps.append(d)
-    print(steps)
+                hours = 0
+                hour = c_hour
+    out_file = open("daily-data.json", "w")
+    json.dump(steps, out_file, indent=2)
+    out_file.close()
+
 
 
 # Convert timestamps to Local
@@ -83,4 +95,4 @@ def convert_times():
     out_file.close()
 
 
-convert_times()
+daily_steps()
