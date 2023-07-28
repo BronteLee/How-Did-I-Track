@@ -3,10 +3,13 @@ from dash import Dash, html, dcc, callback, Output, Input
 import plotly.express as px
 import pandas as pd
 import numpy as np
+import statsmodels
 
-# data
-df = pd.read_json('daily-data.json', convert_dates=False)
+# raw-data
+df = pd.read_json('data/daily-data.json', convert_dates=False)
 df['date'] = pd.to_datetime(df['date'], dayfirst=True)
+print(df['steps'].corr(df['calories']))
+print(df['steps'].corr(df['resting-heart-rate']))
 
 df1 = pd.read_json('moderately-active-minutes-merged.json')
 df1['dateTime'] = pd.to_datetime(df1['dateTime'], format="%m/%d/%Y")
@@ -36,7 +39,10 @@ app.layout = html.Div([
     html.H2(children='Lightly Active Minutes'),
     dcc.Graph(id='graph2'),
     html.H2(children="Adherence"),
-    dcc.Graph(id="graph3")
+    dcc.Graph(id="graph3"),
+    html.H2(children="Steps and Calories Scatter"),
+    dcc.Graph(figure=px.scatter(df, x="steps", y="calories", trendline="ols")),
+    dcc.Graph(figure=px.scatter(df, x="steps", y="resting-heart-rate", trendline="ols"))
 ])
 
 
