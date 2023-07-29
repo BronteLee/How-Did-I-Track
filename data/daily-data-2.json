@@ -1,0 +1,2902 @@
+[
+  {
+    "date": "25/12/2021",
+    "steps": 4141,
+    "hours_worn": 12
+  },
+  {
+    "date": "26/12/2021",
+    "steps": 7065,
+    "hours_worn": 16
+  },
+  {
+    "date": "27/12/2021",
+    "steps": 16459,
+    "hours_worn": 17
+  },
+  {
+    "date": "28/12/2021",
+    "steps": 20377,
+    "hours_worn": 19
+  },
+  {
+    "date": "29/12/2021",
+    "steps": 10069,
+    "hours_worn": 17
+  },
+  {
+    "date": "30/12/2021",
+    "steps": 12625,
+    "hours_worn": 16
+  },
+  {
+    "date": "31/12/2021",
+    "steps": 19848,
+    "hours_worn": 17
+  },
+  {
+    "date": "01/01/2022",
+    "steps": 5142,
+    "hours_worn": 18
+  },
+  {
+    "date": "02/01/2022",
+    "steps": 7141,
+    "hours_worn": 18
+  },
+  {
+    "date": "03/01/2022",
+    "steps": 3546,
+    "hours_worn": 16
+  },
+  {
+    "date": "04/01/2022",
+    "steps": 7905,
+    "hours_worn": 11
+  },
+  {
+    "date": "05/01/2022",
+    "steps": 17213,
+    "hours_worn": 15
+  },
+  {
+    "date": "06/01/2022",
+    "steps": 16831,
+    "hours_worn": 15
+  },
+  {
+    "date": "07/01/2022",
+    "steps": 6756,
+    "hours_worn": 17
+  },
+  {
+    "date": "08/01/2022",
+    "steps": 21625,
+    "hours_worn": 20
+  },
+  {
+    "date": "09/01/2022",
+    "steps": 4730,
+    "hours_worn": 16
+  },
+  {
+    "date": "10/01/2022",
+    "steps": 10194,
+    "hours_worn": 18
+  },
+  {
+    "date": "11/01/2022",
+    "steps": 10936,
+    "hours_worn": 17
+  },
+  {
+    "date": "12/01/2022",
+    "steps": 4660,
+    "hours_worn": 20
+  },
+  {
+    "date": "13/01/2022",
+    "steps": 15978,
+    "hours_worn": 17
+  },
+  {
+    "date": "14/01/2022",
+    "steps": 7280,
+    "hours_worn": 18
+  },
+  {
+    "date": "15/01/2022",
+    "steps": 15253,
+    "hours_worn": 17
+  },
+  {
+    "date": "16/01/2022",
+    "steps": 4545,
+    "hours_worn": 15
+  },
+  {
+    "date": "17/01/2022",
+    "steps": 9540,
+    "hours_worn": 21
+  },
+  {
+    "date": "18/01/2022",
+    "steps": 21790,
+    "hours_worn": 18
+  },
+  {
+    "date": "19/01/2022",
+    "steps": 9688,
+    "hours_worn": 17
+  },
+  {
+    "date": "20/01/2022",
+    "steps": 16477,
+    "hours_worn": 16
+  },
+  {
+    "date": "21/01/2022",
+    "steps": 7954,
+    "hours_worn": 19
+  },
+  {
+    "date": "22/01/2022",
+    "steps": 16397,
+    "hours_worn": 17
+  },
+  {
+    "date": "23/01/2022",
+    "steps": 15258,
+    "hours_worn": 18
+  },
+  {
+    "date": "24/01/2022",
+    "steps": 17251,
+    "hours_worn": 16
+  },
+  {
+    "date": "25/01/2022",
+    "steps": 8936,
+    "hours_worn": 15
+  },
+  {
+    "date": "26/01/2022",
+    "steps": 10548,
+    "hours_worn": 18
+  },
+  {
+    "date": "27/01/2022",
+    "steps": 18574,
+    "hours_worn": 17
+  },
+  {
+    "date": "28/01/2022",
+    "steps": 9068,
+    "hours_worn": 19
+  },
+  {
+    "date": "29/01/2022",
+    "steps": 8897,
+    "hours_worn": 19
+  },
+  {
+    "date": "30/01/2022",
+    "steps": 16642,
+    "hours_worn": 16
+  },
+  {
+    "date": "31/01/2022",
+    "steps": 16910,
+    "hours_worn": 17
+  },
+  {
+    "date": "01/02/2022",
+    "steps": 20346,
+    "hours_worn": 17
+  },
+  {
+    "date": "02/02/2022",
+    "steps": 6778,
+    "hours_worn": 18
+  },
+  {
+    "date": "03/02/2022",
+    "steps": 4362,
+    "hours_worn": 17
+  },
+  {
+    "date": "04/02/2022",
+    "steps": 7971,
+    "hours_worn": 17
+  },
+  {
+    "date": "05/02/2022",
+    "steps": 19107,
+    "hours_worn": 18
+  },
+  {
+    "date": "06/02/2022",
+    "steps": 9246,
+    "hours_worn": 17
+  },
+  {
+    "date": "07/02/2022",
+    "steps": 15390,
+    "hours_worn": 17
+  },
+  {
+    "date": "08/02/2022",
+    "steps": 10944,
+    "hours_worn": 16
+  },
+  {
+    "date": "09/02/2022",
+    "steps": 10031,
+    "hours_worn": 15
+  },
+  {
+    "date": "10/02/2022",
+    "steps": 11125,
+    "hours_worn": 15
+  },
+  {
+    "date": "11/02/2022",
+    "steps": 4599,
+    "hours_worn": 15
+  },
+  {
+    "date": "12/02/2022",
+    "steps": 16751,
+    "hours_worn": 18
+  },
+  {
+    "date": "13/02/2022",
+    "steps": 10801,
+    "hours_worn": 17
+  },
+  {
+    "date": "14/02/2022",
+    "steps": 8357,
+    "hours_worn": 16
+  },
+  {
+    "date": "15/02/2022",
+    "steps": 2450,
+    "hours_worn": 14
+  },
+  {
+    "date": "16/02/2022",
+    "steps": 14850,
+    "hours_worn": 14
+  },
+  {
+    "date": "17/02/2022",
+    "steps": 10066,
+    "hours_worn": 12
+  },
+  {
+    "date": "18/02/2022",
+    "steps": 15534,
+    "hours_worn": 18
+  },
+  {
+    "date": "19/02/2022",
+    "steps": 14773,
+    "hours_worn": 15
+  },
+  {
+    "date": "20/02/2022",
+    "steps": 4997,
+    "hours_worn": 16
+  },
+  {
+    "date": "21/02/2022",
+    "steps": 4791,
+    "hours_worn": 20
+  },
+  {
+    "date": "22/02/2022",
+    "steps": 17556,
+    "hours_worn": 20
+  },
+  {
+    "date": "23/02/2022",
+    "steps": 4766,
+    "hours_worn": 15
+  },
+  {
+    "date": "24/02/2022",
+    "steps": 19119,
+    "hours_worn": 18
+  },
+  {
+    "date": "25/02/2022",
+    "steps": 3121,
+    "hours_worn": 14
+  },
+  {
+    "date": "26/02/2022",
+    "steps": 13875,
+    "hours_worn": 15
+  },
+  {
+    "date": "27/02/2022",
+    "steps": 3356,
+    "hours_worn": 15
+  },
+  {
+    "date": "28/02/2022",
+    "steps": 4460,
+    "hours_worn": 18
+  },
+  {
+    "date": "01/03/2022",
+    "steps": 3277,
+    "hours_worn": 11
+  },
+  {
+    "date": "02/03/2022",
+    "steps": 3705,
+    "hours_worn": 14
+  },
+  {
+    "date": "03/03/2022",
+    "steps": 20254,
+    "hours_worn": 17
+  },
+  {
+    "date": "04/03/2022",
+    "steps": 7575,
+    "hours_worn": 18
+  },
+  {
+    "date": "05/03/2022",
+    "steps": 14957,
+    "hours_worn": 21
+  },
+  {
+    "date": "06/03/2022",
+    "steps": 4722,
+    "hours_worn": 16
+  },
+  {
+    "date": "07/03/2022",
+    "steps": 3637,
+    "hours_worn": 16
+  },
+  {
+    "date": "08/03/2022",
+    "steps": 2748,
+    "hours_worn": 21
+  },
+  {
+    "date": "09/03/2022",
+    "steps": 6029,
+    "hours_worn": 17
+  },
+  {
+    "date": "10/03/2022",
+    "steps": 11801,
+    "hours_worn": 17
+  },
+  {
+    "date": "11/03/2022",
+    "steps": 11053,
+    "hours_worn": 15
+  },
+  {
+    "date": "12/03/2022",
+    "steps": 15178,
+    "hours_worn": 16
+  },
+  {
+    "date": "13/03/2022",
+    "steps": 7297,
+    "hours_worn": 15
+  },
+  {
+    "date": "14/03/2022",
+    "steps": 10011,
+    "hours_worn": 17
+  },
+  {
+    "date": "15/03/2022",
+    "steps": 13660,
+    "hours_worn": 16
+  },
+  {
+    "date": "16/03/2022",
+    "steps": 10463,
+    "hours_worn": 18
+  },
+  {
+    "date": "17/03/2022",
+    "steps": 15666,
+    "hours_worn": 18
+  },
+  {
+    "date": "18/03/2022",
+    "steps": 19298,
+    "hours_worn": 18
+  },
+  {
+    "date": "19/03/2022",
+    "steps": 16820,
+    "hours_worn": 17
+  },
+  {
+    "date": "20/03/2022",
+    "steps": 9500,
+    "hours_worn": 16
+  },
+  {
+    "date": "21/03/2022",
+    "steps": 1254,
+    "hours_worn": 16
+  },
+  {
+    "date": "22/03/2022",
+    "steps": 3183,
+    "hours_worn": 18
+  },
+  {
+    "date": "23/03/2022",
+    "steps": 1078,
+    "hours_worn": 21
+  },
+  {
+    "date": "24/03/2022",
+    "steps": 1154,
+    "hours_worn": 16
+  },
+  {
+    "date": "25/03/2022",
+    "steps": 1374,
+    "hours_worn": 18
+  },
+  {
+    "date": "26/03/2022",
+    "steps": 2265,
+    "hours_worn": 18
+  },
+  {
+    "date": "27/03/2022",
+    "steps": 1640,
+    "hours_worn": 16
+  },
+  {
+    "date": "28/03/2022",
+    "steps": 3475,
+    "hours_worn": 18
+  },
+  {
+    "date": "29/03/2022",
+    "steps": 6331,
+    "hours_worn": 14
+  },
+  {
+    "date": "30/03/2022",
+    "steps": 6837,
+    "hours_worn": 13
+  },
+  {
+    "date": "31/03/2022",
+    "steps": 11452,
+    "hours_worn": 16
+  },
+  {
+    "date": "01/04/2022",
+    "steps": 3432,
+    "hours_worn": 16
+  },
+  {
+    "date": "02/04/2022",
+    "steps": 19443,
+    "hours_worn": 17
+  },
+  {
+    "date": "03/04/2022",
+    "steps": 2630,
+    "hours_worn": 16
+  },
+  {
+    "date": "04/04/2022",
+    "steps": 5947,
+    "hours_worn": 15
+  },
+  {
+    "date": "05/04/2022",
+    "steps": 14317,
+    "hours_worn": 17
+  },
+  {
+    "date": "06/04/2022",
+    "steps": 7333,
+    "hours_worn": 12
+  },
+  {
+    "date": "07/04/2022",
+    "steps": 19149,
+    "hours_worn": 18
+  },
+  {
+    "date": "08/04/2022",
+    "steps": 4942,
+    "hours_worn": 14
+  },
+  {
+    "date": "09/04/2022",
+    "steps": 18850,
+    "hours_worn": 17
+  },
+  {
+    "date": "10/04/2022",
+    "steps": 5924,
+    "hours_worn": 14
+  },
+  {
+    "date": "11/04/2022",
+    "steps": 7346,
+    "hours_worn": 19
+  },
+  {
+    "date": "12/04/2022",
+    "steps": 9254,
+    "hours_worn": 19
+  },
+  {
+    "date": "13/04/2022",
+    "steps": 6251,
+    "hours_worn": 14
+  },
+  {
+    "date": "14/04/2022",
+    "steps": 4279,
+    "hours_worn": 17
+  },
+  {
+    "date": "15/04/2022",
+    "steps": 18548,
+    "hours_worn": 16
+  },
+  {
+    "date": "16/04/2022",
+    "steps": 26359,
+    "hours_worn": 18
+  },
+  {
+    "date": "17/04/2022",
+    "steps": 4164,
+    "hours_worn": 14
+  },
+  {
+    "date": "18/04/2022",
+    "steps": 8957,
+    "hours_worn": 18
+  },
+  {
+    "date": "19/04/2022",
+    "steps": 5922,
+    "hours_worn": 15
+  },
+  {
+    "date": "20/04/2022",
+    "steps": 6376,
+    "hours_worn": 21
+  },
+  {
+    "date": "21/04/2022",
+    "steps": 4551,
+    "hours_worn": 18
+  },
+  {
+    "date": "22/04/2022",
+    "steps": 13871,
+    "hours_worn": 19
+  },
+  {
+    "date": "23/04/2022",
+    "steps": 16740,
+    "hours_worn": 20
+  },
+  {
+    "date": "24/04/2022",
+    "steps": 3729,
+    "hours_worn": 19
+  },
+  {
+    "date": "25/04/2022",
+    "steps": 4164,
+    "hours_worn": 17
+  },
+  {
+    "date": "26/04/2022",
+    "steps": 2270,
+    "hours_worn": 16
+  },
+  {
+    "date": "27/04/2022",
+    "steps": 7246,
+    "hours_worn": 17
+  },
+  {
+    "date": "28/04/2022",
+    "steps": 5886,
+    "hours_worn": 15
+  },
+  {
+    "date": "29/04/2022",
+    "steps": 3900,
+    "hours_worn": 16
+  },
+  {
+    "date": "30/04/2022",
+    "steps": 11324,
+    "hours_worn": 15
+  },
+  {
+    "date": "01/05/2022",
+    "steps": 14330,
+    "hours_worn": 18
+  },
+  {
+    "date": "02/05/2022",
+    "steps": 16312,
+    "hours_worn": 16
+  },
+  {
+    "date": "03/05/2022",
+    "steps": 15358,
+    "hours_worn": 15
+  },
+  {
+    "date": "04/05/2022",
+    "steps": 9066,
+    "hours_worn": 19
+  },
+  {
+    "date": "05/05/2022",
+    "steps": 19125,
+    "hours_worn": 18
+  },
+  {
+    "date": "06/05/2022",
+    "steps": 9587,
+    "hours_worn": 14
+  },
+  {
+    "date": "07/05/2022",
+    "steps": 16321,
+    "hours_worn": 19
+  },
+  {
+    "date": "08/05/2022",
+    "steps": 10362,
+    "hours_worn": 15
+  },
+  {
+    "date": "09/05/2022",
+    "steps": 7307,
+    "hours_worn": 15
+  },
+  {
+    "date": "10/05/2022",
+    "steps": 8249,
+    "hours_worn": 17
+  },
+  {
+    "date": "11/05/2022",
+    "steps": 7099,
+    "hours_worn": 19
+  },
+  {
+    "date": "12/05/2022",
+    "steps": 11312,
+    "hours_worn": 18
+  },
+  {
+    "date": "13/05/2022",
+    "steps": 2674,
+    "hours_worn": 15
+  },
+  {
+    "date": "14/05/2022",
+    "steps": 15558,
+    "hours_worn": 15
+  },
+  {
+    "date": "15/05/2022",
+    "steps": 502,
+    "hours_worn": 4
+  },
+  {
+    "date": "16/05/2022",
+    "steps": 11601,
+    "hours_worn": 16
+  },
+  {
+    "date": "17/05/2022",
+    "steps": 7728,
+    "hours_worn": 16
+  },
+  {
+    "date": "18/05/2022",
+    "steps": 8925,
+    "hours_worn": 20
+  },
+  {
+    "date": "19/05/2022",
+    "steps": 9920,
+    "hours_worn": 18
+  },
+  {
+    "date": "20/05/2022",
+    "steps": 14261,
+    "hours_worn": 16
+  },
+  {
+    "date": "21/05/2022",
+    "steps": 18756,
+    "hours_worn": 17
+  },
+  {
+    "date": "22/05/2022",
+    "steps": 6969,
+    "hours_worn": 17
+  },
+  {
+    "date": "23/05/2022",
+    "steps": 3756,
+    "hours_worn": 17
+  },
+  {
+    "date": "24/05/2022",
+    "steps": 13443,
+    "hours_worn": 16
+  },
+  {
+    "date": "25/05/2022",
+    "steps": 8300,
+    "hours_worn": 18
+  },
+  {
+    "date": "26/05/2022",
+    "steps": 14787,
+    "hours_worn": 17
+  },
+  {
+    "date": "27/05/2022",
+    "steps": 17729,
+    "hours_worn": 16
+  },
+  {
+    "date": "28/05/2022",
+    "steps": 19039,
+    "hours_worn": 19
+  },
+  {
+    "date": "29/05/2022",
+    "steps": 5224,
+    "hours_worn": 16
+  },
+  {
+    "date": "30/05/2022",
+    "steps": 4316,
+    "hours_worn": 18
+  },
+  {
+    "date": "31/05/2022",
+    "steps": 7751,
+    "hours_worn": 15
+  },
+  {
+    "date": "01/06/2022",
+    "steps": 4763,
+    "hours_worn": 8
+  },
+  {
+    "date": "02/06/2022",
+    "steps": 15591,
+    "hours_worn": 20
+  },
+  {
+    "date": "03/06/2022",
+    "steps": 12217,
+    "hours_worn": 21
+  },
+  {
+    "date": "04/06/2022",
+    "steps": 17640,
+    "hours_worn": 17
+  },
+  {
+    "date": "05/06/2022",
+    "steps": 6498,
+    "hours_worn": 13
+  },
+  {
+    "date": "06/06/2022",
+    "steps": 2808,
+    "hours_worn": 13
+  },
+  {
+    "date": "07/06/2022",
+    "steps": 3208,
+    "hours_worn": 15
+  },
+  {
+    "date": "08/06/2022",
+    "steps": 8415,
+    "hours_worn": 18
+  },
+  {
+    "date": "09/06/2022",
+    "steps": 4062,
+    "hours_worn": 16
+  },
+  {
+    "date": "10/06/2022",
+    "steps": 2624,
+    "hours_worn": 10
+  },
+  {
+    "date": "11/06/2022",
+    "steps": 18337,
+    "hours_worn": 17
+  },
+  {
+    "date": "12/06/2022",
+    "steps": 4990,
+    "hours_worn": 16
+  },
+  {
+    "date": "13/06/2022",
+    "steps": 5185,
+    "hours_worn": 18
+  },
+  {
+    "date": "14/06/2022",
+    "steps": 2964,
+    "hours_worn": 15
+  },
+  {
+    "date": "15/06/2022",
+    "steps": 7008,
+    "hours_worn": 14
+  },
+  {
+    "date": "16/06/2022",
+    "steps": 2734,
+    "hours_worn": 11
+  },
+  {
+    "date": "17/06/2022",
+    "steps": 3437,
+    "hours_worn": 18
+  },
+  {
+    "date": "18/06/2022",
+    "steps": 4819,
+    "hours_worn": 16
+  },
+  {
+    "date": "19/06/2022",
+    "steps": 10897,
+    "hours_worn": 10
+  },
+  {
+    "date": "20/06/2022",
+    "steps": 5661,
+    "hours_worn": 9
+  },
+  {
+    "date": "21/06/2022",
+    "steps": 8019,
+    "hours_worn": 17
+  },
+  {
+    "date": "22/06/2022",
+    "steps": 6186,
+    "hours_worn": 18
+  },
+  {
+    "date": "23/06/2022",
+    "steps": 7245,
+    "hours_worn": 20
+  },
+  {
+    "date": "24/06/2022",
+    "steps": 7444,
+    "hours_worn": 13
+  },
+  {
+    "date": "25/06/2022",
+    "steps": 18508,
+    "hours_worn": 20
+  },
+  {
+    "date": "26/06/2022",
+    "steps": 5438,
+    "hours_worn": 15
+  },
+  {
+    "date": "27/06/2022",
+    "steps": 18318,
+    "hours_worn": 18
+  },
+  {
+    "date": "28/06/2022",
+    "steps": 4828,
+    "hours_worn": 16
+  },
+  {
+    "date": "29/06/2022",
+    "steps": 4169,
+    "hours_worn": 9
+  },
+  {
+    "date": "30/06/2022",
+    "steps": 1172,
+    "hours_worn": 0
+  },
+  {
+    "date": "01/07/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "02/07/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "03/07/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "04/07/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "05/07/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "06/07/2022",
+    "steps": 1854,
+    "hours_worn": 11
+  },
+  {
+    "date": "07/07/2022",
+    "steps": 17399,
+    "hours_worn": 17
+  },
+  {
+    "date": "08/07/2022",
+    "steps": 7172,
+    "hours_worn": 15
+  },
+  {
+    "date": "09/07/2022",
+    "steps": 11971,
+    "hours_worn": 18
+  },
+  {
+    "date": "10/07/2022",
+    "steps": 5037,
+    "hours_worn": 12
+  },
+  {
+    "date": "11/07/2022",
+    "steps": 4837,
+    "hours_worn": 11
+  },
+  {
+    "date": "12/07/2022",
+    "steps": 3767,
+    "hours_worn": 15
+  },
+  {
+    "date": "13/07/2022",
+    "steps": 7788,
+    "hours_worn": 18
+  },
+  {
+    "date": "14/07/2022",
+    "steps": 4186,
+    "hours_worn": 15
+  },
+  {
+    "date": "15/07/2022",
+    "steps": 5221,
+    "hours_worn": 18
+  },
+  {
+    "date": "16/07/2022",
+    "steps": 12474,
+    "hours_worn": 15
+  },
+  {
+    "date": "17/07/2022",
+    "steps": 4390,
+    "hours_worn": 18
+  },
+  {
+    "date": "18/07/2022",
+    "steps": 6719,
+    "hours_worn": 16
+  },
+  {
+    "date": "19/07/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "20/07/2022",
+    "steps": 2298,
+    "hours_worn": 18
+  },
+  {
+    "date": "21/07/2022",
+    "steps": 2558,
+    "hours_worn": 5
+  },
+  {
+    "date": "22/07/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "23/07/2022",
+    "steps": 12419,
+    "hours_worn": 14
+  },
+  {
+    "date": "24/07/2022",
+    "steps": 4964,
+    "hours_worn": 16
+  },
+  {
+    "date": "25/07/2022",
+    "steps": 6213,
+    "hours_worn": 19
+  },
+  {
+    "date": "26/07/2022",
+    "steps": 11502,
+    "hours_worn": 16
+  },
+  {
+    "date": "27/07/2022",
+    "steps": 8118,
+    "hours_worn": 13
+  },
+  {
+    "date": "28/07/2022",
+    "steps": 157,
+    "hours_worn": 0
+  },
+  {
+    "date": "29/07/2022",
+    "steps": 4820,
+    "hours_worn": 11
+  },
+  {
+    "date": "30/07/2022",
+    "steps": 12023,
+    "hours_worn": 14
+  },
+  {
+    "date": "31/07/2022",
+    "steps": 12093,
+    "hours_worn": 12
+  },
+  {
+    "date": "01/08/2022",
+    "steps": 7714,
+    "hours_worn": 13
+  },
+  {
+    "date": "02/08/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "03/08/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "04/08/2022",
+    "steps": 3727,
+    "hours_worn": 8
+  },
+  {
+    "date": "05/08/2022",
+    "steps": 9777,
+    "hours_worn": 11
+  },
+  {
+    "date": "06/08/2022",
+    "steps": 12130,
+    "hours_worn": 15
+  },
+  {
+    "date": "07/08/2022",
+    "steps": 14039,
+    "hours_worn": 17
+  },
+  {
+    "date": "08/08/2022",
+    "steps": 21,
+    "hours_worn": 0
+  },
+  {
+    "date": "09/08/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "10/08/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "11/08/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "12/08/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "13/08/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "14/08/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "15/08/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "16/08/2022",
+    "steps": 436,
+    "hours_worn": 3
+  },
+  {
+    "date": "17/08/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "18/08/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "19/08/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "20/08/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "21/08/2022",
+    "steps": 13135,
+    "hours_worn": 12
+  },
+  {
+    "date": "22/08/2022",
+    "steps": 214,
+    "hours_worn": 0
+  },
+  {
+    "date": "23/08/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "24/08/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "25/08/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "26/08/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "27/08/2022",
+    "steps": 52,
+    "hours_worn": 1
+  },
+  {
+    "date": "28/08/2022",
+    "steps": 7,
+    "hours_worn": 0
+  },
+  {
+    "date": "29/08/2022",
+    "steps": 726,
+    "hours_worn": 3
+  },
+  {
+    "date": "30/08/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "31/08/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "01/09/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "02/09/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "03/09/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "04/09/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "05/09/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "06/09/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "07/09/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "08/09/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "09/09/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "10/09/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "11/09/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "12/09/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "13/09/2022",
+    "steps": 8069,
+    "hours_worn": 11
+  },
+  {
+    "date": "14/09/2022",
+    "steps": 6776,
+    "hours_worn": 10
+  },
+  {
+    "date": "15/09/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "16/09/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "17/09/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "18/09/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "19/09/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "20/09/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "21/09/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "22/09/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "23/09/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "24/09/2022",
+    "steps": 3207,
+    "hours_worn": 9
+  },
+  {
+    "date": "25/09/2022",
+    "steps": 8274,
+    "hours_worn": 17
+  },
+  {
+    "date": "26/09/2022",
+    "steps": 8056,
+    "hours_worn": 15
+  },
+  {
+    "date": "27/09/2022",
+    "steps": 4894,
+    "hours_worn": 11
+  },
+  {
+    "date": "28/09/2022",
+    "steps": 2391,
+    "hours_worn": 5
+  },
+  {
+    "date": "29/09/2022",
+    "steps": 6175,
+    "hours_worn": 19
+  },
+  {
+    "date": "30/09/2022",
+    "steps": 19,
+    "hours_worn": 0
+  },
+  {
+    "date": "01/10/2022",
+    "steps": 1936,
+    "hours_worn": 12
+  },
+  {
+    "date": "02/10/2022",
+    "steps": 14727,
+    "hours_worn": 14
+  },
+  {
+    "date": "03/10/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "04/10/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "05/10/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "06/10/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "07/10/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "08/10/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "09/10/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "10/10/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "11/10/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "12/10/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "13/10/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "14/10/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "15/10/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "16/10/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "17/10/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "18/10/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "19/10/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "20/10/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "21/10/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "22/10/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "23/10/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "24/10/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "25/10/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "26/10/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "27/10/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "28/10/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "29/10/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "30/10/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "31/10/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "01/11/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "02/11/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "03/11/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "04/11/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "05/11/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "06/11/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "07/11/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "08/11/2022",
+    "steps": 4593,
+    "hours_worn": 10
+  },
+  {
+    "date": "09/11/2022",
+    "steps": 3344,
+    "hours_worn": 16
+  },
+  {
+    "date": "10/11/2022",
+    "steps": 8567,
+    "hours_worn": 18
+  },
+  {
+    "date": "11/11/2022",
+    "steps": 4629,
+    "hours_worn": 15
+  },
+  {
+    "date": "12/11/2022",
+    "steps": 3944,
+    "hours_worn": 18
+  },
+  {
+    "date": "13/11/2022",
+    "steps": 12315,
+    "hours_worn": 17
+  },
+  {
+    "date": "14/11/2022",
+    "steps": 3974,
+    "hours_worn": 13
+  },
+  {
+    "date": "15/11/2022",
+    "steps": 12757,
+    "hours_worn": 16
+  },
+  {
+    "date": "16/11/2022",
+    "steps": 11678,
+    "hours_worn": 16
+  },
+  {
+    "date": "17/11/2022",
+    "steps": 13387,
+    "hours_worn": 18
+  },
+  {
+    "date": "18/11/2022",
+    "steps": 12449,
+    "hours_worn": 12
+  },
+  {
+    "date": "19/11/2022",
+    "steps": 6458,
+    "hours_worn": 20
+  },
+  {
+    "date": "20/11/2022",
+    "steps": 15233,
+    "hours_worn": 18
+  },
+  {
+    "date": "21/11/2022",
+    "steps": 17253,
+    "hours_worn": 16
+  },
+  {
+    "date": "22/11/2022",
+    "steps": 17490,
+    "hours_worn": 17
+  },
+  {
+    "date": "23/11/2022",
+    "steps": 14478,
+    "hours_worn": 18
+  },
+  {
+    "date": "24/11/2022",
+    "steps": 16767,
+    "hours_worn": 16
+  },
+  {
+    "date": "25/11/2022",
+    "steps": 11254,
+    "hours_worn": 16
+  },
+  {
+    "date": "26/11/2022",
+    "steps": 7728,
+    "hours_worn": 12
+  },
+  {
+    "date": "27/11/2022",
+    "steps": 10258,
+    "hours_worn": 15
+  },
+  {
+    "date": "28/11/2022",
+    "steps": 14906,
+    "hours_worn": 17
+  },
+  {
+    "date": "29/11/2022",
+    "steps": 1618,
+    "hours_worn": 15
+  },
+  {
+    "date": "30/11/2022",
+    "steps": 14352,
+    "hours_worn": 16
+  },
+  {
+    "date": "01/12/2022",
+    "steps": 4320,
+    "hours_worn": 16
+  },
+  {
+    "date": "02/12/2022",
+    "steps": 15919,
+    "hours_worn": 13
+  },
+  {
+    "date": "03/12/2022",
+    "steps": 831,
+    "hours_worn": 4
+  },
+  {
+    "date": "04/12/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "05/12/2022",
+    "steps": 11621,
+    "hours_worn": 14
+  },
+  {
+    "date": "06/12/2022",
+    "steps": 2615,
+    "hours_worn": 8
+  },
+  {
+    "date": "07/12/2022",
+    "steps": 13733,
+    "hours_worn": 14
+  },
+  {
+    "date": "08/12/2022",
+    "steps": 7053,
+    "hours_worn": 15
+  },
+  {
+    "date": "09/12/2022",
+    "steps": 398,
+    "hours_worn": 2
+  },
+  {
+    "date": "10/12/2022",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "11/12/2022",
+    "steps": 12683,
+    "hours_worn": 13
+  },
+  {
+    "date": "12/12/2022",
+    "steps": 19706,
+    "hours_worn": 14
+  },
+  {
+    "date": "13/12/2022",
+    "steps": 14902,
+    "hours_worn": 18
+  },
+  {
+    "date": "14/12/2022",
+    "steps": 15557,
+    "hours_worn": 13
+  },
+  {
+    "date": "15/12/2022",
+    "steps": 17660,
+    "hours_worn": 17
+  },
+  {
+    "date": "16/12/2022",
+    "steps": 17717,
+    "hours_worn": 17
+  },
+  {
+    "date": "17/12/2022",
+    "steps": 18586,
+    "hours_worn": 16
+  },
+  {
+    "date": "18/12/2022",
+    "steps": 491,
+    "hours_worn": 3
+  },
+  {
+    "date": "19/12/2022",
+    "steps": 1696,
+    "hours_worn": 4
+  },
+  {
+    "date": "20/12/2022",
+    "steps": 3968,
+    "hours_worn": 15
+  },
+  {
+    "date": "21/12/2022",
+    "steps": 16226,
+    "hours_worn": 16
+  },
+  {
+    "date": "22/12/2022",
+    "steps": 15566,
+    "hours_worn": 16
+  },
+  {
+    "date": "23/12/2022",
+    "steps": 16837,
+    "hours_worn": 16
+  },
+  {
+    "date": "24/12/2022",
+    "steps": 17999,
+    "hours_worn": 15
+  },
+  {
+    "date": "25/12/2022",
+    "steps": 7236,
+    "hours_worn": 16
+  },
+  {
+    "date": "26/12/2022",
+    "steps": 15038,
+    "hours_worn": 19
+  },
+  {
+    "date": "27/12/2022",
+    "steps": 654,
+    "hours_worn": 2
+  },
+  {
+    "date": "28/12/2022",
+    "steps": 7995,
+    "hours_worn": 15
+  },
+  {
+    "date": "29/12/2022",
+    "steps": 20495,
+    "hours_worn": 16
+  },
+  {
+    "date": "30/12/2022",
+    "steps": 19212,
+    "hours_worn": 19
+  },
+  {
+    "date": "31/12/2022",
+    "steps": 14059,
+    "hours_worn": 18
+  },
+  {
+    "date": "01/01/2023",
+    "steps": 11725,
+    "hours_worn": 19
+  },
+  {
+    "date": "02/01/2023",
+    "steps": 13218,
+    "hours_worn": 16
+  },
+  {
+    "date": "03/01/2023",
+    "steps": 6396,
+    "hours_worn": 16
+  },
+  {
+    "date": "04/01/2023",
+    "steps": 16527,
+    "hours_worn": 16
+  },
+  {
+    "date": "05/01/2023",
+    "steps": 7692,
+    "hours_worn": 16
+  },
+  {
+    "date": "06/01/2023",
+    "steps": 14309,
+    "hours_worn": 16
+  },
+  {
+    "date": "07/01/2023",
+    "steps": 17673,
+    "hours_worn": 19
+  },
+  {
+    "date": "08/01/2023",
+    "steps": 14625,
+    "hours_worn": 19
+  },
+  {
+    "date": "09/01/2023",
+    "steps": 12529,
+    "hours_worn": 16
+  },
+  {
+    "date": "10/01/2023",
+    "steps": 4894,
+    "hours_worn": 19
+  },
+  {
+    "date": "11/01/2023",
+    "steps": 13620,
+    "hours_worn": 12
+  },
+  {
+    "date": "12/01/2023",
+    "steps": 6750,
+    "hours_worn": 18
+  },
+  {
+    "date": "13/01/2023",
+    "steps": 16368,
+    "hours_worn": 18
+  },
+  {
+    "date": "14/01/2023",
+    "steps": 16922,
+    "hours_worn": 17
+  },
+  {
+    "date": "15/01/2023",
+    "steps": 14259,
+    "hours_worn": 18
+  },
+  {
+    "date": "16/01/2023",
+    "steps": 16554,
+    "hours_worn": 18
+  },
+  {
+    "date": "17/01/2023",
+    "steps": 2279,
+    "hours_worn": 8
+  },
+  {
+    "date": "18/01/2023",
+    "steps": 15768,
+    "hours_worn": 17
+  },
+  {
+    "date": "19/01/2023",
+    "steps": 9772,
+    "hours_worn": 15
+  },
+  {
+    "date": "20/01/2023",
+    "steps": 17361,
+    "hours_worn": 18
+  },
+  {
+    "date": "21/01/2023",
+    "steps": 21444,
+    "hours_worn": 19
+  },
+  {
+    "date": "22/01/2023",
+    "steps": 13734,
+    "hours_worn": 16
+  },
+  {
+    "date": "23/01/2023",
+    "steps": 13446,
+    "hours_worn": 20
+  },
+  {
+    "date": "24/01/2023",
+    "steps": 2926,
+    "hours_worn": 17
+  },
+  {
+    "date": "25/01/2023",
+    "steps": 12094,
+    "hours_worn": 8
+  },
+  {
+    "date": "26/01/2023",
+    "steps": 5325,
+    "hours_worn": 10
+  },
+  {
+    "date": "27/01/2023",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "28/01/2023",
+    "steps": 16652,
+    "hours_worn": 15
+  },
+  {
+    "date": "29/01/2023",
+    "steps": 8736,
+    "hours_worn": 18
+  },
+  {
+    "date": "30/01/2023",
+    "steps": 9902,
+    "hours_worn": 9
+  },
+  {
+    "date": "31/01/2023",
+    "steps": 237,
+    "hours_worn": 0
+  },
+  {
+    "date": "01/02/2023",
+    "steps": 13833,
+    "hours_worn": 17
+  },
+  {
+    "date": "02/02/2023",
+    "steps": 14481,
+    "hours_worn": 14
+  },
+  {
+    "date": "03/02/2023",
+    "steps": 19654,
+    "hours_worn": 18
+  },
+  {
+    "date": "04/02/2023",
+    "steps": 7449,
+    "hours_worn": 16
+  },
+  {
+    "date": "05/02/2023",
+    "steps": 15153,
+    "hours_worn": 17
+  },
+  {
+    "date": "06/02/2023",
+    "steps": 17739,
+    "hours_worn": 15
+  },
+  {
+    "date": "07/02/2023",
+    "steps": 4355,
+    "hours_worn": 16
+  },
+  {
+    "date": "08/02/2023",
+    "steps": 5192,
+    "hours_worn": 6
+  },
+  {
+    "date": "09/02/2023",
+    "steps": 2558,
+    "hours_worn": 6
+  },
+  {
+    "date": "10/02/2023",
+    "steps": 13312,
+    "hours_worn": 16
+  },
+  {
+    "date": "11/02/2023",
+    "steps": 29488,
+    "hours_worn": 16
+  },
+  {
+    "date": "12/02/2023",
+    "steps": 16142,
+    "hours_worn": 19
+  },
+  {
+    "date": "13/02/2023",
+    "steps": 16677,
+    "hours_worn": 19
+  },
+  {
+    "date": "14/02/2023",
+    "steps": 8845,
+    "hours_worn": 16
+  },
+  {
+    "date": "15/02/2023",
+    "steps": 19171,
+    "hours_worn": 18
+  },
+  {
+    "date": "16/02/2023",
+    "steps": 18592,
+    "hours_worn": 20
+  },
+  {
+    "date": "17/02/2023",
+    "steps": 1588,
+    "hours_worn": 7
+  },
+  {
+    "date": "18/02/2023",
+    "steps": 9639,
+    "hours_worn": 21
+  },
+  {
+    "date": "19/02/2023",
+    "steps": 11514,
+    "hours_worn": 17
+  },
+  {
+    "date": "20/02/2023",
+    "steps": 14719,
+    "hours_worn": 14
+  },
+  {
+    "date": "21/02/2023",
+    "steps": 4820,
+    "hours_worn": 18
+  },
+  {
+    "date": "22/02/2023",
+    "steps": 7876,
+    "hours_worn": 13
+  },
+  {
+    "date": "23/02/2023",
+    "steps": 17966,
+    "hours_worn": 17
+  },
+  {
+    "date": "24/02/2023",
+    "steps": 16778,
+    "hours_worn": 18
+  },
+  {
+    "date": "25/02/2023",
+    "steps": 601,
+    "hours_worn": 5
+  },
+  {
+    "date": "26/02/2023",
+    "steps": 13718,
+    "hours_worn": 17
+  },
+  {
+    "date": "27/02/2023",
+    "steps": 13158,
+    "hours_worn": 18
+  },
+  {
+    "date": "28/02/2023",
+    "steps": 21320,
+    "hours_worn": 15
+  },
+  {
+    "date": "01/03/2023",
+    "steps": 8592,
+    "hours_worn": 18
+  },
+  {
+    "date": "02/03/2023",
+    "steps": 9194,
+    "hours_worn": 16
+  },
+  {
+    "date": "03/03/2023",
+    "steps": 6722,
+    "hours_worn": 17
+  },
+  {
+    "date": "04/03/2023",
+    "steps": 3224,
+    "hours_worn": 12
+  },
+  {
+    "date": "05/03/2023",
+    "steps": 3095,
+    "hours_worn": 11
+  },
+  {
+    "date": "06/03/2023",
+    "steps": 12908,
+    "hours_worn": 18
+  },
+  {
+    "date": "07/03/2023",
+    "steps": 18027,
+    "hours_worn": 15
+  },
+  {
+    "date": "08/03/2023",
+    "steps": 9436,
+    "hours_worn": 16
+  },
+  {
+    "date": "09/03/2023",
+    "steps": 7504,
+    "hours_worn": 17
+  },
+  {
+    "date": "10/03/2023",
+    "steps": 6172,
+    "hours_worn": 17
+  },
+  {
+    "date": "11/03/2023",
+    "steps": 13030,
+    "hours_worn": 16
+  },
+  {
+    "date": "12/03/2023",
+    "steps": 6586,
+    "hours_worn": 15
+  },
+  {
+    "date": "13/03/2023",
+    "steps": 6445,
+    "hours_worn": 21
+  },
+  {
+    "date": "14/03/2023",
+    "steps": 15942,
+    "hours_worn": 18
+  },
+  {
+    "date": "15/03/2023",
+    "steps": 12714,
+    "hours_worn": 15
+  },
+  {
+    "date": "16/03/2023",
+    "steps": 7781,
+    "hours_worn": 17
+  },
+  {
+    "date": "17/03/2023",
+    "steps": 8484,
+    "hours_worn": 16
+  },
+  {
+    "date": "18/03/2023",
+    "steps": 16342,
+    "hours_worn": 20
+  },
+  {
+    "date": "19/03/2023",
+    "steps": 7947,
+    "hours_worn": 14
+  },
+  {
+    "date": "20/03/2023",
+    "steps": 8412,
+    "hours_worn": 18
+  },
+  {
+    "date": "21/03/2023",
+    "steps": 9971,
+    "hours_worn": 17
+  },
+  {
+    "date": "22/03/2023",
+    "steps": 5552,
+    "hours_worn": 15
+  },
+  {
+    "date": "23/03/2023",
+    "steps": 8155,
+    "hours_worn": 15
+  },
+  {
+    "date": "24/03/2023",
+    "steps": 6118,
+    "hours_worn": 16
+  },
+  {
+    "date": "25/03/2023",
+    "steps": 7556,
+    "hours_worn": 18
+  },
+  {
+    "date": "26/03/2023",
+    "steps": 15002,
+    "hours_worn": 17
+  },
+  {
+    "date": "27/03/2023",
+    "steps": 6337,
+    "hours_worn": 13
+  },
+  {
+    "date": "28/03/2023",
+    "steps": 12602,
+    "hours_worn": 21
+  },
+  {
+    "date": "29/03/2023",
+    "steps": 6689,
+    "hours_worn": 20
+  },
+  {
+    "date": "30/03/2023",
+    "steps": 6808,
+    "hours_worn": 19
+  },
+  {
+    "date": "31/03/2023",
+    "steps": 7747,
+    "hours_worn": 18
+  },
+  {
+    "date": "01/04/2023",
+    "steps": 13790,
+    "hours_worn": 17
+  },
+  {
+    "date": "02/04/2023",
+    "steps": 6823,
+    "hours_worn": 15
+  },
+  {
+    "date": "03/04/2023",
+    "steps": 4660,
+    "hours_worn": 8
+  },
+  {
+    "date": "04/04/2023",
+    "steps": 6718,
+    "hours_worn": 14
+  },
+  {
+    "date": "05/04/2023",
+    "steps": 3945,
+    "hours_worn": 18
+  },
+  {
+    "date": "06/04/2023",
+    "steps": 8503,
+    "hours_worn": 16
+  },
+  {
+    "date": "07/04/2023",
+    "steps": 3821,
+    "hours_worn": 19
+  },
+  {
+    "date": "08/04/2023",
+    "steps": 11070,
+    "hours_worn": 18
+  },
+  {
+    "date": "09/04/2023",
+    "steps": 13915,
+    "hours_worn": 12
+  },
+  {
+    "date": "10/04/2023",
+    "steps": 4666,
+    "hours_worn": 12
+  },
+  {
+    "date": "11/04/2023",
+    "steps": 13773,
+    "hours_worn": 18
+  },
+  {
+    "date": "12/04/2023",
+    "steps": 1406,
+    "hours_worn": 11
+  },
+  {
+    "date": "13/04/2023",
+    "steps": 3138,
+    "hours_worn": 17
+  },
+  {
+    "date": "14/04/2023",
+    "steps": 5139,
+    "hours_worn": 15
+  },
+  {
+    "date": "15/04/2023",
+    "steps": 15575,
+    "hours_worn": 14
+  },
+  {
+    "date": "16/04/2023",
+    "steps": 1912,
+    "hours_worn": 12
+  },
+  {
+    "date": "17/04/2023",
+    "steps": 9407,
+    "hours_worn": 18
+  },
+  {
+    "date": "18/04/2023",
+    "steps": 7101,
+    "hours_worn": 18
+  },
+  {
+    "date": "19/04/2023",
+    "steps": 3533,
+    "hours_worn": 18
+  },
+  {
+    "date": "20/04/2023",
+    "steps": 2266,
+    "hours_worn": 15
+  },
+  {
+    "date": "21/04/2023",
+    "steps": 10109,
+    "hours_worn": 14
+  },
+  {
+    "date": "22/04/2023",
+    "steps": 14832,
+    "hours_worn": 17
+  },
+  {
+    "date": "23/04/2023",
+    "steps": 11990,
+    "hours_worn": 17
+  },
+  {
+    "date": "24/04/2023",
+    "steps": 8069,
+    "hours_worn": 17
+  },
+  {
+    "date": "25/04/2023",
+    "steps": 7942,
+    "hours_worn": 17
+  },
+  {
+    "date": "26/04/2023",
+    "steps": 714,
+    "hours_worn": 0
+  },
+  {
+    "date": "27/04/2023",
+    "steps": 5636,
+    "hours_worn": 18
+  },
+  {
+    "date": "28/04/2023",
+    "steps": 1449,
+    "hours_worn": 12
+  },
+  {
+    "date": "29/04/2023",
+    "steps": 13455,
+    "hours_worn": 16
+  },
+  {
+    "date": "30/04/2023",
+    "steps": 1530,
+    "hours_worn": 6
+  },
+  {
+    "date": "01/05/2023",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "02/05/2023",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "03/05/2023",
+    "steps": 964,
+    "hours_worn": 5
+  },
+  {
+    "date": "04/05/2023",
+    "steps": 9963,
+    "hours_worn": 16
+  },
+  {
+    "date": "05/05/2023",
+    "steps": 5204,
+    "hours_worn": 13
+  },
+  {
+    "date": "06/05/2023",
+    "steps": 13560,
+    "hours_worn": 18
+  },
+  {
+    "date": "07/05/2023",
+    "steps": 10778,
+    "hours_worn": 17
+  },
+  {
+    "date": "08/05/2023",
+    "steps": 2416,
+    "hours_worn": 4
+  },
+  {
+    "date": "09/05/2023",
+    "steps": 8585,
+    "hours_worn": 14
+  },
+  {
+    "date": "10/05/2023",
+    "steps": 4968,
+    "hours_worn": 16
+  },
+  {
+    "date": "11/05/2023",
+    "steps": 4276,
+    "hours_worn": 15
+  },
+  {
+    "date": "12/05/2023",
+    "steps": 6108,
+    "hours_worn": 15
+  },
+  {
+    "date": "13/05/2023",
+    "steps": 12141,
+    "hours_worn": 15
+  },
+  {
+    "date": "14/05/2023",
+    "steps": 5790,
+    "hours_worn": 17
+  },
+  {
+    "date": "15/05/2023",
+    "steps": 7929,
+    "hours_worn": 19
+  },
+  {
+    "date": "16/05/2023",
+    "steps": 7483,
+    "hours_worn": 18
+  },
+  {
+    "date": "17/05/2023",
+    "steps": 8897,
+    "hours_worn": 14
+  },
+  {
+    "date": "18/05/2023",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "19/05/2023",
+    "steps": 9042,
+    "hours_worn": 16
+  },
+  {
+    "date": "20/05/2023",
+    "steps": 18396,
+    "hours_worn": 11
+  },
+  {
+    "date": "21/05/2023",
+    "steps": 4090,
+    "hours_worn": 16
+  },
+  {
+    "date": "22/05/2023",
+    "steps": 4636,
+    "hours_worn": 16
+  },
+  {
+    "date": "23/05/2023",
+    "steps": 6865,
+    "hours_worn": 18
+  },
+  {
+    "date": "24/05/2023",
+    "steps": 8323,
+    "hours_worn": 18
+  },
+  {
+    "date": "25/05/2023",
+    "steps": 5573,
+    "hours_worn": 15
+  },
+  {
+    "date": "26/05/2023",
+    "steps": 5693,
+    "hours_worn": 19
+  },
+  {
+    "date": "27/05/2023",
+    "steps": 11109,
+    "hours_worn": 13
+  },
+  {
+    "date": "28/05/2023",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "29/05/2023",
+    "steps": 4700,
+    "hours_worn": 11
+  },
+  {
+    "date": "30/05/2023",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "31/05/2023",
+    "steps": 14609,
+    "hours_worn": 11
+  },
+  {
+    "date": "01/06/2023",
+    "steps": 4787,
+    "hours_worn": 18
+  },
+  {
+    "date": "02/06/2023",
+    "steps": 51,
+    "hours_worn": 2
+  },
+  {
+    "date": "03/06/2023",
+    "steps": 12513,
+    "hours_worn": 13
+  },
+  {
+    "date": "04/06/2023",
+    "steps": 3532,
+    "hours_worn": 16
+  },
+  {
+    "date": "05/06/2023",
+    "steps": 3724,
+    "hours_worn": 16
+  },
+  {
+    "date": "06/06/2023",
+    "steps": 6296,
+    "hours_worn": 14
+  },
+  {
+    "date": "07/06/2023",
+    "steps": 5807,
+    "hours_worn": 18
+  },
+  {
+    "date": "08/06/2023",
+    "steps": 3541,
+    "hours_worn": 9
+  },
+  {
+    "date": "09/06/2023",
+    "steps": 4720,
+    "hours_worn": 14
+  },
+  {
+    "date": "10/06/2023",
+    "steps": 8170,
+    "hours_worn": 12
+  },
+  {
+    "date": "11/06/2023",
+    "steps": 13785,
+    "hours_worn": 18
+  },
+  {
+    "date": "12/06/2023",
+    "steps": 3284,
+    "hours_worn": 14
+  },
+  {
+    "date": "13/06/2023",
+    "steps": 3674,
+    "hours_worn": 13
+  },
+  {
+    "date": "14/06/2023",
+    "steps": 2518,
+    "hours_worn": 13
+  },
+  {
+    "date": "15/06/2023",
+    "steps": 6646,
+    "hours_worn": 19
+  },
+  {
+    "date": "16/06/2023",
+    "steps": 9696,
+    "hours_worn": 14
+  },
+  {
+    "date": "17/06/2023",
+    "steps": 260,
+    "hours_worn": 4
+  },
+  {
+    "date": "18/06/2023",
+    "steps": 3998,
+    "hours_worn": 17
+  },
+  {
+    "date": "19/06/2023",
+    "steps": 422,
+    "hours_worn": 1
+  },
+  {
+    "date": "20/06/2023",
+    "steps": 2680,
+    "hours_worn": 14
+  },
+  {
+    "date": "21/06/2023",
+    "steps": 96,
+    "hours_worn": 0
+  },
+  {
+    "date": "22/06/2023",
+    "steps": 17679,
+    "hours_worn": 13
+  },
+  {
+    "date": "23/06/2023",
+    "steps": 3777,
+    "hours_worn": 14
+  },
+  {
+    "date": "24/06/2023",
+    "steps": 11531,
+    "hours_worn": 18
+  },
+  {
+    "date": "25/06/2023",
+    "steps": 11136,
+    "hours_worn": 17
+  },
+  {
+    "date": "26/06/2023",
+    "steps": 16107,
+    "hours_worn": 17
+  },
+  {
+    "date": "27/06/2023",
+    "steps": 12314,
+    "hours_worn": 17
+  },
+  {
+    "date": "28/06/2023",
+    "steps": 51,
+    "hours_worn": 2
+  },
+  {
+    "date": "29/06/2023",
+    "steps": 14429,
+    "hours_worn": 11
+  },
+  {
+    "date": "30/06/2023",
+    "steps": 12524,
+    "hours_worn": 14
+  },
+  {
+    "date": "01/07/2023",
+    "steps": 15177,
+    "hours_worn": 18
+  },
+  {
+    "date": "02/07/2023",
+    "steps": 965,
+    "hours_worn": 9
+  },
+  {
+    "date": "03/07/2023",
+    "steps": 3923,
+    "hours_worn": 10
+  },
+  {
+    "date": "04/07/2023",
+    "steps": 8563,
+    "hours_worn": 18
+  },
+  {
+    "date": "05/07/2023",
+    "steps": 8796,
+    "hours_worn": 15
+  },
+  {
+    "date": "06/07/2023",
+    "steps": 2323,
+    "hours_worn": 14
+  },
+  {
+    "date": "07/07/2023",
+    "steps": 3548,
+    "hours_worn": 16
+  },
+  {
+    "date": "08/07/2023",
+    "steps": 11025,
+    "hours_worn": 16
+  },
+  {
+    "date": "09/07/2023",
+    "steps": 3487,
+    "hours_worn": 14
+  },
+  {
+    "date": "10/07/2023",
+    "steps": 57,
+    "hours_worn": 2
+  },
+  {
+    "date": "11/07/2023",
+    "steps": 3815,
+    "hours_worn": 11
+  },
+  {
+    "date": "12/07/2023",
+    "steps": 6497,
+    "hours_worn": 18
+  },
+  {
+    "date": "13/07/2023",
+    "steps": 8212,
+    "hours_worn": 19
+  },
+  {
+    "date": "14/07/2023",
+    "steps": 7017,
+    "hours_worn": 20
+  },
+  {
+    "date": "15/07/2023",
+    "steps": 15345,
+    "hours_worn": 19
+  },
+  {
+    "date": "16/07/2023",
+    "steps": 11272,
+    "hours_worn": 16
+  },
+  {
+    "date": "17/07/2023",
+    "steps": 2894,
+    "hours_worn": 8
+  },
+  {
+    "date": "18/07/2023",
+    "steps": 5,
+    "hours_worn": 0
+  },
+  {
+    "date": "19/07/2023",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "20/07/2023",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "21/07/2023",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "22/07/2023",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "23/07/2023",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "24/07/2023",
+    "steps": 0,
+    "hours_worn": 0
+  },
+  {
+    "date": "25/07/2023",
+    "steps": 3164,
+    "hours_worn": 6
+  },
+  {
+    "date": "26/07/2023",
+    "steps": 8843,
+    "hours_worn": 20
+  },
+  {
+    "date": "27/07/2023",
+    "steps": 3775,
+    "hours_worn": 14
+  }
+]

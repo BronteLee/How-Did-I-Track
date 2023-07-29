@@ -1,5 +1,5 @@
 import operator
-from datetime import datetime
+from datetime import datetime, timedelta
 import pytz
 import json
 import os
@@ -50,7 +50,7 @@ def add_date(file):
 # daily steps and adherence
 def daily_steps():
     steps = []
-    data = json.load(open("steps-sydney-time.json", encoding='utf-8'))
+    data = json.load(open("steps-p2.json", encoding='utf-8'))
     hours = 0
     hour = ""
     for entry in data:
@@ -69,16 +69,15 @@ def daily_steps():
                     hours += 1
                     hour = c_hour
             else:
-                steps[-1]['hours-worn'] = hours
+                steps[-1]['hours_worn'] = hours
                 d = {'date': date, 'steps': int(entry['value'])}
                 steps.append(d)
                 hours = 0
                 hour = c_hour
-    steps[-1]['hours-worn'] = hours
-    out_file = open("data/daily-data.json", "w")
+    steps[-1]['hours_worn'] = hours
+    out_file = open("data/daily-data-2.json", "w")
     json.dump(steps, out_file, indent=2)
     out_file.close()
-
 
 
 # Convert timestamps to Local
@@ -168,5 +167,32 @@ def get_nested_data():
     json.dump(heart_list, out_file, indent=2)
     out_file.close()
 
-add_factor("resting-heart.json", "resting-heart-rate")
+
+# add missing values
+def add_daily_zeros(fname):
+    data = json.load(open(fname, encoding="utf-8"))
+    fixed_list = []
+    c_date = datetime.strptime(data[0]['date'], "%d/%m/%Y")
+    index = 0
+    while index < len(data):
+        d_date = datetime.strptime(data[index]['date'], "%d/%m/%Y")
+        if c_date == d_date:
+            fixed_list.append(data[index])
+            index += 1
+        else:
+            fixed_list.append({'date': c_date.strftime("%d/%m/%Y"), 'steps': 0, 'hours-worn': 0})
+        c_date += timedelta(days=1)
+
+    out_file = open(fname, "w")
+    json.dump(fixed_list, out_file, indent=2)
+    out_file.close()
+
+data = json.load(open("data/daily-data-2.json"))
+d_list = []
+for entry in data:
+    d = {'date': entry['date'], 'steps': entry['steps'], 'hours_worn': entry['hours-worn']}
+    d_list.append(d)
+out_file = open("data/daily-data-2.json", "w")
+json.dump(d_list, out_file, indent=2)
+out_file.close()
 
