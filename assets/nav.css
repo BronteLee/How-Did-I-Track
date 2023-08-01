@@ -1,0 +1,28 @@
+.nav {
+    color: pink;
+}
+
+.nav h1 {
+    float: left;
+}
+
+.nav a {
+    float: left;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 24px;
+    background-color: beige;
+    color: black;
+}
+
+.nav a:hover {
+    background-color: orange;
+}
+
+.nav nav--tab{
+    float: left;
+    font-size: 20px;
+    padding: 30px;
+    color: rgb(192, 255, 255);
+}
+
