@@ -6,44 +6,48 @@ import plotly.graph_objects as go
 import pandas as pd
 import numpy as np
 
-df = pd.read_json('data/daily-data-2.json', convert_dates=False)
+df = pd.read_json('data/daily-data.json', convert_dates=False)
 df['date'] = pd.to_datetime(df['date'], dayfirst=True)
 
 app = Dash(__name__)
 
 app.layout = html.Div([
-    html.H1(children='How Did I Track?'),
+    html.H2(children='How Did I Track?'),
     html.Hr(),
-    html.Div(["Date Range: ",
-              dcc.DatePickerRange(
-                  id="date-picker",
-                  first_day_of_week=1,
-                  display_format="DD MMM YYYY",
-                  min_date_allowed=date(2017, 12, 23),
-                  max_date_allowed=date(2023, 7, 27),
-                  number_of_months_shown=4,
-                  start_date=date(2022, 1, 1),
-                  end_date=date(2022, 12, 31)
-              ),
-              html.Div(id="date-error", style={'color':'red', 'display' : 'inline-block'}),
-              " Low Wear Threshold: ",
-              html.Div(
-                  [
-                      dcc.Dropdown(
-                          [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24],
-                          id="low-wear-dropdown",
-                          value=8,
-                          clearable=False
-                      )
-                  ],
-                  style={'width': '20%', 'display': 'inline-block'}
-              ),
-              html.Div(id="low-wear"),
-              daq.BooleanSwitch(
-                  id="low-wear-switch",
-                  on=False,
-                  label="Hide Low Wear Days"
-              )], style={'display': 'inline-block'}),
+    html.Div([
+        html.H3("Date Range: ", style={'display': 'inline-block'}),
+        dcc.DatePickerRange(
+            id="date-picker",
+            first_day_of_week=1,
+            display_format="DD MMM YYYY",
+            min_date_allowed=date(2017, 12, 23),
+            max_date_allowed=date(2023, 7, 27),
+            number_of_months_shown=3,
+            start_date=date(2022, 1, 1),
+            end_date=date(2022, 12, 31),
+            style={'padding': '10px', 'display': 'inline-block'}
+        ),
+        html.Div(
+            children=[
+                html.H3(" Low Wear Threshold: "),
+            dcc.Dropdown(
+                [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24],
+                id="low-wear-dropdown",
+                value=8,
+                clearable=False
+                #style={'width': '80px','padding': '10px', 'display': 'inline-block'}
+                #style={'width':'100%', 'display': 'inline-block'}
+            ),
+            daq.BooleanSwitch(
+                id="low-wear-switch",
+                on=False,
+                label="Hide Low Wear Days",
+                style={'display': 'inline-block'}
+            ),
+            ], style={'display':'inline-block'}
+        ),
+        html.Div(id="date-error", style={'color':'red', 'display' : 'inline-block'})
+    ], style={'display': 'inline-block'}),
     html.H2(children="Steps"),
     dcc.Graph(id="steps"),
     html.H2(children="Adherence"),
@@ -64,7 +68,6 @@ def adherence_colour(df, min_wear):
     Output(component_id="date-error", component_property="children"),
     Output(component_id="steps", component_property="figure"),
     Output(component_id="graph3", component_property="figure"),
-    Output(component_id="low-wear", component_property="children"),
     Input(component_id='low-wear-switch', component_property='on'),
     Input(component_id='date-picker', component_property='start_date'),
     Input(component_id='date-picker', component_property='end_date'),
@@ -98,9 +101,7 @@ def update_graph(on, start_date, end_date, value):
     graph3.add_hline(y=mean3, annotation_text="Average: "+str(int(round(mean3, 0))), annotation_font_size=20)
     graph3.update_traces(marker_color="orange")
 
-    low_wear = f'You chose {value} hours'
-
-    return date_error, graph, graph3, low_wear
+    return date_error, graph, graph3
 
 
 if __name__ == '__main__':

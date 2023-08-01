@@ -2,6 +2,7 @@ import operator
 from datetime import datetime, timedelta
 import pytz
 import json
+import csv
 import os
 
 
@@ -187,12 +188,22 @@ def add_daily_zeros(fname):
     json.dump(fixed_list, out_file, indent=2)
     out_file.close()
 
-data = json.load(open("data/daily-data-2.json"))
-d_list = []
-for entry in data:
-    d = {'date': entry['date'], 'steps': entry['steps'], 'hours_worn': entry['hours-worn']}
-    d_list.append(d)
-out_file = open("data/daily-data-2.json", "w")
-json.dump(d_list, out_file, indent=2)
-out_file.close()
+def json_to_csv():
+    data = json.load(open('bronte_steps.json', encoding="utf-8"))
+    new_file = open('bronte-steps.csv', "w")
+    csv_writer = csv.writer(new_file)
+    count = 0
 
+    csv_writer.writerow(data[0].keys())
+    for entry in data:
+        csv_writer.writerow(entry.values())
+    new_file.close()
+
+
+data = json.load(open("data/daily-data.json", encoding="utf-8"))
+data_list = []
+for entry in data:
+    d = {'date': entry['date'], 'steps': entry['steps'], 'hours_worn': entry['hours-worn'], 'calories': entry['calories'], 'resting_heart_rate': entry['resting-heart-rate']}
+    data_list.append(d)
+out_file = open("data/daily-data.json", "w")
+json.dump(data_list, out_file, indent=2)
