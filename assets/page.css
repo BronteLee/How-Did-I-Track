@@ -1,0 +1,8 @@
+.page h1 {
+    color: blueviolet;
+    display: block;
+}
+
+.page page--dropdown {
+    width: 20%;
+}
