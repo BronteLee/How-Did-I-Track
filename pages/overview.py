@@ -22,14 +22,14 @@ layout = html.Div(
                 style={"width": "40%", "padding-left": "10%"},
             ),
     html.H3("My Steps"),
-    dcc.Graph(id="cal_steps", config={
-        'displayModeBar': False}),
+    dcc.Loading(type="circle", children=dcc.Graph(
+        id="cal_steps", config={'displayModeBar': False})),
     html.H3("My Fairly Active Minutes"),
-    dcc.Graph(id="cal_fairly_AM", config={
-        'displayModeBar': False}),
+    dcc.Loading(type="circle",children=dcc.Graph(id="cal_fairly_AM", config={
+        'displayModeBar': False})),
     html.H3("My Lightly Active Minutes"),
-    dcc.Graph(id="cal_lightly_AM", config={
-        'displayModeBar': False})
+    dcc.Loading(type="circle", children=dcc.Graph(id="cal_lightly_AM", config={
+        'displayModeBar': False}))
 ])
 
 @callback(
@@ -41,7 +41,7 @@ layout = html.Div(
 def update_graph(value):
     start_date = date(value, 1, 1)
     end_date = date(value, 12, 31)
-    dff = df.query("date > @start_date & date < @end_date")
+    dff = df.query("date >= @start_date & date <= @end_date")
     steps = calplot(
         dff,
         x='date',

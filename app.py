@@ -2,7 +2,7 @@ from dash import Dash, dash, html, dcc
 import dash_bootstrap_components as dbc
 
 
-app = Dash(__name__, use_pages=True, external_stylesheets=[dbc.themes.BOOTSTRAP])
+app = Dash(__name__, suppress_callback_exceptions=True, use_pages=True, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
 navbar = dbc.Navbar(
     dbc.Container(
@@ -19,9 +19,12 @@ navbar = dbc.Navbar(
     style={"margin": "0"},
 )
 
-reflections = dbc.Container(
-    dbc.Row(html.H3("My Reflections"))
-)
+reflections = dbc.Container([
+    dbc.Row(html.H3("My Reflections")),
+    dbc.Row(html.P("What have I learnt?")),
+    dbc.Row(html.P("What will I do?"))
+
+])
 
 app.layout = dbc.Container(
     [

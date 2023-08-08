@@ -1,22 +1,18 @@
 import dash
 from dash import html, dcc, callback, Input, Output
 import dash_daq as daq
-import plotly.express as px
 import plotly.graph_objects as go
 import pandas as pd
 import numpy as np
-from datetime import date
+from datetime import date, datetime
+import dash_mantine_components as dmc
 
 df = pd.read_json('data/daily-data.json', convert_dates=False)
 df['date'] = pd.to_datetime(df['date'], dayfirst=True)
 
 dash.register_page(__name__)
 
-layout = html.Div(children=[
-    html.H1("Details"),
-    html.Div([
-        html.H3("Date Range: ", style={'display': 'inline-block'}),
-        dcc.DatePickerRange(
+"""dcc.DatePickerRange(
             id="date-picker",
             first_day_of_week=1,
             display_format="DD MMM YYYY",
@@ -26,6 +22,18 @@ layout = html.Div(children=[
             start_date=date(2022, 1, 1),
             end_date=date(2022, 12, 31),
             style={'padding': '10px', 'display': 'inline-block'}
+),"""
+
+layout = html.Div(children=[
+    html.H1("Details"),
+    html.Div([
+        dmc.DateRangePicker(
+            id="date-picker",
+            label="Date Range", 
+            minDate=date(2017, 12, 25),
+            maxDate=date(2023, 7, 31),
+            value=[date(2023, 1, 1), date(2023, 7, 20)],
+            clearable=False,
         ),
         html.Div(
             children=[
@@ -44,7 +52,6 @@ layout = html.Div(children=[
             ),
             ], style={'display':'inline-block'}
         ),
-        html.Div(id="date-error", style={'color':'red', 'display' : 'inline-block'})
     ], style={'display': 'inline-block'}),
     html.H3(children="My Steps"),
     dcc.Graph(id="steps", config={
@@ -68,23 +75,18 @@ def adherence_colour(df, min_wear):
     return colours
 
 @callback(
-    Output(component_id="date-error", component_property="children"),
     Output(component_id="steps", component_property="figure"),
     Output(component_id="fairly-am", component_property="figure"),
     Output(component_id="lightly-am", component_property="figure"),
     Input(component_id='low-wear-switch', component_property='on'),
-    Input(component_id='date-picker', component_property='start_date'),
-    Input(component_id='date-picker', component_property='end_date'),
-    Input(component_id='low-wear-dropdown', component_property='value')
-)
-def update_graph(on, start_date, end_date, value):
-    dff = df
-    date_error = ""
-    if start_date > end_date:
-        date_error = "Please select end date on or after " + str(start_date)
-    else:
-        date_error = ""
-        dff = df.query("date > @start_date & date < @end_date")
+    Input(component_id='date-picker', component_property='value'),
+    Input(component_id='low-wear-dropdown', component_property='value'))
+def update_graph(on, dates, value):
+    start_date = date.fromisoformat(dates[0])
+    end_date = date.fromisoformat(dates[1])
+    print(start_date, end_date)
+    dff = df.query("date >= @start_date & date <= @end_date")
+    print(dff)
     if on is True:
         dff = dff.query("hours_worn >= @value")
     steps = go.Figure(data=[go.Bar(
@@ -115,4 +117,4 @@ def update_graph(on, start_date, end_date, value):
     lightly_am.add_hline(y=mean, annotation_text="Average: "+str(int(round(mean, 0))), annotation_font_size=20)
 
 
-    return date_error, steps, fairly_am, lightly_am
+    return steps, fairly_am, lightly_am
