@@ -34,10 +34,18 @@ def adherence_colour(df, min_wear):
     return colours
 
 def make_figure(padff, type):
+    graph_layout = go.Layout(
+    margin=go.layout.Margin(
+        l=0,
+        r=0,
+        b=0,
+        t=0
+    ), height=300
+    )
     graph = go.Figure(data=[go.Bar(
         x=padff['date'], y=padff[type],
         marker_color=adherence_colour(padff, 10)
-    )])
+    )], layout=graph_layout)
     graph.update_xaxes(title_text="Date", title_font={"size": 16})
     graph.update_yaxes(title_text=graph_label(type), title_font={"size": 16})
     mean = np.mean(padff[type])
@@ -54,8 +62,10 @@ def layout(prompt_id):
         html.H3(dff['prompt']),
         html.P(f"Date Range: {start_date.strftime('%d %b %Y')} to {end_date.strftime('%d %b %Y')}"),
         html.P(dff["text"]),
+        html.H4(graph_label(dff['type'])),
         dcc.Graph(id="prompt graph", figure=make_figure(padff, dff['type']), 
             config={'displayModeBar': False}),
+        html.H4("Questions"),
         html.P(dff["question1"]),
         html.P(dff["question2"])
     ])
