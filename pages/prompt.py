@@ -4,7 +4,7 @@ import pandas as pd
 from datetime import datetime
 import plotly.graph_objects as go
 import numpy as np
-
+import dash_bootstrap_components as dbc
 
 dash.register_page(__name__, path_template="/prompt/<prompt_id>")
 
@@ -52,20 +52,40 @@ def make_figure(padff, type):
     graph.add_hline(y=mean, annotation_text="Average: "+str(int(round(mean, 0))), annotation_font_size=20)
     return graph
 
+reflections = [
+    dbc.Row(html.H3("My Reflections")),
+    dbc.Row(html.P("What have I learnt?")),
+    dbc.Row(dcc.Textarea(
+        id="text-learn",
+        placeholder="I learnt ...",
+        style={"width":"90%", "margin": "auto"})),
+    dbc.Row(html.Button("Add", id="confirm-learn", style={"width":"50%", "margin": "auto"})),
+    dbc.Row(html.P(id="all-learn")),
+    dbc.Row(html.P("What will I do?")),
+    dbc.Row(dcc.Textarea(
+        id="text-do",
+        placeholder="I will ...",
+        style={"width":"90%", "margin": "auto"})),
+    dbc.Row(html.Button("Add", id="confirm-do", style={"width":"50%", "margin": "auto"})),
+    dbc.Row(html.P(id="all-do"))
+    ]
+
 def layout(prompt_id):
     dff = df.iloc[int(prompt_id)-1]
     start_date = dff['start_date']
     end_date = dff['end_date']
     padff = padf.query("date >= @start_date & date <= @end_date")
-    return html.Div(children=[
-        html.H1("Prompt"),
-        html.H3(dff['prompt']),
-        html.P(f"Date Range: {start_date.strftime('%d %b %Y')} to {end_date.strftime('%d %b %Y')}"),
-        html.P(dff["text"]),
-        html.H4(graph_label(dff['type'])),
-        dcc.Graph(id="prompt graph", figure=make_figure(padff, dff['type']), 
-            config={'displayModeBar': False}),
-        html.H4("Questions"),
-        html.P(dff["question1"]),
-        html.P(dff["question2"])
-    ])
+    return dbc.Row([dbc.Col([
+        dbc.Row(html.H1("Prompt")),
+        dbc.Row(html.H3(dff['prompt'])),
+        dbc.Row(html.P(f"Date Range: {start_date.strftime('%d %b %Y')} to {end_date.strftime('%d %b %Y')}")),
+        dbc.Row(html.P(dff["text"])),
+        dbc.Row(html.H4(graph_label(dff['type']))),
+        dbc.Row(dcc.Graph(id="prompt graph", figure=make_figure(padff, dff['type']), 
+            config={'displayModeBar': False})),
+        dbc.Row(html.H4("Questions")),
+        dbc.Row(html.P(dff["question1"])),
+        dbc.Row(html.P(dff["question2"]))
+        ], width=9),
+        dbc.Col(reflections, width=3, style={"margin": "0px", "position": "fixed", "right": "0"})
+        ], style={"padding-left": "10px", "max-width": "100%"})

@@ -43,14 +43,13 @@ reflections = dbc.Container([
 
 app.layout = dbc.Container(
     [
-        navbar,
-        dbc.Row([
-            dbc.Col(dash.page_container, width=9),
-            dbc.Col(reflections)]
+        dbc.Row(navbar, style={"margin": "0px", "max-width": "100%", "postion": "fixed"}),
+        dbc.Row(dash.page_container, 
+        style={"max-width": "100%", "padding-left": "10px"}
         )
     ],
     fluid=True,
-    style={"margin": "0px", "max-width": "100%", "width": "100%"}
+    style={"padding":"0px", "margin": "0px", "max-width": "100%", "width": "100%"}
 )
 
 @callback(

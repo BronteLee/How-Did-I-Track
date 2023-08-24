@@ -7,30 +7,49 @@ from datetime import date, datetime
 import dash_mantine_components as dmc
 import dash_bootstrap_components as dbc
 
-df = pd.read_json('data/daily-data.json', convert_dates=False)
+df = pd.read_json('data/daily-data-2.json', convert_dates=False)
 df['date'] = pd.to_datetime(df['date'], dayfirst=True)
 
 dash.register_page(__name__)
 
-layout = dbc.Container([
+reflections = [
+    dbc.Row(html.H3("My Reflections")),
+    dbc.Row(html.P("What have I learnt?")),
+    dbc.Row(dcc.Textarea(
+        id="text-learn",
+        placeholder="I learnt ...",
+        style={"width":"90%", "margin": "auto"})),
+    dbc.Row(html.Button("Add", id="confirm-learn", style={"width":"50%", "margin": "auto"})),
+    dbc.Row(html.P(id="all-learn")),
+    dbc.Row(html.P("What will I do?")),
+    dbc.Row(dcc.Textarea(
+        id="text-do",
+        placeholder="I will ...",
+        style={"width":"90%", "margin": "auto"})),
+    dbc.Row(html.Button("Add", id="confirm-do", style={"width":"50%", "margin": "auto"})),
+    dbc.Row(html.P(id="all-do"))
+    ]
+
+
+layout = dbc.Row([dbc.Col([
     dbc.Row(html.H1("Details")),
     dbc.Row([
-        dbc.Col(dmc.DateRangePicker(
+    dbc.Col(dmc.DateRangePicker(
             id="date-picker",
             label="Date Range", 
             minDate=date(2017, 12, 25),
             maxDate=date(2023, 7, 31),
             value=[date(2023, 1, 1), date(2023, 7, 20)],
             clearable=False,
-        )),
-        dbc.Col([
-            dbc.Row(html.P(" Low Wear Threshold: ")),
-            dbc.Row(dcc.Dropdown(
-                [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24],
-                id="low-wear-dropdown",
-                value=8,
-                clearable=False,
-        ))]),
+    )),
+    dbc.Col([
+        dbc.Row(html.P(" Low Wear Threshold: ")),
+        dbc.Row(dcc.Dropdown(
+            [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24],
+            id="low-wear-dropdown",
+            value=8,
+            clearable=False,
+    ))]),
         dbc.Col(dmc.Switch(
         id="low-wear-switch",
         size="lg",
@@ -38,18 +57,21 @@ layout = dbc.Container([
         label="Show Low Wear Days",
         checked=True,
         color="orange"
-    ),)
-    ]),
-    dbc.Row(html.H3(children="My Steps")),
-    dbc.Row(dcc.Graph(id="steps", config={
-        'displayModeBar': False})),
-    dbc.Row(html.H3(children="My Fairly Active Minutes")),
-    dbc.Row(dcc.Graph(id="fairly-am", config={
-        'displayModeBar': False})),
-    dbc.Row(html.H3(children="My Lightly Active Minutes")),
-    dbc.Row(dcc.Graph(id="lightly-am", config={
-        'displayModeBar': False}))
-])
+        ),)
+        ]),
+        dbc.Row(html.H3(children="My Steps")),
+        dbc.Row(dcc.Graph(id="steps", config={
+            'displayModeBar': False})),
+        dbc.Row(html.H3(children="My Fairly Active Minutes")),
+        dbc.Row(dcc.Graph(id="fairly-am", config={
+            'displayModeBar': False})),
+        dbc.Row(html.H3(children="My Lightly Active Minutes")),
+        dbc.Row(dcc.Graph(id="lightly-am", config={
+            'displayModeBar': False}))
+    ], width=9),
+dbc.Col(reflections, width=3, style={"margin": "0px", "position": "fixed", "right": "0"})],
+style={"padding-left": "10px", "max-width": "100%"}
+)
 
 def adherence_colour(df, min_wear):
     vals = df['hours_worn'].tolist()

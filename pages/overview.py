@@ -3,34 +3,61 @@ from dash import html, dcc, callback, Input, Output
 import pandas as pd
 from plotly_calplot import calplot
 from datetime import date
+import dash_bootstrap_components as dbc
+
 
 dash.register_page(__name__, path='/')
 
 df = pd.read_json("data/daily-data-2.json", convert_dates=False)
 df['date'] = pd.to_datetime(df['date'], dayfirst=True)
 
+reflections = [
+    dbc.Row(html.H3("My Reflections")),
+    dbc.Row(html.P("What have I learnt?")),
+    dbc.Row(dcc.Textarea(
+        id="text-learn",
+        placeholder="I learnt ...",
+        style={"width":"90%", "margin": "auto"})),
+    dbc.Row(html.Button("Add", id="confirm-learn", style={"width":"50%", "margin": "auto"})),
+    dbc.Row(html.P(id="all-learn")),
+    dbc.Row(html.P("What will I do?")),
+    dbc.Row(dcc.Textarea(
+        id="text-do",
+        placeholder="I will ...",
+        style={"width":"90%", "margin": "auto"})),
+    dbc.Row(html.Button("Add", id="confirm-do", style={"width":"50%", "margin": "auto"})),
+    dbc.Row(html.P(id="all-do"))
+    ]
 
-layout = html.Div(
-    className="page",
-    children=[
-    html.H1("Overview"),
-    dcc.Dropdown(
+layout = dbc.Row([dbc.Col([
+        dbc.Row(html.H1("Overview")),
+        dbc.Row([
+            dbc.Col(html.P("Select Year")),
+            dbc.Col(dcc.Dropdown(
                 [2017, 2018, 2019, 2020, 2021, 2022, 2023],
                 id="year_select",
                 value=2023,
                 clearable=False,
                 style={"width": "40%", "padding-left": "10%"},
-            ),
-    html.H3("My Steps"),
-    dcc.Loading(type="circle", children=dcc.Graph(
-        id="cal_steps", config={'displayModeBar': False})),
-    html.H3("My Fairly Active Minutes"),
-    dcc.Loading(type="circle",children=dcc.Graph(id="cal_fairly_AM", config={
-        'displayModeBar': False})),
-    html.H3("My Lightly Active Minutes"),
-    dcc.Loading(type="circle", children=dcc.Graph(id="cal_lightly_AM", config={
-        'displayModeBar': False}))
-])
+            ))
+        ]),
+        dbc.Row(html.H3("My Steps")),
+        dbc.Row(dcc.Loading(type="circle", children=dcc.Graph(
+            id="cal_steps", config={'displayModeBar': False}))),
+        dbc.Row(html.P("Contextual Factors")),
+        dbc.Row(html.H3("My Fairly Active Minutes")),  
+        dbc.Row(dcc.Loading(type="circle",children=dcc.Graph(id="cal_fairly_AM", config={
+        'displayModeBar': False}))),
+                dbc.Row(html.P("Contextual Factors")),
+        dbc.Row(html.H3("My Lightly Active Minutes")),
+        dbc.Row(dcc.Loading(type="circle", children=dcc.Graph(id="cal_lightly_AM", config={
+        'displayModeBar': False}))),
+        dbc.Row(html.P("Contextual Factors")),
+        ], width=9),
+    dbc.Col(reflections, width=3, style={"position": "fixed", "right": "0"})
+    ],
+    style={"padding-left": "10px", "max-width": "100%"}
+)
 
 @callback(
     Output(component_id="cal_steps", component_property="figure"),
