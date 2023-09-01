@@ -12,13 +12,46 @@
     },
     {
         "id": 2,
-        "type": "fairly_active_minutes",
+        "type": "missing_data",
         "complete": "False",
-        "prompt": "Low Fairly Active Minutes Month",
+        "prompt": "Low Tracker Wearing Month",
         "start_date": "1/10/2022",
         "end_date": "31/10/2022",
         "text": "In October 2022 you wore your tracker the least of any month in the year.",
         "question1": "Did something happen which prevented you from wearing your tracker?",
         "question2": "Is there something you can do in the future to wear your tracker more often?"
+    },
+    {
+        "id": 3,
+        "type": "fairly_active_minutes",
+        "complete": "True",
+        "prompt": "High Fairly Active Minutes Month",
+        "start_date": "1/5/2022",
+        "end_date": "31/5/2022",
+        "text": "In May 2023 you did the most active minutes of any month in the year.",
+        "question1": "Why do you think you did more active minutes this month than any other month in 2022?",
+        "question2": "What helped you to do more fairly active minutes this month and can this help you do more fairly active minutes in the future?"
+    },
+    {
+        "id": 4,
+        "type": "lightly_active_minutes",
+        "complete": "True",
+        "prompt": "High Lightly Active Minutes Month",
+        "start_date": "1/3/2022",
+        "end_date": "31/3/2022",
+        "text": "In March 2022 you did the most lightly active minutes of any month in the year.",
+        "question1": "Why do you think you did more active minutes this month than any other month in 2022?",
+        "question2": "What helped you to do more lightly active minutes this month and can this help you do more lightly active minutes in the future?"
+    },
+    {
+        "id": 5,
+        "type": "fairly_active_minutes",
+        "complete": "False",
+        "prompt": "Low Fairly Active Minutes Week",
+        "start_date": "5/9/2022",
+        "end_date": "11/9/2022",
+        "text": "In the week starting the 5th September 2023 you did the least fairly active minutes of any week in the year.",
+        "question1": "Why do you think you did less fairly active minutes this week than any other week in 2022?",
+        "question2": "Is there something you could do in the future in improve how many fairly active minutes you do in a week?"
     }
 ]

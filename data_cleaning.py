@@ -118,25 +118,27 @@ def minute_to_daily(fname):
 # Add contextual factor to daily data
 def add_factor(source_file, val):
     val_data = json.load(open(source_file, encoding="utf-8"))
-    daily_data = json.load(open("data/daily-data.json", encoding="utf-8"))
+    daily_data = json.load(open("data/daily-data-2.json", encoding="utf-8"))
     factor_list = []
     for i in range(len(val_data)):
         d = daily_data[i]
-        d[val] = val_data[i][val]
+        d['calories'] = int(d['calories'])
+        d[val] = round(val_data[i][val], 0)
         factor_list.append(d)
-    out_file = open("data/daily-data.json", "w")
+    out_file = open("data/daily-data-2.json", "w")
     json.dump(factor_list, out_file, indent=2)
     out_file.close()
 
 
 # sort data when not in order
 def sort_fix():
-    data = json.load(open("data/daily-data.json", encoding="utf-8"))
+    data = json.load(open("sleep.json", encoding="utf-8"))
     data_list = []
     for entry in data:
         data_list.append(entry)
         date = entry['date']
-        d_format = "%d/%m/%Y"
+        d_format ="%Y-%m-%d"
+        #d_format = "%d/%m/%Y"
         date_obj = datetime.strptime(date, d_format)
         #entry['date'] = date_obj.strftime("%Y/%m/%d")
         data_list[-1]['date'] = date_obj.strftime("%Y/%m/%d")
@@ -149,7 +151,7 @@ def sort_fix():
         d_format = "%Y/%m/%d"
         date_obj = datetime.strptime(n_date, d_format)
         d['date'] = date_obj.strftime("%d/%m/%Y")
-    out_file = open("data/daily-data.json", "w")
+    out_file = open("sleep.json", "w")
     json.dump(data_list, out_file, indent=2)
     out_file.close()
 
@@ -161,7 +163,11 @@ def get_nested_data():
     count = 0
     for entry in data:
         h_date = entry["value"]["date"]
-        h_date_obj = datetime.strptime(h_date, "%m/%d/%y")
+        h_date_obj = ""
+        if h_date is None:
+            h_date_obj = datetime.strptime(entry['dateTime'], "%m/%d/%y %H:%M:%S")
+        else:
+            h_date_obj = datetime.strptime(h_date, "%m/%d/%y")
         n_heart = {"date": h_date_obj.strftime("%d/%m/%Y"), "resting-heart-rate": int(round(entry['value']['value'],0))}
         heart_list.append(n_heart)
     out_file = open("resting-heart.json", "w")
@@ -181,7 +187,7 @@ def add_daily_zeros(fname):
             fixed_list.append(data[index])
             index += 1
         else:
-            fixed_list.append({'date': c_date.strftime("%d/%m/%Y"), 'steps': 0, 'hours-worn': 0})
+            fixed_list.append({'date': c_date.strftime("%d/%m/%Y"), 'minutes_asleep': 0, 'minutes_awake': 0})
         c_date += timedelta(days=1)
 
     out_file = open(fname, "w")
@@ -199,5 +205,7 @@ def json_to_csv():
         csv_writer.writerow(entry.values())
     new_file.close()
 
-data = json.load(open("../data/daily-data.json"))
-print(data[0])
+#merge("data/heart/", "resting-heart.json")
+#sort_fix()
+#add_daily_zeros("sleep.json")
+print(len(json.load(open("sleep.json", encoding="utf-8"))))

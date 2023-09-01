@@ -1,0 +1,27 @@
+.reflection--panel {
+    margin: 0px;
+    position: fixed;
+    right: 0;
+    border-left: 4px solid purple;
+    background-color: lemonchiffon;
+    height: 100vh;
+}
+
+.reflection--heading {
+    color: blueviolet;
+}
+
+.reflection--question {
+    color: black;
+}
+
+.reflection--button {
+    width: 50%;
+    margin: auto;
+    border-radius: 15px;
+    background-color: sandybrown;
+}
+
+.reflection--button:hover {
+    background-color: rgb(251, 201, 182);
+}

@@ -33,15 +33,14 @@ def usa_to_aus_dates(fname):
 
 def add_factor():
     val_data = json.load(open("fairly-AM.json", encoding="utf-8"))
-    val_data2 = json.load(open("lightly-AM.json", encoding="utf-8"))
     daily_data = json.load(open("data/daily-data-2.json", encoding="utf-8"))
     factor_list = []
     for i in range(len(val_data)):
         d = {}
         d['date'] = daily_data[i]['date']
         d['steps'] = daily_data[i]['steps']
-        d['fairly_active_minutes'] = val_data[i]['value']
-        d['lightly_active_minutes'] = val_data2[i]['value']
+        d['fairly_active_minutes'] = daily_data[i]['fairly_active_minutes']
+        d['lightly_active_minutes'] = daily_data[i]['lightly_active_minutes']
         d['hours_worn'] = daily_data[i]['hours_worn']
         factor_list.append(d)
     out_file = open("data/daily-data-2.json", "w")
@@ -107,14 +106,14 @@ def extract_sleep():
 #extract_sleep()
 
 def add_sleep():
-    daily = json.load(open("data/daily-data.json", encoding="utf-8"))
+    daily = json.load(open("data/daily-data-2.json", encoding="utf-8"))
     sleep = json.load(open("sleep.json", encoding="utf-8"))
     new_data = []
     idaily = 0
     isleep = 0
 
     while idaily < len(daily):
-        sleep_date = datetime.strptime(sleep[isleep]['date'], "%Y-%m-%d").strftime("%d/%m/%Y")
+        sleep_date = datetime.strptime(sleep[isleep]['date'], "%d/%m/%Y").strftime("%d/%m/%Y")
         if sleep_date != daily[idaily]['date']:
             new_data.append(daily[idaily])
         else:
@@ -124,7 +123,7 @@ def add_sleep():
             new_data.append(d)
             isleep += 1
         idaily += 1
-    out_file = open("data/daily-data.json", "w")
+    out_file = open("data/daily-data-2.json", "w")
     json.dump(new_data, out_file, indent=2)
     out_file.close()
 add_sleep()

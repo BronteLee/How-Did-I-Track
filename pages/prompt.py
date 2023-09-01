@@ -43,30 +43,31 @@ def make_figure(padff, type):
     ), height=300
     )
     graph = go.Figure(data=[go.Bar(
-        x=padff['date'], y=padff[type],
+        x=padff['date'], y=padff[type if type != "missing_data" else "steps"],
         marker_color=adherence_colour(padff, 10)
     )], layout=graph_layout)
     graph.update_xaxes(title_text="Date", title_font={"size": 16})
     graph.update_yaxes(title_text=graph_label(type), title_font={"size": 16})
-    mean = np.mean(padff[type])
+    mean = np.mean(padff[type if type != "missing_data" else "steps"])
     graph.add_hline(y=mean, annotation_text="Average: "+str(int(round(mean, 0))), annotation_font_size=20)
     return graph
 
 reflections = [
-    dbc.Row(html.H3("My Reflections")),
-    dbc.Row(html.P("What have I learnt?")),
+    dbc.Row(html.H3("My Reflections", className="reflection--heading")),
+    dbc.Row(html.P("What have I learnt?", className="reflection-question")),
     dbc.Row(dcc.Textarea(
         id="text-learn",
         placeholder="I learnt ...",
         style={"width":"90%", "margin": "auto"})),
-    dbc.Row(html.Button("Add", id="confirm-learn", style={"width":"50%", "margin": "auto"})),
+    dbc.Row(html.Button("Add", id="confirm-learn", className="reflection--button"), style={"padding": "10px"}),
     dbc.Row(html.P(id="all-learn")),
-    dbc.Row(html.P("What will I do?")),
+    dbc.Row(html.Hr()),
+    dbc.Row(html.P("What will I do?", className="reflection-question")),
     dbc.Row(dcc.Textarea(
         id="text-do",
         placeholder="I will ...",
         style={"width":"90%", "margin": "auto"})),
-    dbc.Row(html.Button("Add", id="confirm-do", style={"width":"50%", "margin": "auto"})),
+    dbc.Row(html.Button("Add", id="confirm-do", className="reflection--button"), style={"padding": "10px"}),
     dbc.Row(html.P(id="all-do"))
     ]
 
@@ -87,5 +88,5 @@ def layout(prompt_id):
         dbc.Row(html.P(dff["question1"])),
         dbc.Row(html.P(dff["question2"]))
         ], width=9),
-        dbc.Col(reflections, width=3, style={"margin": "0px", "position": "fixed", "right": "0"})
+        dbc.Col(reflections, width=3, className="reflection--panel")
         ], style={"padding-left": "10px", "max-width": "100%"})

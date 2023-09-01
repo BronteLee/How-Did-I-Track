@@ -6,59 +6,46 @@ import numpy as np
 from datetime import date, datetime
 import dash_mantine_components as dmc
 import dash_bootstrap_components as dbc
+from reflection import reflection_panel
 
 df = pd.read_json('data/daily-data-2.json', convert_dates=False)
 df['date'] = pd.to_datetime(df['date'], dayfirst=True)
 
 dash.register_page(__name__)
 
-reflections = [
-    dbc.Row(html.H3("My Reflections")),
-    dbc.Row(html.P("What have I learnt?")),
-    dbc.Row(dcc.Textarea(
-        id="text-learn",
-        placeholder="I learnt ...",
-        style={"width":"90%", "margin": "auto"})),
-    dbc.Row(html.Button("Add", id="confirm-learn", style={"width":"50%", "margin": "auto"})),
-    dbc.Row(html.P(id="all-learn")),
-    dbc.Row(html.P("What will I do?")),
-    dbc.Row(dcc.Textarea(
-        id="text-do",
-        placeholder="I will ...",
-        style={"width":"90%", "margin": "auto"})),
-    dbc.Row(html.Button("Add", id="confirm-do", style={"width":"50%", "margin": "auto"})),
-    dbc.Row(html.P(id="all-do"))
-    ]
-
-
 layout = dbc.Row([dbc.Col([
     dbc.Row(html.H1("Details")),
     dbc.Row([
-    dbc.Col(dmc.DateRangePicker(
+    dbc.Col([
+        dbc.Row(html.P("Date Range", style={"text-align": "center"})),
+        dbc.Row(dmc.DateRangePicker(
             id="date-picker",
-            label="Date Range", 
             minDate=date(2017, 12, 25),
             maxDate=date(2023, 7, 31),
             value=[date(2023, 1, 1), date(2023, 7, 20)],
             clearable=False,
-    )),
+            style={"margin": "auto"}
+    ))]),
     dbc.Col([
-        dbc.Row(html.P(" Low Wear Threshold: ")),
+        dbc.Row(html.P(" Low Wear Threshold: ", style={"text-align": "center"})),
         dbc.Row(dcc.Dropdown(
             [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24],
             id="low-wear-dropdown",
             value=8,
             clearable=False,
-    ))]),
-        dbc.Col(dmc.Switch(
+            style={"width": "10vh", "margin": "auto"}), style={"bottom": "0"})
+    ]),
+        dbc.Col([
+            dbc.Row("Show Low Wear Days", style={"text-align": "center"}),
+            dbc.Row(dmc.Switch(
         id="low-wear-switch",
         size="lg",
         radius="sm",
-        label="Show Low Wear Days",
         checked=True,
         color="orange"
-        ),)
-        ]),
+        ))
+        ])
+    ]),
         dbc.Row(html.H3(children="My Steps")),
         dbc.Row(dcc.Graph(id="steps", config={
             'displayModeBar': False})),
@@ -69,7 +56,7 @@ layout = dbc.Row([dbc.Col([
         dbc.Row(dcc.Graph(id="lightly-am", config={
             'displayModeBar': False}))
     ], width=9),
-dbc.Col(reflections, width=3, style={"margin": "0px", "position": "fixed", "right": "0"})],
+dbc.Col(reflection_panel(), width=3, className="reflection--panel")],
 style={"padding-left": "10px", "max-width": "100%"}
 )
 
@@ -96,14 +83,14 @@ def update_graph(on, dates, value):
     dff = df.query("date >= @start_date & date <= @end_date")
     if not on:
         dff = dff.query("hours_worn >= @value")
-
     graph_layout = go.Layout(
-    margin=go.layout.Margin(
-        l=0, #left margin
-        r=0, #right margin
-        b=0, #bottom margin
-        t=0  #top margin
-    ), height=300
+        margin=go.layout.Margin(
+            l=0,
+            r=0,
+            b=0,
+            t=0
+        ), 
+        height=300
     )
     steps = go.Figure(data=[go.Bar(
         x=dff['date'], y=dff['steps'],

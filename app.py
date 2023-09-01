@@ -67,7 +67,7 @@ def update_learn(text, clicks):
     State('text-do', 'value'),
     Input('confirm-do', 'n_clicks')
 )
-def update_learn(text, clicks):
+def update_do(text, clicks):
     return text, ""
 
 
