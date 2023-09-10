@@ -2,7 +2,7 @@
     margin: 0px;
     position: fixed;
     right: 0;
-    border-left: 4px solid purple;
+    border-left: 4px solid rgb(94, 94, 94);
     background-color: lemonchiffon;
     height: 100vh;
 }
@@ -15,13 +15,54 @@
     color: black;
 }
 
-.reflection--button {
-    width: 50%;
+.reflection--input {
+    width: 100%;
     margin: auto;
+    padding-left: 5px;
+    height: 12vh;
+    resize: none;
+}
+
+.reflection--button {
+    width: 100%;
     border-radius: 15px;
     background-color: sandybrown;
+    padding-left: 0;
+    padding-right: 5px;
+}
+
+.reflection--buttoncol {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    margin: auto;
 }
 
 .reflection--button:hover {
     background-color: rgb(251, 201, 182);
+}
+
+.reflection--text {
+    max-width: 100%;
+    height: 12vh;
+    overflow: auto;
+    border: 3px solid rgb(94, 94, 94);
+    min-height: 50px; 
+    background-color: beige;
+    padding-left: 5px;
+}
+
+.reflection--more {
+    margin: auto;
+    background-color: blueviolet;
+    width: 50%;
+    text-align: center;
+    color: white;
+    border-radius:  5px;
+    padding: 10px;
+}
+
+.reflection--more:hover {
+    color: black;
+    background-color: rgb(196, 145, 243);
 }

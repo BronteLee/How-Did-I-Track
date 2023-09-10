@@ -6,7 +6,7 @@
     "lightly_active_minutes": "236",
     "hours_worn": 12,
     "calories": 1716,
-    "resting-heart-rate": 92,
+    "resting_heart_rate": 92,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -17,7 +17,7 @@
     "lightly_active_minutes": "303",
     "hours_worn": 16,
     "calories": 2966,
-    "resting-heart-rate": 83,
+    "resting_heart_rate": 83,
     "minutes_asleep": 399,
     "minutes_awake": 82
   },
@@ -28,7 +28,7 @@
     "lightly_active_minutes": "378",
     "hours_worn": 17,
     "calories": 2571,
-    "resting-heart-rate": 77,
+    "resting_heart_rate": 77,
     "minutes_asleep": 334,
     "minutes_awake": 42
   },
@@ -39,7 +39,7 @@
     "lightly_active_minutes": "354",
     "hours_worn": 19,
     "calories": 3697,
-    "resting-heart-rate": 77,
+    "resting_heart_rate": 77,
     "minutes_asleep": 399,
     "minutes_awake": 70
   },
@@ -50,7 +50,7 @@
     "lightly_active_minutes": "229",
     "hours_worn": 17,
     "calories": 2929,
-    "resting-heart-rate": 76,
+    "resting_heart_rate": 76,
     "minutes_asleep": 437,
     "minutes_awake": 78
   },
@@ -61,7 +61,7 @@
     "lightly_active_minutes": "303",
     "hours_worn": 16,
     "calories": 2698,
-    "resting-heart-rate": 72,
+    "resting_heart_rate": 72,
     "minutes_asleep": 419,
     "minutes_awake": 60
   },
@@ -72,7 +72,7 @@
     "lightly_active_minutes": "545",
     "hours_worn": 17,
     "calories": 3474,
-    "resting-heart-rate": 70,
+    "resting_heart_rate": 70,
     "minutes_asleep": 399,
     "minutes_awake": 78
   },
@@ -83,7 +83,7 @@
     "lightly_active_minutes": "180",
     "hours_worn": 18,
     "calories": 3736,
-    "resting-heart-rate": 72,
+    "resting_heart_rate": 72,
     "minutes_asleep": 393,
     "minutes_awake": 49
   },
@@ -94,7 +94,7 @@
     "lightly_active_minutes": "232",
     "hours_worn": 18,
     "calories": 2483,
-    "resting-heart-rate": 70,
+    "resting_heart_rate": 70,
     "minutes_asleep": 470,
     "minutes_awake": 65
   },
@@ -105,7 +105,7 @@
     "lightly_active_minutes": "183",
     "hours_worn": 16,
     "calories": 2584,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 304,
     "minutes_awake": 53
   },
@@ -116,7 +116,7 @@
     "lightly_active_minutes": "269",
     "hours_worn": 11,
     "calories": 2916,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 370,
     "minutes_awake": 61
   },
@@ -127,7 +127,7 @@
     "lightly_active_minutes": "456",
     "hours_worn": 15,
     "calories": 2795,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 428,
     "minutes_awake": 36
   },
@@ -138,7 +138,7 @@
     "lightly_active_minutes": "510",
     "hours_worn": 15,
     "calories": 3436,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 408,
     "minutes_awake": 61
   },
@@ -149,7 +149,7 @@
     "lightly_active_minutes": "316",
     "hours_worn": 17,
     "calories": 3527,
-    "resting-heart-rate": 70,
+    "resting_heart_rate": 70,
     "minutes_asleep": 387,
     "minutes_awake": 55
   },
@@ -160,7 +160,7 @@
     "lightly_active_minutes": "573",
     "hours_worn": 20,
     "calories": 3494,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 310,
     "minutes_awake": 69
   },
@@ -171,7 +171,7 @@
     "lightly_active_minutes": "227",
     "hours_worn": 16,
     "calories": 3156,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 521,
     "minutes_awake": 75
   },
@@ -182,7 +182,7 @@
     "lightly_active_minutes": "241",
     "hours_worn": 18,
     "calories": 2379,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 445,
     "minutes_awake": 66
   },
@@ -193,7 +193,7 @@
     "lightly_active_minutes": "334",
     "hours_worn": 17,
     "calories": 3300,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 386,
     "minutes_awake": 53
   },
@@ -204,7 +204,7 @@
     "lightly_active_minutes": "235",
     "hours_worn": 20,
     "calories": 2852,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 213,
     "minutes_awake": 25
   },
@@ -215,7 +215,7 @@
     "lightly_active_minutes": "421",
     "hours_worn": 17,
     "calories": 3216,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 388,
     "minutes_awake": 52
   },
@@ -226,7 +226,7 @@
     "lightly_active_minutes": "226",
     "hours_worn": 18,
     "calories": 2723,
-    "resting-heart-rate": 70,
+    "resting_heart_rate": 70,
     "minutes_asleep": 316,
     "minutes_awake": 70
   },
@@ -237,7 +237,7 @@
     "lightly_active_minutes": "492",
     "hours_worn": 17,
     "calories": 3231,
-    "resting-heart-rate": 71,
+    "resting_heart_rate": 71,
     "minutes_asleep": 366,
     "minutes_awake": 65
   },
@@ -248,7 +248,7 @@
     "lightly_active_minutes": "182",
     "hours_worn": 15,
     "calories": 2905,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 459,
     "minutes_awake": 63
   },
@@ -259,7 +259,7 @@
     "lightly_active_minutes": "257",
     "hours_worn": 21,
     "calories": 2565,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 148,
     "minutes_awake": 16
   },
@@ -270,7 +270,7 @@
     "lightly_active_minutes": "312",
     "hours_worn": 18,
     "calories": 2762,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 405,
     "minutes_awake": 70
   },
@@ -281,7 +281,7 @@
     "lightly_active_minutes": "132",
     "hours_worn": 17,
     "calories": 3165,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 424,
     "minutes_awake": 88
   },
@@ -292,7 +292,7 @@
     "lightly_active_minutes": "336",
     "hours_worn": 16,
     "calories": 2764,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 438,
     "minutes_awake": 65
   },
@@ -303,7 +303,7 @@
     "lightly_active_minutes": "218",
     "hours_worn": 19,
     "calories": 3021,
-    "resting-heart-rate": 67,
+    "resting_heart_rate": 67,
     "minutes_asleep": 375,
     "minutes_awake": 68
   },
@@ -314,7 +314,7 @@
     "lightly_active_minutes": "293",
     "hours_worn": 17,
     "calories": 3460,
-    "resting-heart-rate": 65,
+    "resting_heart_rate": 65,
     "minutes_asleep": 342,
     "minutes_awake": 76
   },
@@ -325,7 +325,7 @@
     "lightly_active_minutes": "455",
     "hours_worn": 18,
     "calories": 3862,
-    "resting-heart-rate": 65,
+    "resting_heart_rate": 65,
     "minutes_asleep": 384,
     "minutes_awake": 58
   },
@@ -336,7 +336,7 @@
     "lightly_active_minutes": "346",
     "hours_worn": 16,
     "calories": 4099,
-    "resting-heart-rate": 67,
+    "resting_heart_rate": 67,
     "minutes_asleep": 325,
     "minutes_awake": 60
   },
@@ -347,7 +347,7 @@
     "lightly_active_minutes": "288",
     "hours_worn": 15,
     "calories": 3213,
-    "resting-heart-rate": 67,
+    "resting_heart_rate": 67,
     "minutes_asleep": 439,
     "minutes_awake": 66
   },
@@ -358,7 +358,7 @@
     "lightly_active_minutes": "406",
     "hours_worn": 18,
     "calories": 3194,
-    "resting-heart-rate": 67,
+    "resting_heart_rate": 67,
     "minutes_asleep": 329,
     "minutes_awake": 84
   },
@@ -369,7 +369,7 @@
     "lightly_active_minutes": "307",
     "hours_worn": 17,
     "calories": 4072,
-    "resting-heart-rate": 66,
+    "resting_heart_rate": 66,
     "minutes_asleep": 350,
     "minutes_awake": 40
   },
@@ -380,7 +380,7 @@
     "lightly_active_minutes": "263",
     "hours_worn": 19,
     "calories": 3253,
-    "resting-heart-rate": 67,
+    "resting_heart_rate": 67,
     "minutes_asleep": 378,
     "minutes_awake": 61
   },
@@ -391,7 +391,7 @@
     "lightly_active_minutes": "350",
     "hours_worn": 19,
     "calories": 3536,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 337,
     "minutes_awake": 52
   },
@@ -402,7 +402,7 @@
     "lightly_active_minutes": "355",
     "hours_worn": 16,
     "calories": 3286,
-    "resting-heart-rate": 71,
+    "resting_heart_rate": 71,
     "minutes_asleep": 163,
     "minutes_awake": 32
   },
@@ -413,7 +413,7 @@
     "lightly_active_minutes": "388",
     "hours_worn": 17,
     "calories": 3875,
-    "resting-heart-rate": 71,
+    "resting_heart_rate": 71,
     "minutes_asleep": 422,
     "minutes_awake": 63
   },
@@ -424,7 +424,7 @@
     "lightly_active_minutes": "535",
     "hours_worn": 17,
     "calories": 3561,
-    "resting-heart-rate": 71,
+    "resting_heart_rate": 71,
     "minutes_asleep": 388,
     "minutes_awake": 98
   },
@@ -435,7 +435,7 @@
     "lightly_active_minutes": "144",
     "hours_worn": 18,
     "calories": 4032,
-    "resting-heart-rate": 73,
+    "resting_heart_rate": 73,
     "minutes_asleep": 462,
     "minutes_awake": 89
   },
@@ -446,7 +446,7 @@
     "lightly_active_minutes": "190",
     "hours_worn": 17,
     "calories": 2253,
-    "resting-heart-rate": 72,
+    "resting_heart_rate": 72,
     "minutes_asleep": 322,
     "minutes_awake": 59
   },
@@ -457,7 +457,7 @@
     "lightly_active_minutes": "304",
     "hours_worn": 17,
     "calories": 2726,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 411,
     "minutes_awake": 76
   },
@@ -468,7 +468,7 @@
     "lightly_active_minutes": "408",
     "hours_worn": 18,
     "calories": 3033,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 433,
     "minutes_awake": 78
   },
@@ -479,7 +479,7 @@
     "lightly_active_minutes": "237",
     "hours_worn": 17,
     "calories": 4364,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 435,
     "minutes_awake": 79
   },
@@ -490,7 +490,7 @@
     "lightly_active_minutes": "398",
     "hours_worn": 17,
     "calories": 3103,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 378,
     "minutes_awake": 0
   },
@@ -501,7 +501,7 @@
     "lightly_active_minutes": "455",
     "hours_worn": 16,
     "calories": 3230,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 368,
     "minutes_awake": 42
   },
@@ -512,7 +512,7 @@
     "lightly_active_minutes": "287",
     "hours_worn": 15,
     "calories": 2875,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 486,
     "minutes_awake": 98
   },
@@ -523,7 +523,7 @@
     "lightly_active_minutes": "463",
     "hours_worn": 15,
     "calories": 2560,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 351,
     "minutes_awake": 65
   },
@@ -534,7 +534,7 @@
     "lightly_active_minutes": "178",
     "hours_worn": 15,
     "calories": 3371,
-    "resting-heart-rate": 67,
+    "resting_heart_rate": 67,
     "minutes_asleep": 452,
     "minutes_awake": 68
   },
@@ -545,7 +545,7 @@
     "lightly_active_minutes": "305",
     "hours_worn": 18,
     "calories": 3157,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 382,
     "minutes_awake": 61
   },
@@ -556,7 +556,7 @@
     "lightly_active_minutes": "253",
     "hours_worn": 17,
     "calories": 3633,
-    "resting-heart-rate": 71,
+    "resting_heart_rate": 71,
     "minutes_asleep": 401,
     "minutes_awake": 62
   },
@@ -567,7 +567,7 @@
     "lightly_active_minutes": "294",
     "hours_worn": 16,
     "calories": 2908,
-    "resting-heart-rate": 71,
+    "resting_heart_rate": 71,
     "minutes_asleep": 377,
     "minutes_awake": 68
   },
@@ -578,7 +578,7 @@
     "lightly_active_minutes": "150",
     "hours_worn": 14,
     "calories": 2428,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 400,
     "minutes_awake": 59
   },
@@ -589,7 +589,7 @@
     "lightly_active_minutes": "289",
     "hours_worn": 14,
     "calories": 2821,
-    "resting-heart-rate": 67,
+    "resting_heart_rate": 67,
     "minutes_asleep": 452,
     "minutes_awake": 77
   },
@@ -600,7 +600,7 @@
     "lightly_active_minutes": "165",
     "hours_worn": 12,
     "calories": 3185,
-    "resting-heart-rate": 67,
+    "resting_heart_rate": 67,
     "minutes_asleep": 362,
     "minutes_awake": 57
   },
@@ -611,7 +611,7 @@
     "lightly_active_minutes": "392",
     "hours_worn": 18,
     "calories": 4123,
-    "resting-heart-rate": 67,
+    "resting_heart_rate": 67,
     "minutes_asleep": 380,
     "minutes_awake": 53
   },
@@ -622,7 +622,7 @@
     "lightly_active_minutes": "352",
     "hours_worn": 15,
     "calories": 3684,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 410,
     "minutes_awake": 65
   },
@@ -633,7 +633,7 @@
     "lightly_active_minutes": "204",
     "hours_worn": 16,
     "calories": 2728,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 488,
     "minutes_awake": 65
   },
@@ -644,7 +644,7 @@
     "lightly_active_minutes": "144",
     "hours_worn": 20,
     "calories": 2338,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 333,
     "minutes_awake": 84
   },
@@ -655,7 +655,7 @@
     "lightly_active_minutes": "369",
     "hours_worn": 20,
     "calories": 3227,
-    "resting-heart-rate": 67,
+    "resting_heart_rate": 67,
     "minutes_asleep": 411,
     "minutes_awake": 56
   },
@@ -666,7 +666,7 @@
     "lightly_active_minutes": "124",
     "hours_worn": 15,
     "calories": 2794,
-    "resting-heart-rate": 65,
+    "resting_heart_rate": 65,
     "minutes_asleep": 411,
     "minutes_awake": 59
   },
@@ -677,7 +677,7 @@
     "lightly_active_minutes": "270",
     "hours_worn": 18,
     "calories": 3234,
-    "resting-heart-rate": 65,
+    "resting_heart_rate": 65,
     "minutes_asleep": 378,
     "minutes_awake": 75
   },
@@ -688,7 +688,7 @@
     "lightly_active_minutes": "161",
     "hours_worn": 14,
     "calories": 3281,
-    "resting-heart-rate": 65,
+    "resting_heart_rate": 65,
     "minutes_asleep": 472,
     "minutes_awake": 79
   },
@@ -699,7 +699,7 @@
     "lightly_active_minutes": "190",
     "hours_worn": 15,
     "calories": 3026,
-    "resting-heart-rate": 66,
+    "resting_heart_rate": 66,
     "minutes_asleep": 397,
     "minutes_awake": 49
   },
@@ -710,7 +710,7 @@
     "lightly_active_minutes": "160",
     "hours_worn": 15,
     "calories": 2830,
-    "resting-heart-rate": 66,
+    "resting_heart_rate": 66,
     "minutes_asleep": 416,
     "minutes_awake": 64
   },
@@ -721,7 +721,7 @@
     "lightly_active_minutes": "229",
     "hours_worn": 18,
     "calories": 2432,
-    "resting-heart-rate": 65,
+    "resting_heart_rate": 65,
     "minutes_asleep": 377,
     "minutes_awake": 86
   },
@@ -732,7 +732,7 @@
     "lightly_active_minutes": "117",
     "hours_worn": 11,
     "calories": 2348,
-    "resting-heart-rate": 65,
+    "resting_heart_rate": 65,
     "minutes_asleep": 369,
     "minutes_awake": 58
   },
@@ -743,7 +743,7 @@
     "lightly_active_minutes": "114",
     "hours_worn": 14,
     "calories": 2097,
-    "resting-heart-rate": 65,
+    "resting_heart_rate": 65,
     "minutes_asleep": 351,
     "minutes_awake": 61
   },
@@ -754,7 +754,7 @@
     "lightly_active_minutes": "198",
     "hours_worn": 17,
     "calories": 2870,
-    "resting-heart-rate": 66,
+    "resting_heart_rate": 66,
     "minutes_asleep": 373,
     "minutes_awake": 59
   },
@@ -765,7 +765,7 @@
     "lightly_active_minutes": "206",
     "hours_worn": 18,
     "calories": 4704,
-    "resting-heart-rate": 67,
+    "resting_heart_rate": 67,
     "minutes_asleep": 457,
     "minutes_awake": 81
   },
@@ -776,7 +776,7 @@
     "lightly_active_minutes": "345",
     "hours_worn": 21,
     "calories": 3302,
-    "resting-heart-rate": 70,
+    "resting_heart_rate": 70,
     "minutes_asleep": 387,
     "minutes_awake": 56
   },
@@ -787,7 +787,7 @@
     "lightly_active_minutes": "149",
     "hours_worn": 16,
     "calories": 2664,
-    "resting-heart-rate": 70,
+    "resting_heart_rate": 70,
     "minutes_asleep": 432,
     "minutes_awake": 55
   },
@@ -798,7 +798,7 @@
     "lightly_active_minutes": "152",
     "hours_worn": 16,
     "calories": 2341,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 449,
     "minutes_awake": 66
   },
@@ -809,7 +809,7 @@
     "lightly_active_minutes": "136",
     "hours_worn": 21,
     "calories": 2053,
-    "resting-heart-rate": 67,
+    "resting_heart_rate": 67,
     "minutes_asleep": 308,
     "minutes_awake": 46
   },
@@ -820,7 +820,7 @@
     "lightly_active_minutes": "326",
     "hours_worn": 17,
     "calories": 2896,
-    "resting-heart-rate": 66,
+    "resting_heart_rate": 66,
     "minutes_asleep": 357,
     "minutes_awake": 67
   },
@@ -831,7 +831,7 @@
     "lightly_active_minutes": "288",
     "hours_worn": 17,
     "calories": 2850,
-    "resting-heart-rate": 67,
+    "resting_heart_rate": 67,
     "minutes_asleep": 354,
     "minutes_awake": 43
   },
@@ -842,7 +842,7 @@
     "lightly_active_minutes": "200",
     "hours_worn": 15,
     "calories": 3135,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 525,
     "minutes_awake": 87
   },
@@ -853,7 +853,7 @@
     "lightly_active_minutes": "379",
     "hours_worn": 16,
     "calories": 3337,
-    "resting-heart-rate": 70,
+    "resting_heart_rate": 70,
     "minutes_asleep": 375,
     "minutes_awake": 54
   },
@@ -864,7 +864,7 @@
     "lightly_active_minutes": "256",
     "hours_worn": 15,
     "calories": 3195,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 531,
     "minutes_awake": 89
   },
@@ -875,7 +875,7 @@
     "lightly_active_minutes": "422",
     "hours_worn": 17,
     "calories": 2957,
-    "resting-heart-rate": 66,
+    "resting_heart_rate": 66,
     "minutes_asleep": 365,
     "minutes_awake": 55
   },
@@ -886,7 +886,7 @@
     "lightly_active_minutes": "246",
     "hours_worn": 16,
     "calories": 3114,
-    "resting-heart-rate": 67,
+    "resting_heart_rate": 67,
     "minutes_asleep": 372,
     "minutes_awake": 67
   },
@@ -897,7 +897,7 @@
     "lightly_active_minutes": "340",
     "hours_worn": 18,
     "calories": 3921,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 295,
     "minutes_awake": 54
   },
@@ -908,7 +908,7 @@
     "lightly_active_minutes": "148",
     "hours_worn": 18,
     "calories": 2451,
-    "resting-heart-rate": 70,
+    "resting_heart_rate": 70,
     "minutes_asleep": 402,
     "minutes_awake": 65
   },
@@ -919,7 +919,7 @@
     "lightly_active_minutes": "244",
     "hours_worn": 18,
     "calories": 3088,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 387,
     "minutes_awake": 40
   },
@@ -930,7 +930,7 @@
     "lightly_active_minutes": "319",
     "hours_worn": 17,
     "calories": 4064,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 368,
     "minutes_awake": 38
   },
@@ -941,7 +941,7 @@
     "lightly_active_minutes": "296",
     "hours_worn": 16,
     "calories": 3004,
-    "resting-heart-rate": 70,
+    "resting_heart_rate": 70,
     "minutes_asleep": 494,
     "minutes_awake": 81
   },
@@ -952,7 +952,7 @@
     "lightly_active_minutes": "93",
     "hours_worn": 16,
     "calories": 2552,
-    "resting-heart-rate": 71,
+    "resting_heart_rate": 71,
     "minutes_asleep": 417,
     "minutes_awake": 81
   },
@@ -963,7 +963,7 @@
     "lightly_active_minutes": "255",
     "hours_worn": 18,
     "calories": 2130,
-    "resting-heart-rate": 74,
+    "resting_heart_rate": 74,
     "minutes_asleep": 241,
     "minutes_awake": 38
   },
@@ -974,7 +974,7 @@
     "lightly_active_minutes": "110",
     "hours_worn": 21,
     "calories": 2710,
-    "resting-heart-rate": 76,
+    "resting_heart_rate": 76,
     "minutes_asleep": 416,
     "minutes_awake": 99
   },
@@ -985,7 +985,7 @@
     "lightly_active_minutes": "95",
     "hours_worn": 16,
     "calories": 2076,
-    "resting-heart-rate": 76,
+    "resting_heart_rate": 76,
     "minutes_asleep": 400,
     "minutes_awake": 67
   },
@@ -996,7 +996,7 @@
     "lightly_active_minutes": "103",
     "hours_worn": 18,
     "calories": 2016,
-    "resting-heart-rate": 73,
+    "resting_heart_rate": 73,
     "minutes_asleep": 448,
     "minutes_awake": 60
   },
@@ -1007,7 +1007,7 @@
     "lightly_active_minutes": "146",
     "hours_worn": 18,
     "calories": 2045,
-    "resting-heart-rate": 71,
+    "resting_heart_rate": 71,
     "minutes_asleep": 350,
     "minutes_awake": 65
   },
@@ -1018,7 +1018,7 @@
     "lightly_active_minutes": "108",
     "hours_worn": 16,
     "calories": 2120,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 481,
     "minutes_awake": 93
   },
@@ -1029,7 +1029,7 @@
     "lightly_active_minutes": "182",
     "hours_worn": 18,
     "calories": 2145,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 378,
     "minutes_awake": 61
   },
@@ -1040,7 +1040,7 @@
     "lightly_active_minutes": "202",
     "hours_worn": 14,
     "calories": 2698,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 378,
     "minutes_awake": 62
   },
@@ -1051,7 +1051,7 @@
     "lightly_active_minutes": "126",
     "hours_worn": 13,
     "calories": 2488,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 326,
     "minutes_awake": 51
   },
@@ -1062,7 +1062,7 @@
     "lightly_active_minutes": "157",
     "hours_worn": 16,
     "calories": 2311,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 348,
     "minutes_awake": 53
   },
@@ -1073,7 +1073,7 @@
     "lightly_active_minutes": "186",
     "hours_worn": 16,
     "calories": 2787,
-    "resting-heart-rate": 70,
+    "resting_heart_rate": 70,
     "minutes_asleep": 428,
     "minutes_awake": 52
   },
@@ -1084,7 +1084,7 @@
     "lightly_active_minutes": "292",
     "hours_worn": 17,
     "calories": 3274,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 398,
     "minutes_awake": 51
   },
@@ -1095,7 +1095,7 @@
     "lightly_active_minutes": "164",
     "hours_worn": 16,
     "calories": 3445,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 461,
     "minutes_awake": 24
   },
@@ -1106,7 +1106,7 @@
     "lightly_active_minutes": "293",
     "hours_worn": 15,
     "calories": 2911,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 328,
     "minutes_awake": 68
   },
@@ -1117,7 +1117,7 @@
     "lightly_active_minutes": "303",
     "hours_worn": 17,
     "calories": 2570,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 324,
     "minutes_awake": 52
   },
@@ -1128,7 +1128,7 @@
     "lightly_active_minutes": "188",
     "hours_worn": 12,
     "calories": 3661,
-    "resting-heart-rate": 70,
+    "resting_heart_rate": 70,
     "minutes_asleep": 363,
     "minutes_awake": 60
   },
@@ -1139,7 +1139,7 @@
     "lightly_active_minutes": "221",
     "hours_worn": 18,
     "calories": 2544,
-    "resting-heart-rate": 71,
+    "resting_heart_rate": 71,
     "minutes_asleep": 334,
     "minutes_awake": 47
   },
@@ -1150,7 +1150,7 @@
     "lightly_active_minutes": "232",
     "hours_worn": 14,
     "calories": 3117,
-    "resting-heart-rate": 72,
+    "resting_heart_rate": 72,
     "minutes_asleep": 556,
     "minutes_awake": 80
   },
@@ -1161,7 +1161,7 @@
     "lightly_active_minutes": "429",
     "hours_worn": 17,
     "calories": 3312,
-    "resting-heart-rate": 73,
+    "resting_heart_rate": 73,
     "minutes_asleep": 415,
     "minutes_awake": 67
   },
@@ -1172,7 +1172,7 @@
     "lightly_active_minutes": "152",
     "hours_worn": 14,
     "calories": 2949,
-    "resting-heart-rate": 72,
+    "resting_heart_rate": 72,
     "minutes_asleep": 420,
     "minutes_awake": 63
   },
@@ -1183,7 +1183,7 @@
     "lightly_active_minutes": "207",
     "hours_worn": 19,
     "calories": 2432,
-    "resting-heart-rate": 70,
+    "resting_heart_rate": 70,
     "minutes_asleep": 328,
     "minutes_awake": 41
   },
@@ -1194,7 +1194,7 @@
     "lightly_active_minutes": "158",
     "hours_worn": 19,
     "calories": 2692,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 325,
     "minutes_awake": 46
   },
@@ -1205,7 +1205,7 @@
     "lightly_active_minutes": "223",
     "hours_worn": 14,
     "calories": 2730,
-    "resting-heart-rate": 67,
+    "resting_heart_rate": 67,
     "minutes_asleep": 363,
     "minutes_awake": 50
   },
@@ -1216,7 +1216,7 @@
     "lightly_active_minutes": "298",
     "hours_worn": 17,
     "calories": 2081,
-    "resting-heart-rate": 66,
+    "resting_heart_rate": 66,
     "minutes_asleep": 421,
     "minutes_awake": 64
   },
@@ -1227,7 +1227,7 @@
     "lightly_active_minutes": "279",
     "hours_worn": 16,
     "calories": 3404,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 477,
     "minutes_awake": 117
   },
@@ -1238,7 +1238,7 @@
     "lightly_active_minutes": "398",
     "hours_worn": 18,
     "calories": 5255,
-    "resting-heart-rate": 70,
+    "resting_heart_rate": 70,
     "minutes_asleep": 334,
     "minutes_awake": 68
   },
@@ -1249,7 +1249,7 @@
     "lightly_active_minutes": "171",
     "hours_worn": 14,
     "calories": 3607,
-    "resting-heart-rate": 72,
+    "resting_heart_rate": 72,
     "minutes_asleep": 502,
     "minutes_awake": 79
   },
@@ -1260,7 +1260,7 @@
     "lightly_active_minutes": "173",
     "hours_worn": 18,
     "calories": 2373,
-    "resting-heart-rate": 74,
+    "resting_heart_rate": 74,
     "minutes_asleep": 324,
     "minutes_awake": 35
   },
@@ -1271,7 +1271,7 @@
     "lightly_active_minutes": "216",
     "hours_worn": 15,
     "calories": 2529,
-    "resting-heart-rate": 73,
+    "resting_heart_rate": 73,
     "minutes_asleep": 415,
     "minutes_awake": 64
   },
@@ -1282,7 +1282,7 @@
     "lightly_active_minutes": "262",
     "hours_worn": 21,
     "calories": 2420,
-    "resting-heart-rate": 72,
+    "resting_heart_rate": 72,
     "minutes_asleep": 314,
     "minutes_awake": 36
   },
@@ -1293,7 +1293,7 @@
     "lightly_active_minutes": "234",
     "hours_worn": 18,
     "calories": 2347,
-    "resting-heart-rate": 73,
+    "resting_heart_rate": 73,
     "minutes_asleep": 386,
     "minutes_awake": 52
   },
@@ -1304,7 +1304,7 @@
     "lightly_active_minutes": "224",
     "hours_worn": 19,
     "calories": 2797,
-    "resting-heart-rate": 72,
+    "resting_heart_rate": 72,
     "minutes_asleep": 290,
     "minutes_awake": 44
   },
@@ -1315,7 +1315,7 @@
     "lightly_active_minutes": "253",
     "hours_worn": 20,
     "calories": 3698,
-    "resting-heart-rate": 74,
+    "resting_heart_rate": 74,
     "minutes_asleep": 381,
     "minutes_awake": 58
   },
@@ -1326,7 +1326,7 @@
     "lightly_active_minutes": "203",
     "hours_worn": 19,
     "calories": 2822,
-    "resting-heart-rate": 74,
+    "resting_heart_rate": 74,
     "minutes_asleep": 371,
     "minutes_awake": 64
   },
@@ -1337,7 +1337,7 @@
     "lightly_active_minutes": "210",
     "hours_worn": 17,
     "calories": 2215,
-    "resting-heart-rate": 73,
+    "resting_heart_rate": 73,
     "minutes_asleep": 410,
     "minutes_awake": 68
   },
@@ -1348,7 +1348,7 @@
     "lightly_active_minutes": "142",
     "hours_worn": 16,
     "calories": 2303,
-    "resting-heart-rate": 73,
+    "resting_heart_rate": 73,
     "minutes_asleep": 333,
     "minutes_awake": 39
   },
@@ -1359,7 +1359,7 @@
     "lightly_active_minutes": "249",
     "hours_worn": 17,
     "calories": 2570,
-    "resting-heart-rate": 72,
+    "resting_heart_rate": 72,
     "minutes_asleep": 333,
     "minutes_awake": 48
   },
@@ -1370,7 +1370,7 @@
     "lightly_active_minutes": "216",
     "hours_worn": 15,
     "calories": 2521,
-    "resting-heart-rate": 71,
+    "resting_heart_rate": 71,
     "minutes_asleep": 477,
     "minutes_awake": 67
   },
@@ -1381,7 +1381,7 @@
     "lightly_active_minutes": "242",
     "hours_worn": 16,
     "calories": 2645,
-    "resting-heart-rate": 70,
+    "resting_heart_rate": 70,
     "minutes_asleep": 393,
     "minutes_awake": 63
   },
@@ -1392,7 +1392,7 @@
     "lightly_active_minutes": "365",
     "hours_worn": 15,
     "calories": 2595,
-    "resting-heart-rate": 71,
+    "resting_heart_rate": 71,
     "minutes_asleep": 294,
     "minutes_awake": 51
   },
@@ -1403,7 +1403,7 @@
     "lightly_active_minutes": "410",
     "hours_worn": 18,
     "calories": 3587,
-    "resting-heart-rate": 73,
+    "resting_heart_rate": 73,
     "minutes_asleep": 357,
     "minutes_awake": 31
   },
@@ -1414,7 +1414,7 @@
     "lightly_active_minutes": "365",
     "hours_worn": 16,
     "calories": 3199,
-    "resting-heart-rate": 73,
+    "resting_heart_rate": 73,
     "minutes_asleep": 412,
     "minutes_awake": 33
   },
@@ -1425,7 +1425,7 @@
     "lightly_active_minutes": "211",
     "hours_worn": 15,
     "calories": 3097,
-    "resting-heart-rate": 74,
+    "resting_heart_rate": 74,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -1436,7 +1436,7 @@
     "lightly_active_minutes": "277",
     "hours_worn": 19,
     "calories": 3375,
-    "resting-heart-rate": 76,
+    "resting_heart_rate": 76,
     "minutes_asleep": 265,
     "minutes_awake": 35
   },
@@ -1447,7 +1447,7 @@
     "lightly_active_minutes": "238",
     "hours_worn": 18,
     "calories": 2409,
-    "resting-heart-rate": 74,
+    "resting_heart_rate": 74,
     "minutes_asleep": 324,
     "minutes_awake": 49
   },
@@ -1458,7 +1458,7 @@
     "lightly_active_minutes": "314",
     "hours_worn": 14,
     "calories": 3286,
-    "resting-heart-rate": 72,
+    "resting_heart_rate": 72,
     "minutes_asleep": 390,
     "minutes_awake": 90
   },
@@ -1469,7 +1469,7 @@
     "lightly_active_minutes": "327",
     "hours_worn": 19,
     "calories": 3452,
-    "resting-heart-rate": 74,
+    "resting_heart_rate": 74,
     "minutes_asleep": 366,
     "minutes_awake": 47
   },
@@ -1480,7 +1480,7 @@
     "lightly_active_minutes": "305",
     "hours_worn": 15,
     "calories": 3229,
-    "resting-heart-rate": 75,
+    "resting_heart_rate": 75,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -1491,7 +1491,7 @@
     "lightly_active_minutes": "254",
     "hours_worn": 15,
     "calories": 2740,
-    "resting-heart-rate": 75,
+    "resting_heart_rate": 75,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -1502,7 +1502,7 @@
     "lightly_active_minutes": "217",
     "hours_worn": 17,
     "calories": 2450,
-    "resting-heart-rate": 74,
+    "resting_heart_rate": 74,
     "minutes_asleep": 352,
     "minutes_awake": 44
   },
@@ -1513,7 +1513,7 @@
     "lightly_active_minutes": "272",
     "hours_worn": 19,
     "calories": 2922,
-    "resting-heart-rate": 74,
+    "resting_heart_rate": 74,
     "minutes_asleep": 340,
     "minutes_awake": 60
   },
@@ -1524,7 +1524,7 @@
     "lightly_active_minutes": "191",
     "hours_worn": 18,
     "calories": 2460,
-    "resting-heart-rate": 71,
+    "resting_heart_rate": 71,
     "minutes_asleep": 343,
     "minutes_awake": 42
   },
@@ -1535,7 +1535,7 @@
     "lightly_active_minutes": "124",
     "hours_worn": 15,
     "calories": 2696,
-    "resting-heart-rate": 72,
+    "resting_heart_rate": 72,
     "minutes_asleep": 491,
     "minutes_awake": 70
   },
@@ -1546,7 +1546,7 @@
     "lightly_active_minutes": "341",
     "hours_worn": 15,
     "calories": 2903,
-    "resting-heart-rate": 73,
+    "resting_heart_rate": 73,
     "minutes_asleep": 363,
     "minutes_awake": 60
   },
@@ -1557,7 +1557,7 @@
     "lightly_active_minutes": "30",
     "hours_worn": 4,
     "calories": 2373,
-    "resting-heart-rate": 74,
+    "resting_heart_rate": 74,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -1568,7 +1568,7 @@
     "lightly_active_minutes": "297",
     "hours_worn": 16,
     "calories": 2368,
-    "resting-heart-rate": 71,
+    "resting_heart_rate": 71,
     "minutes_asleep": 362,
     "minutes_awake": 78
   },
@@ -1579,7 +1579,7 @@
     "lightly_active_minutes": "248",
     "hours_worn": 16,
     "calories": 2851,
-    "resting-heart-rate": 70,
+    "resting_heart_rate": 70,
     "minutes_asleep": 331,
     "minutes_awake": 49
   },
@@ -1590,7 +1590,7 @@
     "lightly_active_minutes": "266",
     "hours_worn": 20,
     "calories": 2830,
-    "resting-heart-rate": 72,
+    "resting_heart_rate": 72,
     "minutes_asleep": 345,
     "minutes_awake": 43
   },
@@ -1601,7 +1601,7 @@
     "lightly_active_minutes": "158",
     "hours_worn": 18,
     "calories": 2454,
-    "resting-heart-rate": 71,
+    "resting_heart_rate": 71,
     "minutes_asleep": 344,
     "minutes_awake": 48
   },
@@ -1612,7 +1612,7 @@
     "lightly_active_minutes": "253",
     "hours_worn": 16,
     "calories": 3519,
-    "resting-heart-rate": 71,
+    "resting_heart_rate": 71,
     "minutes_asleep": 384,
     "minutes_awake": 79
   },
@@ -1623,7 +1623,7 @@
     "lightly_active_minutes": "394",
     "hours_worn": 17,
     "calories": 3416,
-    "resting-heart-rate": 71,
+    "resting_heart_rate": 71,
     "minutes_asleep": 375,
     "minutes_awake": 57
   },
@@ -1634,7 +1634,7 @@
     "lightly_active_minutes": "230",
     "hours_worn": 17,
     "calories": 2891,
-    "resting-heart-rate": 70,
+    "resting_heart_rate": 70,
     "minutes_asleep": 402,
     "minutes_awake": 47
   },
@@ -1645,7 +1645,7 @@
     "lightly_active_minutes": "145",
     "hours_worn": 17,
     "calories": 2450,
-    "resting-heart-rate": 72,
+    "resting_heart_rate": 72,
     "minutes_asleep": 465,
     "minutes_awake": 52
   },
@@ -1656,7 +1656,7 @@
     "lightly_active_minutes": "387",
     "hours_worn": 16,
     "calories": 2563,
-    "resting-heart-rate": 73,
+    "resting_heart_rate": 73,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -1667,7 +1667,7 @@
     "lightly_active_minutes": "235",
     "hours_worn": 18,
     "calories": 3437,
-    "resting-heart-rate": 74,
+    "resting_heart_rate": 74,
     "minutes_asleep": 300,
     "minutes_awake": 41
   },
@@ -1678,7 +1678,7 @@
     "lightly_active_minutes": "231",
     "hours_worn": 17,
     "calories": 2448,
-    "resting-heart-rate": 72,
+    "resting_heart_rate": 72,
     "minutes_asleep": 354,
     "minutes_awake": 27
   },
@@ -1689,7 +1689,7 @@
     "lightly_active_minutes": "405",
     "hours_worn": 16,
     "calories": 3725,
-    "resting-heart-rate": 70,
+    "resting_heart_rate": 70,
     "minutes_asleep": 414,
     "minutes_awake": 45
   },
@@ -1700,7 +1700,7 @@
     "lightly_active_minutes": "485",
     "hours_worn": 19,
     "calories": 3783,
-    "resting-heart-rate": 70,
+    "resting_heart_rate": 70,
     "minutes_asleep": 302,
     "minutes_awake": 45
   },
@@ -1711,7 +1711,7 @@
     "lightly_active_minutes": "223",
     "hours_worn": 16,
     "calories": 2641,
-    "resting-heart-rate": 71,
+    "resting_heart_rate": 71,
     "minutes_asleep": 507,
     "minutes_awake": 64
   },
@@ -1722,7 +1722,7 @@
     "lightly_active_minutes": "235",
     "hours_worn": 18,
     "calories": 2280,
-    "resting-heart-rate": 70,
+    "resting_heart_rate": 70,
     "minutes_asleep": 338,
     "minutes_awake": 54
   },
@@ -1733,7 +1733,7 @@
     "lightly_active_minutes": "234",
     "hours_worn": 15,
     "calories": 2391,
-    "resting-heart-rate": 70,
+    "resting_heart_rate": 70,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -1744,7 +1744,7 @@
     "lightly_active_minutes": "133",
     "hours_worn": 8,
     "calories": 2925,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 360,
     "minutes_awake": 23
   },
@@ -1755,7 +1755,7 @@
     "lightly_active_minutes": "207",
     "hours_worn": 20,
     "calories": 2115,
-    "resting-heart-rate": 71,
+    "resting_heart_rate": 71,
     "minutes_asleep": 353,
     "minutes_awake": 44
   },
@@ -1766,7 +1766,7 @@
     "lightly_active_minutes": "311",
     "hours_worn": 21,
     "calories": 3742,
-    "resting-heart-rate": 72,
+    "resting_heart_rate": 72,
     "minutes_asleep": 358,
     "minutes_awake": 94
   },
@@ -1777,7 +1777,7 @@
     "lightly_active_minutes": "470",
     "hours_worn": 17,
     "calories": 3406,
-    "resting-heart-rate": 71,
+    "resting_heart_rate": 71,
     "minutes_asleep": 365,
     "minutes_awake": 64
   },
@@ -1788,7 +1788,7 @@
     "lightly_active_minutes": "169",
     "hours_worn": 13,
     "calories": 2620,
-    "resting-heart-rate": 71,
+    "resting_heart_rate": 71,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -1799,7 +1799,7 @@
     "lightly_active_minutes": "180",
     "hours_worn": 13,
     "calories": 2364,
-    "resting-heart-rate": 70,
+    "resting_heart_rate": 70,
     "minutes_asleep": 500,
     "minutes_awake": 94
   },
@@ -1810,7 +1810,7 @@
     "lightly_active_minutes": "162",
     "hours_worn": 15,
     "calories": 2232,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 349,
     "minutes_awake": 54
   },
@@ -1821,7 +1821,7 @@
     "lightly_active_minutes": "261",
     "hours_worn": 18,
     "calories": 2777,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 329,
     "minutes_awake": 72
   },
@@ -1832,7 +1832,7 @@
     "lightly_active_minutes": "189",
     "hours_worn": 16,
     "calories": 2620,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 470,
     "minutes_awake": 80
   },
@@ -1843,7 +1843,7 @@
     "lightly_active_minutes": "144",
     "hours_worn": 10,
     "calories": 2082,
-    "resting-heart-rate": 67,
+    "resting_heart_rate": 67,
     "minutes_asleep": 353,
     "minutes_awake": 70
   },
@@ -1854,7 +1854,7 @@
     "lightly_active_minutes": "424",
     "hours_worn": 17,
     "calories": 3142,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 367,
     "minutes_awake": 73
   },
@@ -1865,7 +1865,7 @@
     "lightly_active_minutes": "231",
     "hours_worn": 16,
     "calories": 2682,
-    "resting-heart-rate": 70,
+    "resting_heart_rate": 70,
     "minutes_asleep": 438,
     "minutes_awake": 64
   },
@@ -1876,7 +1876,7 @@
     "lightly_active_minutes": "211",
     "hours_worn": 18,
     "calories": 2325,
-    "resting-heart-rate": 72,
+    "resting_heart_rate": 72,
     "minutes_asleep": 411,
     "minutes_awake": 73
   },
@@ -1887,7 +1887,7 @@
     "lightly_active_minutes": "157",
     "hours_worn": 15,
     "calories": 2290,
-    "resting-heart-rate": 72,
+    "resting_heart_rate": 72,
     "minutes_asleep": 500,
     "minutes_awake": 68
   },
@@ -1898,7 +1898,7 @@
     "lightly_active_minutes": "152",
     "hours_worn": 14,
     "calories": 2348,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 480,
     "minutes_awake": 99
   },
@@ -1909,7 +1909,7 @@
     "lightly_active_minutes": "164",
     "hours_worn": 11,
     "calories": 2362,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 417,
     "minutes_awake": 70
   },
@@ -1920,7 +1920,7 @@
     "lightly_active_minutes": "180",
     "hours_worn": 18,
     "calories": 2244,
-    "resting-heart-rate": 66,
+    "resting_heart_rate": 66,
     "minutes_asleep": 452,
     "minutes_awake": 71
   },
@@ -1931,7 +1931,7 @@
     "lightly_active_minutes": "251",
     "hours_worn": 16,
     "calories": 2371,
-    "resting-heart-rate": 67,
+    "resting_heart_rate": 67,
     "minutes_asleep": 391,
     "minutes_awake": 53
   },
@@ -1942,7 +1942,7 @@
     "lightly_active_minutes": "154",
     "hours_worn": 10,
     "calories": 3328,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 456,
     "minutes_awake": 45
   },
@@ -1953,7 +1953,7 @@
     "lightly_active_minutes": "86",
     "hours_worn": 9,
     "calories": 1677,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -1964,7 +1964,7 @@
     "lightly_active_minutes": "286",
     "hours_worn": 17,
     "calories": 2807,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 471,
     "minutes_awake": 84
   },
@@ -1975,7 +1975,7 @@
     "lightly_active_minutes": "235",
     "hours_worn": 18,
     "calories": 2357,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 450,
     "minutes_awake": 73
   },
@@ -1986,7 +1986,7 @@
     "lightly_active_minutes": "318",
     "hours_worn": 20,
     "calories": 2662,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 303,
     "minutes_awake": 29
   },
@@ -1997,7 +1997,7 @@
     "lightly_active_minutes": "186",
     "hours_worn": 13,
     "calories": 2491,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 536,
     "minutes_awake": 60
   },
@@ -2008,7 +2008,7 @@
     "lightly_active_minutes": "486",
     "hours_worn": 20,
     "calories": 3460,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 314,
     "minutes_awake": 90
   },
@@ -2019,7 +2019,7 @@
     "lightly_active_minutes": "202",
     "hours_worn": 15,
     "calories": 2749,
-    "resting-heart-rate": 67,
+    "resting_heart_rate": 67,
     "minutes_asleep": 463,
     "minutes_awake": 64
   },
@@ -2030,7 +2030,7 @@
     "lightly_active_minutes": "315",
     "hours_worn": 18,
     "calories": 3462,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 348,
     "minutes_awake": 41
   },
@@ -2041,7 +2041,7 @@
     "lightly_active_minutes": "193",
     "hours_worn": 16,
     "calories": 3069,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 406,
     "minutes_awake": 76
   },
@@ -2052,7 +2052,7 @@
     "lightly_active_minutes": "156",
     "hours_worn": 9,
     "calories": 2078,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 304,
     "minutes_awake": 56
   },
@@ -2063,7 +2063,7 @@
     "lightly_active_minutes": "31",
     "hours_worn": 0,
     "calories": 2279,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2074,7 +2074,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2085,7 +2085,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2096,7 +2096,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2107,7 +2107,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2118,7 +2118,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2129,7 +2129,7 @@
     "lightly_active_minutes": "93",
     "hours_worn": 11,
     "calories": 1692,
-    "resting-heart-rate": 70,
+    "resting_heart_rate": 70,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2140,7 +2140,7 @@
     "lightly_active_minutes": "334",
     "hours_worn": 17,
     "calories": 3461,
-    "resting-heart-rate": 71,
+    "resting_heart_rate": 71,
     "minutes_asleep": 374,
     "minutes_awake": 9
   },
@@ -2151,7 +2151,7 @@
     "lightly_active_minutes": "271",
     "hours_worn": 15,
     "calories": 2976,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 501,
     "minutes_awake": 73
   },
@@ -2162,7 +2162,7 @@
     "lightly_active_minutes": "364",
     "hours_worn": 18,
     "calories": 3141,
-    "resting-heart-rate": 70,
+    "resting_heart_rate": 70,
     "minutes_asleep": 383,
     "minutes_awake": 63
   },
@@ -2173,7 +2173,7 @@
     "lightly_active_minutes": "253",
     "hours_worn": 12,
     "calories": 2245,
-    "resting-heart-rate": 71,
+    "resting_heart_rate": 71,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2184,7 +2184,7 @@
     "lightly_active_minutes": "153",
     "hours_worn": 11,
     "calories": 2325,
-    "resting-heart-rate": 70,
+    "resting_heart_rate": 70,
     "minutes_asleep": 319,
     "minutes_awake": 46
   },
@@ -2195,7 +2195,7 @@
     "lightly_active_minutes": "171",
     "hours_worn": 15,
     "calories": 2271,
-    "resting-heart-rate": 71,
+    "resting_heart_rate": 71,
     "minutes_asleep": 514,
     "minutes_awake": 70
   },
@@ -2206,7 +2206,7 @@
     "lightly_active_minutes": "238",
     "hours_worn": 18,
     "calories": 2267,
-    "resting-heart-rate": 70,
+    "resting_heart_rate": 70,
     "minutes_asleep": 468,
     "minutes_awake": 94
   },
@@ -2217,7 +2217,7 @@
     "lightly_active_minutes": "156",
     "hours_worn": 15,
     "calories": 2399,
-    "resting-heart-rate": 72,
+    "resting_heart_rate": 72,
     "minutes_asleep": 573,
     "minutes_awake": 51
   },
@@ -2228,7 +2228,7 @@
     "lightly_active_minutes": "218",
     "hours_worn": 18,
     "calories": 2246,
-    "resting-heart-rate": 70,
+    "resting_heart_rate": 70,
     "minutes_asleep": 462,
     "minutes_awake": 101
   },
@@ -2239,7 +2239,7 @@
     "lightly_active_minutes": "372",
     "hours_worn": 15,
     "calories": 3213,
-    "resting-heart-rate": 70,
+    "resting_heart_rate": 70,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2250,7 +2250,7 @@
     "lightly_active_minutes": "200",
     "hours_worn": 18,
     "calories": 2698,
-    "resting-heart-rate": 72,
+    "resting_heart_rate": 72,
     "minutes_asleep": 341,
     "minutes_awake": 64
   },
@@ -2261,7 +2261,7 @@
     "lightly_active_minutes": "179",
     "hours_worn": 16,
     "calories": 2537,
-    "resting-heart-rate": 73,
+    "resting_heart_rate": 73,
     "minutes_asleep": 449,
     "minutes_awake": 68
   },
@@ -2272,7 +2272,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1977,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2283,7 +2283,7 @@
     "lightly_active_minutes": "221",
     "hours_worn": 18,
     "calories": 2341,
-    "resting-heart-rate": 72,
+    "resting_heart_rate": 72,
     "minutes_asleep": 418,
     "minutes_awake": 87
   },
@@ -2294,7 +2294,7 @@
     "lightly_active_minutes": "99",
     "hours_worn": 5,
     "calories": 2071,
-    "resting-heart-rate": 72,
+    "resting_heart_rate": 72,
     "minutes_asleep": 299,
     "minutes_awake": 49
   },
@@ -2305,7 +2305,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 2070,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2316,7 +2316,7 @@
     "lightly_active_minutes": "362",
     "hours_worn": 14,
     "calories": 2523,
-    "resting-heart-rate": 72,
+    "resting_heart_rate": 72,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2327,7 +2327,7 @@
     "lightly_active_minutes": "195",
     "hours_worn": 16,
     "calories": 2595,
-    "resting-heart-rate": 70,
+    "resting_heart_rate": 70,
     "minutes_asleep": 372,
     "minutes_awake": 78
   },
@@ -2338,7 +2338,7 @@
     "lightly_active_minutes": "232",
     "hours_worn": 19,
     "calories": 2731,
-    "resting-heart-rate": 70,
+    "resting_heart_rate": 70,
     "minutes_asleep": 344,
     "minutes_awake": 40
   },
@@ -2349,7 +2349,7 @@
     "lightly_active_minutes": "203",
     "hours_worn": 16,
     "calories": 2607,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 423,
     "minutes_awake": 42
   },
@@ -2360,7 +2360,7 @@
     "lightly_active_minutes": "248",
     "hours_worn": 13,
     "calories": 2726,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2371,7 +2371,7 @@
     "lightly_active_minutes": "8",
     "hours_worn": 0,
     "calories": 2191,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 568,
     "minutes_awake": 5
   },
@@ -2382,7 +2382,7 @@
     "lightly_active_minutes": "131",
     "hours_worn": 11,
     "calories": 1640,
-    "resting-heart-rate": 70,
+    "resting_heart_rate": 70,
     "minutes_asleep": 219,
     "minutes_awake": 7
   },
@@ -2393,7 +2393,7 @@
     "lightly_active_minutes": "399",
     "hours_worn": 14,
     "calories": 2739,
-    "resting-heart-rate": 71,
+    "resting_heart_rate": 71,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2404,7 +2404,7 @@
     "lightly_active_minutes": "337",
     "hours_worn": 12,
     "calories": 3097,
-    "resting-heart-rate": 71,
+    "resting_heart_rate": 71,
     "minutes_asleep": 427,
     "minutes_awake": 3
   },
@@ -2415,7 +2415,7 @@
     "lightly_active_minutes": "198",
     "hours_worn": 13,
     "calories": 2779,
-    "resting-heart-rate": 72,
+    "resting_heart_rate": 72,
     "minutes_asleep": 479,
     "minutes_awake": 67
   },
@@ -2426,7 +2426,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1987,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2437,7 +2437,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2448,7 +2448,7 @@
     "lightly_active_minutes": "140",
     "hours_worn": 8,
     "calories": 1627,
-    "resting-heart-rate": 73,
+    "resting_heart_rate": 73,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2459,7 +2459,7 @@
     "lightly_active_minutes": "240",
     "hours_worn": 11,
     "calories": 2610,
-    "resting-heart-rate": 73,
+    "resting_heart_rate": 73,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2470,7 +2470,7 @@
     "lightly_active_minutes": "451",
     "hours_worn": 15,
     "calories": 2913,
-    "resting-heart-rate": 75,
+    "resting_heart_rate": 75,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2481,7 +2481,7 @@
     "lightly_active_minutes": "446",
     "hours_worn": 17,
     "calories": 3525,
-    "resting-heart-rate": 76,
+    "resting_heart_rate": 76,
     "minutes_asleep": 406,
     "minutes_awake": 45
   },
@@ -2492,7 +2492,7 @@
     "lightly_active_minutes": "2",
     "hours_worn": 0,
     "calories": 2355,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2503,7 +2503,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2514,7 +2514,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2525,7 +2525,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2536,7 +2536,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2547,7 +2547,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2558,7 +2558,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2569,7 +2569,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2580,7 +2580,7 @@
     "lightly_active_minutes": "23",
     "hours_worn": 3,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2591,7 +2591,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1696,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2602,7 +2602,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2613,7 +2613,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2624,7 +2624,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2635,7 +2635,7 @@
     "lightly_active_minutes": "357",
     "hours_worn": 12,
     "calories": 2504,
-    "resting-heart-rate": 77,
+    "resting_heart_rate": 77,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2646,7 +2646,7 @@
     "lightly_active_minutes": "12",
     "hours_worn": 0,
     "calories": 2268,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2657,7 +2657,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2668,7 +2668,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2679,7 +2679,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2690,7 +2690,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2701,7 +2701,7 @@
     "lightly_active_minutes": "2",
     "hours_worn": 1,
     "calories": 1630,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2712,7 +2712,7 @@
     "lightly_active_minutes": "1",
     "hours_worn": 0,
     "calories": 1629,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2723,7 +2723,7 @@
     "lightly_active_minutes": "45",
     "hours_worn": 3,
     "calories": 1672,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2734,7 +2734,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1759,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2745,7 +2745,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2756,7 +2756,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2767,7 +2767,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2778,7 +2778,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2789,7 +2789,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2800,7 +2800,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2811,7 +2811,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2822,7 +2822,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2833,7 +2833,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2844,7 +2844,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2855,7 +2855,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2866,7 +2866,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2877,7 +2877,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2888,7 +2888,7 @@
     "lightly_active_minutes": "261",
     "hours_worn": 11,
     "calories": 1860,
-    "resting-heart-rate": 78,
+    "resting_heart_rate": 78,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2899,7 +2899,7 @@
     "lightly_active_minutes": "135",
     "hours_worn": 10,
     "calories": 2855,
-    "resting-heart-rate": 76,
+    "resting_heart_rate": 76,
     "minutes_asleep": 458,
     "minutes_awake": 90
   },
@@ -2910,7 +2910,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1843,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2921,7 +2921,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2932,7 +2932,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2943,7 +2943,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1628,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2954,7 +2954,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2965,7 +2965,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2976,7 +2976,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2987,7 +2987,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -2998,7 +2998,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3009,7 +3009,7 @@
     "lightly_active_minutes": "126",
     "hours_worn": 9,
     "calories": 1646,
-    "resting-heart-rate": 75,
+    "resting_heart_rate": 75,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3020,7 +3020,7 @@
     "lightly_active_minutes": "233",
     "hours_worn": 17,
     "calories": 2464,
-    "resting-heart-rate": 74,
+    "resting_heart_rate": 74,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3031,7 +3031,7 @@
     "lightly_active_minutes": "364",
     "hours_worn": 15,
     "calories": 2463,
-    "resting-heart-rate": 71,
+    "resting_heart_rate": 71,
     "minutes_asleep": 509,
     "minutes_awake": 64
   },
@@ -3042,7 +3042,7 @@
     "lightly_active_minutes": "163",
     "hours_worn": 11,
     "calories": 2476,
-    "resting-heart-rate": 71,
+    "resting_heart_rate": 71,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3053,7 +3053,7 @@
     "lightly_active_minutes": "141",
     "hours_worn": 5,
     "calories": 2016,
-    "resting-heart-rate": 72,
+    "resting_heart_rate": 72,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3064,7 +3064,7 @@
     "lightly_active_minutes": "210",
     "hours_worn": 19,
     "calories": 2328,
-    "resting-heart-rate": 71,
+    "resting_heart_rate": 71,
     "minutes_asleep": 349,
     "minutes_awake": 66
   },
@@ -3075,7 +3075,7 @@
     "lightly_active_minutes": "2",
     "hours_worn": 0,
     "calories": 2013,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3086,7 +3086,7 @@
     "lightly_active_minutes": "91",
     "hours_worn": 12,
     "calories": 1652,
-    "resting-heart-rate": 71,
+    "resting_heart_rate": 71,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3097,7 +3097,7 @@
     "lightly_active_minutes": "538",
     "hours_worn": 14,
     "calories": 2393,
-    "resting-heart-rate": 72,
+    "resting_heart_rate": 72,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3108,7 +3108,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 2863,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3119,7 +3119,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3130,7 +3130,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3141,7 +3141,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3152,7 +3152,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3163,7 +3163,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3174,7 +3174,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3185,7 +3185,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3196,7 +3196,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3207,7 +3207,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3218,7 +3218,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3229,7 +3229,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3240,7 +3240,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3251,7 +3251,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3262,7 +3262,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3273,7 +3273,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3284,7 +3284,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3295,7 +3295,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3306,7 +3306,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3317,7 +3317,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3328,7 +3328,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3339,7 +3339,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3350,7 +3350,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3361,7 +3361,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3372,7 +3372,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3383,7 +3383,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3394,7 +3394,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3405,7 +3405,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3416,7 +3416,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3427,7 +3427,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3438,7 +3438,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3449,7 +3449,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3460,7 +3460,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3471,7 +3471,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3482,7 +3482,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3493,7 +3493,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3504,7 +3504,7 @@
     "lightly_active_minutes": "173",
     "hours_worn": 10,
     "calories": 1627,
-    "resting-heart-rate": 72,
+    "resting_heart_rate": 72,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3515,7 +3515,7 @@
     "lightly_active_minutes": "124",
     "hours_worn": 16,
     "calories": 2360,
-    "resting-heart-rate": 70,
+    "resting_heart_rate": 70,
     "minutes_asleep": 397,
     "minutes_awake": 65
   },
@@ -3526,7 +3526,7 @@
     "lightly_active_minutes": "269",
     "hours_worn": 18,
     "calories": 2220,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 435,
     "minutes_awake": 52
   },
@@ -3537,7 +3537,7 @@
     "lightly_active_minutes": "164",
     "hours_worn": 15,
     "calories": 3176,
-    "resting-heart-rate": 71,
+    "resting_heart_rate": 71,
     "minutes_asleep": 387,
     "minutes_awake": 59
   },
@@ -3548,7 +3548,7 @@
     "lightly_active_minutes": "157",
     "hours_worn": 18,
     "calories": 2365,
-    "resting-heart-rate": 72,
+    "resting_heart_rate": 72,
     "minutes_asleep": 394,
     "minutes_awake": 77
   },
@@ -3559,7 +3559,7 @@
     "lightly_active_minutes": "392",
     "hours_worn": 17,
     "calories": 2733,
-    "resting-heart-rate": 73,
+    "resting_heart_rate": 73,
     "minutes_asleep": 398,
     "minutes_awake": 64
   },
@@ -3570,7 +3570,7 @@
     "lightly_active_minutes": "101",
     "hours_worn": 13,
     "calories": 2665,
-    "resting-heart-rate": 72,
+    "resting_heart_rate": 72,
     "minutes_asleep": 453,
     "minutes_awake": 62
   },
@@ -3581,7 +3581,7 @@
     "lightly_active_minutes": "375",
     "hours_worn": 16,
     "calories": 2678,
-    "resting-heart-rate": 71,
+    "resting_heart_rate": 71,
     "minutes_asleep": 404,
     "minutes_awake": 60
   },
@@ -3592,7 +3592,7 @@
     "lightly_active_minutes": "322",
     "hours_worn": 16,
     "calories": 3113,
-    "resting-heart-rate": 71,
+    "resting_heart_rate": 71,
     "minutes_asleep": 377,
     "minutes_awake": 66
   },
@@ -3603,7 +3603,7 @@
     "lightly_active_minutes": "458",
     "hours_worn": 18,
     "calories": 3050,
-    "resting-heart-rate": 73,
+    "resting_heart_rate": 73,
     "minutes_asleep": 292,
     "minutes_awake": 49
   },
@@ -3614,7 +3614,7 @@
     "lightly_active_minutes": "265",
     "hours_worn": 12,
     "calories": 3070,
-    "resting-heart-rate": 74,
+    "resting_heart_rate": 74,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3625,7 +3625,7 @@
     "lightly_active_minutes": "274",
     "hours_worn": 20,
     "calories": 2974,
-    "resting-heart-rate": 74,
+    "resting_heart_rate": 74,
     "minutes_asleep": 369,
     "minutes_awake": 89
   },
@@ -3636,7 +3636,7 @@
     "lightly_active_minutes": "342",
     "hours_worn": 18,
     "calories": 2658,
-    "resting-heart-rate": 72,
+    "resting_heart_rate": 72,
     "minutes_asleep": 455,
     "minutes_awake": 51
   },
@@ -3647,7 +3647,7 @@
     "lightly_active_minutes": "541",
     "hours_worn": 16,
     "calories": 3458,
-    "resting-heart-rate": 71,
+    "resting_heart_rate": 71,
     "minutes_asleep": 402,
     "minutes_awake": 46
   },
@@ -3658,7 +3658,7 @@
     "lightly_active_minutes": "552",
     "hours_worn": 17,
     "calories": 3479,
-    "resting-heart-rate": 72,
+    "resting_heart_rate": 72,
     "minutes_asleep": 344,
     "minutes_awake": 44
   },
@@ -3669,7 +3669,7 @@
     "lightly_active_minutes": "452",
     "hours_worn": 18,
     "calories": 3660,
-    "resting-heart-rate": 74,
+    "resting_heart_rate": 74,
     "minutes_asleep": 375,
     "minutes_awake": 41
   },
@@ -3680,7 +3680,7 @@
     "lightly_active_minutes": "429",
     "hours_worn": 16,
     "calories": 3208,
-    "resting-heart-rate": 73,
+    "resting_heart_rate": 73,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3691,7 +3691,7 @@
     "lightly_active_minutes": "296",
     "hours_worn": 16,
     "calories": 2632,
-    "resting-heart-rate": 73,
+    "resting_heart_rate": 73,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3702,7 +3702,7 @@
     "lightly_active_minutes": "126",
     "hours_worn": 12,
     "calories": 3139,
-    "resting-heart-rate": 74,
+    "resting_heart_rate": 74,
     "minutes_asleep": 381,
     "minutes_awake": 57
   },
@@ -3713,7 +3713,7 @@
     "lightly_active_minutes": "286",
     "hours_worn": 15,
     "calories": 2414,
-    "resting-heart-rate": 73,
+    "resting_heart_rate": 73,
     "minutes_asleep": 548,
     "minutes_awake": 62
   },
@@ -3724,7 +3724,7 @@
     "lightly_active_minutes": "391",
     "hours_worn": 17,
     "calories": 2784,
-    "resting-heart-rate": 74,
+    "resting_heart_rate": 74,
     "minutes_asleep": 425,
     "minutes_awake": 64
   },
@@ -3735,7 +3735,7 @@
     "lightly_active_minutes": "79",
     "hours_worn": 15,
     "calories": 2520,
-    "resting-heart-rate": 74,
+    "resting_heart_rate": 74,
     "minutes_asleep": 254,
     "minutes_awake": 65
   },
@@ -3746,7 +3746,7 @@
     "lightly_active_minutes": "470",
     "hours_worn": 16,
     "calories": 2539,
-    "resting-heart-rate": 74,
+    "resting_heart_rate": 74,
     "minutes_asleep": 368,
     "minutes_awake": 59
   },
@@ -3757,7 +3757,7 @@
     "lightly_active_minutes": "146",
     "hours_worn": 16,
     "calories": 2935,
-    "resting-heart-rate": 74,
+    "resting_heart_rate": 74,
     "minutes_asleep": 417,
     "minutes_awake": 63
   },
@@ -3768,7 +3768,7 @@
     "lightly_active_minutes": "434",
     "hours_worn": 13,
     "calories": 2501,
-    "resting-heart-rate": 74,
+    "resting_heart_rate": 74,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3779,7 +3779,7 @@
     "lightly_active_minutes": "25",
     "hours_worn": 4,
     "calories": 2807,
-    "resting-heart-rate": 73,
+    "resting_heart_rate": 73,
     "minutes_asleep": 204,
     "minutes_awake": 38
   },
@@ -3790,7 +3790,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3801,7 +3801,7 @@
     "lightly_active_minutes": "398",
     "hours_worn": 14,
     "calories": 2158,
-    "resting-heart-rate": 74,
+    "resting_heart_rate": 74,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3812,7 +3812,7 @@
     "lightly_active_minutes": "125",
     "hours_worn": 8,
     "calories": 2777,
-    "resting-heart-rate": 72,
+    "resting_heart_rate": 72,
     "minutes_asleep": 298,
     "minutes_awake": 55
   },
@@ -3823,7 +3823,7 @@
     "lightly_active_minutes": "402",
     "hours_worn": 14,
     "calories": 2281,
-    "resting-heart-rate": 73,
+    "resting_heart_rate": 73,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3834,7 +3834,7 @@
     "lightly_active_minutes": "262",
     "hours_worn": 15,
     "calories": 2817,
-    "resting-heart-rate": 73,
+    "resting_heart_rate": 73,
     "minutes_asleep": 489,
     "minutes_awake": 73
   },
@@ -3845,7 +3845,7 @@
     "lightly_active_minutes": "19",
     "hours_worn": 2,
     "calories": 2692,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 450,
     "minutes_awake": 45
   },
@@ -3856,7 +3856,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3867,7 +3867,7 @@
     "lightly_active_minutes": "409",
     "hours_worn": 13,
     "calories": 2108,
-    "resting-heart-rate": 73,
+    "resting_heart_rate": 73,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3878,7 +3878,7 @@
     "lightly_active_minutes": "558",
     "hours_worn": 14,
     "calories": 3137,
-    "resting-heart-rate": 73,
+    "resting_heart_rate": 73,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3889,7 +3889,7 @@
     "lightly_active_minutes": "305",
     "hours_worn": 18,
     "calories": 3441,
-    "resting-heart-rate": 70,
+    "resting_heart_rate": 70,
     "minutes_asleep": 267,
     "minutes_awake": 44
   },
@@ -3900,7 +3900,7 @@
     "lightly_active_minutes": "276",
     "hours_worn": 13,
     "calories": 2706,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 510,
     "minutes_awake": 64
   },
@@ -3911,7 +3911,7 @@
     "lightly_active_minutes": "544",
     "hours_worn": 17,
     "calories": 2994,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 392,
     "minutes_awake": 46
   },
@@ -3922,7 +3922,7 @@
     "lightly_active_minutes": "489",
     "hours_worn": 17,
     "calories": 4282,
-    "resting-heart-rate": 70,
+    "resting_heart_rate": 70,
     "minutes_asleep": 381,
     "minutes_awake": 71
   },
@@ -3933,7 +3933,7 @@
     "lightly_active_minutes": "499",
     "hours_worn": 16,
     "calories": 3529,
-    "resting-heart-rate": 72,
+    "resting_heart_rate": 72,
     "minutes_asleep": 393,
     "minutes_awake": 44
   },
@@ -3944,7 +3944,7 @@
     "lightly_active_minutes": "18",
     "hours_worn": 3,
     "calories": 2562,
-    "resting-heart-rate": 71,
+    "resting_heart_rate": 71,
     "minutes_asleep": 440,
     "minutes_awake": 62
   },
@@ -3955,7 +3955,7 @@
     "lightly_active_minutes": "59",
     "hours_worn": 4,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -3966,7 +3966,7 @@
     "lightly_active_minutes": "158",
     "hours_worn": 15,
     "calories": 1948,
-    "resting-heart-rate": 71,
+    "resting_heart_rate": 71,
     "minutes_asleep": 498,
     "minutes_awake": 67
   },
@@ -3977,7 +3977,7 @@
     "lightly_active_minutes": "393",
     "hours_worn": 16,
     "calories": 2837,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 412,
     "minutes_awake": 66
   },
@@ -3988,7 +3988,7 @@
     "lightly_active_minutes": "480",
     "hours_worn": 16,
     "calories": 3321,
-    "resting-heart-rate": 67,
+    "resting_heart_rate": 67,
     "minutes_asleep": 406,
     "minutes_awake": 73
   },
@@ -3999,7 +3999,7 @@
     "lightly_active_minutes": "520",
     "hours_worn": 16,
     "calories": 3765,
-    "resting-heart-rate": 67,
+    "resting_heart_rate": 67,
     "minutes_asleep": 375,
     "minutes_awake": 38
   },
@@ -4010,7 +4010,7 @@
     "lightly_active_minutes": "465",
     "hours_worn": 15,
     "calories": 3476,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -4021,7 +4021,7 @@
     "lightly_active_minutes": "482",
     "hours_worn": 16,
     "calories": 3139,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 473,
     "minutes_awake": 51
   },
@@ -4032,7 +4032,7 @@
     "lightly_active_minutes": "492",
     "hours_worn": 19,
     "calories": 4124,
-    "resting-heart-rate": 71,
+    "resting_heart_rate": 71,
     "minutes_asleep": 369,
     "minutes_awake": 83
   },
@@ -4043,7 +4043,7 @@
     "lightly_active_minutes": "28",
     "hours_worn": 2,
     "calories": 2745,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -4054,7 +4054,7 @@
     "lightly_active_minutes": "224",
     "hours_worn": 15,
     "calories": 2004,
-    "resting-heart-rate": 70,
+    "resting_heart_rate": 70,
     "minutes_asleep": 448,
     "minutes_awake": 56
   },
@@ -4065,7 +4065,7 @@
     "lightly_active_minutes": "462",
     "hours_worn": 16,
     "calories": 3232,
-    "resting-heart-rate": 71,
+    "resting_heart_rate": 71,
     "minutes_asleep": 364,
     "minutes_awake": 64
   },
@@ -4076,7 +4076,7 @@
     "lightly_active_minutes": "507",
     "hours_worn": 19,
     "calories": 3696,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 308,
     "minutes_awake": 70
   },
@@ -4087,7 +4087,7 @@
     "lightly_active_minutes": "428",
     "hours_worn": 18,
     "calories": 2961,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 340,
     "minutes_awake": 47
   },
@@ -4098,7 +4098,7 @@
     "lightly_active_minutes": "432",
     "hours_worn": 19,
     "calories": 3728,
-    "resting-heart-rate": 70,
+    "resting_heart_rate": 70,
     "minutes_asleep": 324,
     "minutes_awake": 45
   },
@@ -4109,7 +4109,7 @@
     "lightly_active_minutes": "420",
     "hours_worn": 16,
     "calories": 2844,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 459,
     "minutes_awake": 51
   },
@@ -4120,7 +4120,7 @@
     "lightly_active_minutes": "241",
     "hours_worn": 16,
     "calories": 2819,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 438,
     "minutes_awake": 101
   },
@@ -4131,7 +4131,7 @@
     "lightly_active_minutes": "272",
     "hours_worn": 16,
     "calories": 3265,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -4142,7 +4142,7 @@
     "lightly_active_minutes": "338",
     "hours_worn": 16,
     "calories": 3280,
-    "resting-heart-rate": 67,
+    "resting_heart_rate": 67,
     "minutes_asleep": 490,
     "minutes_awake": 86
   },
@@ -4153,7 +4153,7 @@
     "lightly_active_minutes": "327",
     "hours_worn": 16,
     "calories": 3271,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 411,
     "minutes_awake": 57
   },
@@ -4164,7 +4164,7 @@
     "lightly_active_minutes": "396",
     "hours_worn": 19,
     "calories": 3312,
-    "resting-heart-rate": 67,
+    "resting_heart_rate": 67,
     "minutes_asleep": 384,
     "minutes_awake": 59
   },
@@ -4175,7 +4175,7 @@
     "lightly_active_minutes": "369",
     "hours_worn": 19,
     "calories": 3697,
-    "resting-heart-rate": 66,
+    "resting_heart_rate": 66,
     "minutes_asleep": 452,
     "minutes_awake": 74
   },
@@ -4186,7 +4186,7 @@
     "lightly_active_minutes": "427",
     "hours_worn": 16,
     "calories": 3251,
-    "resting-heart-rate": 67,
+    "resting_heart_rate": 67,
     "minutes_asleep": 442,
     "minutes_awake": 78
   },
@@ -4197,7 +4197,7 @@
     "lightly_active_minutes": "246",
     "hours_worn": 19,
     "calories": 2951,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 467,
     "minutes_awake": 93
   },
@@ -4208,7 +4208,7 @@
     "lightly_active_minutes": "333",
     "hours_worn": 12,
     "calories": 2835,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -4219,7 +4219,7 @@
     "lightly_active_minutes": "205",
     "hours_worn": 18,
     "calories": 3010,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 561,
     "minutes_awake": 77
   },
@@ -4230,7 +4230,7 @@
     "lightly_active_minutes": "534",
     "hours_worn": 18,
     "calories": 3010,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 447,
     "minutes_awake": 64
   },
@@ -4241,7 +4241,7 @@
     "lightly_active_minutes": "602",
     "hours_worn": 17,
     "calories": 3569,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 363,
     "minutes_awake": 70
   },
@@ -4252,7 +4252,7 @@
     "lightly_active_minutes": "415",
     "hours_worn": 18,
     "calories": 4148,
-    "resting-heart-rate": 70,
+    "resting_heart_rate": 70,
     "minutes_asleep": 504,
     "minutes_awake": 72
   },
@@ -4263,7 +4263,7 @@
     "lightly_active_minutes": "510",
     "hours_worn": 18,
     "calories": 3229,
-    "resting-heart-rate": 70,
+    "resting_heart_rate": 70,
     "minutes_asleep": 438,
     "minutes_awake": 76
   },
@@ -4274,7 +4274,7 @@
     "lightly_active_minutes": "105",
     "hours_worn": 8,
     "calories": 2866,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 426,
     "minutes_awake": 110
   },
@@ -4285,7 +4285,7 @@
     "lightly_active_minutes": "395",
     "hours_worn": 17,
     "calories": 2457,
-    "resting-heart-rate": 65,
+    "resting_heart_rate": 65,
     "minutes_asleep": 454,
     "minutes_awake": 76
   },
@@ -4296,7 +4296,7 @@
     "lightly_active_minutes": "228",
     "hours_worn": 15,
     "calories": 2958,
-    "resting-heart-rate": 66,
+    "resting_heart_rate": 66,
     "minutes_asleep": 418,
     "minutes_awake": 56
   },
@@ -4307,7 +4307,7 @@
     "lightly_active_minutes": "371",
     "hours_worn": 18,
     "calories": 3056,
-    "resting-heart-rate": 64,
+    "resting_heart_rate": 64,
     "minutes_asleep": 435,
     "minutes_awake": 80
   },
@@ -4318,7 +4318,7 @@
     "lightly_active_minutes": "478",
     "hours_worn": 19,
     "calories": 4349,
-    "resting-heart-rate": 67,
+    "resting_heart_rate": 67,
     "minutes_asleep": 344,
     "minutes_awake": 60
   },
@@ -4329,7 +4329,7 @@
     "lightly_active_minutes": "492",
     "hours_worn": 16,
     "calories": 3561,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 438,
     "minutes_awake": 56
   },
@@ -4340,7 +4340,7 @@
     "lightly_active_minutes": "442",
     "hours_worn": 20,
     "calories": 3404,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 389,
     "minutes_awake": 72
   },
@@ -4351,7 +4351,7 @@
     "lightly_active_minutes": "136",
     "hours_worn": 17,
     "calories": 2815,
-    "resting-heart-rate": 70,
+    "resting_heart_rate": 70,
     "minutes_asleep": 306,
     "minutes_awake": 61
   },
@@ -4362,7 +4362,7 @@
     "lightly_active_minutes": "226",
     "hours_worn": 8,
     "calories": 2709,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -4373,7 +4373,7 @@
     "lightly_active_minutes": "233",
     "hours_worn": 10,
     "calories": 3078,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 452,
     "minutes_awake": 77
   },
@@ -4384,7 +4384,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 2048,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -4395,7 +4395,7 @@
     "lightly_active_minutes": "353",
     "hours_worn": 15,
     "calories": 2650,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -4406,7 +4406,7 @@
     "lightly_active_minutes": "299",
     "hours_worn": 18,
     "calories": 3906,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 316,
     "minutes_awake": 49
   },
@@ -4417,7 +4417,7 @@
     "lightly_active_minutes": "258",
     "hours_worn": 9,
     "calories": 3523,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 423,
     "minutes_awake": 77
   },
@@ -4428,7 +4428,7 @@
     "lightly_active_minutes": "13",
     "hours_worn": 0,
     "calories": 2096,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -4439,7 +4439,7 @@
     "lightly_active_minutes": "508",
     "hours_worn": 17,
     "calories": 2328,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 432,
     "minutes_awake": 65
   },
@@ -4450,7 +4450,7 @@
     "lightly_active_minutes": "488",
     "hours_worn": 14,
     "calories": 3069,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -4461,7 +4461,7 @@
     "lightly_active_minutes": "650",
     "hours_worn": 18,
     "calories": 3596,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 436,
     "minutes_awake": 68
   },
@@ -4472,7 +4472,7 @@
     "lightly_active_minutes": "337",
     "hours_worn": 16,
     "calories": 4147,
-    "resting-heart-rate": 71,
+    "resting_heart_rate": 71,
     "minutes_asleep": 284,
     "minutes_awake": 55
   },
@@ -4483,7 +4483,7 @@
     "lightly_active_minutes": "446",
     "hours_worn": 17,
     "calories": 2441,
-    "resting-heart-rate": 70,
+    "resting_heart_rate": 70,
     "minutes_asleep": 403,
     "minutes_awake": 57
   },
@@ -4494,7 +4494,7 @@
     "lightly_active_minutes": "324",
     "hours_worn": 15,
     "calories": 3739,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 333,
     "minutes_awake": 62
   },
@@ -4505,7 +4505,7 @@
     "lightly_active_minutes": "178",
     "hours_worn": 16,
     "calories": 3215,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 319,
     "minutes_awake": 58
   },
@@ -4516,7 +4516,7 @@
     "lightly_active_minutes": "82",
     "hours_worn": 6,
     "calories": 2623,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 426,
     "minutes_awake": 86
   },
@@ -4527,7 +4527,7 @@
     "lightly_active_minutes": "133",
     "hours_worn": 6,
     "calories": 1627,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -4538,7 +4538,7 @@
     "lightly_active_minutes": "367",
     "hours_worn": 16,
     "calories": 2917,
-    "resting-heart-rate": 67,
+    "resting_heart_rate": 67,
     "minutes_asleep": 387,
     "minutes_awake": 77
   },
@@ -4549,7 +4549,7 @@
     "lightly_active_minutes": "413",
     "hours_worn": 16,
     "calories": 3575,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 386,
     "minutes_awake": 45
   },
@@ -4560,7 +4560,7 @@
     "lightly_active_minutes": "431",
     "hours_worn": 19,
     "calories": 4978,
-    "resting-heart-rate": 70,
+    "resting_heart_rate": 70,
     "minutes_asleep": 299,
     "minutes_awake": 44
   },
@@ -4571,7 +4571,7 @@
     "lightly_active_minutes": "442",
     "hours_worn": 19,
     "calories": 3227,
-    "resting-heart-rate": 72,
+    "resting_heart_rate": 72,
     "minutes_asleep": 372,
     "minutes_awake": 61
   },
@@ -4582,7 +4582,7 @@
     "lightly_active_minutes": "229",
     "hours_worn": 16,
     "calories": 2859,
-    "resting-heart-rate": 70,
+    "resting_heart_rate": 70,
     "minutes_asleep": 388,
     "minutes_awake": 63
   },
@@ -4593,7 +4593,7 @@
     "lightly_active_minutes": "476",
     "hours_worn": 18,
     "calories": 3076,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 345,
     "minutes_awake": 72
   },
@@ -4604,7 +4604,7 @@
     "lightly_active_minutes": "417",
     "hours_worn": 20,
     "calories": 3833,
-    "resting-heart-rate": 70,
+    "resting_heart_rate": 70,
     "minutes_asleep": 334,
     "minutes_awake": 57
   },
@@ -4615,7 +4615,7 @@
     "lightly_active_minutes": "82",
     "hours_worn": 7,
     "calories": 3203,
-    "resting-heart-rate": 70,
+    "resting_heart_rate": 70,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -4626,7 +4626,7 @@
     "lightly_active_minutes": "309",
     "hours_worn": 21,
     "calories": 2527,
-    "resting-heart-rate": 71,
+    "resting_heart_rate": 71,
     "minutes_asleep": 341,
     "minutes_awake": 81
   },
@@ -4637,7 +4637,7 @@
     "lightly_active_minutes": "424",
     "hours_worn": 17,
     "calories": 2683,
-    "resting-heart-rate": 73,
+    "resting_heart_rate": 73,
     "minutes_asleep": 457,
     "minutes_awake": 74
   },
@@ -4648,7 +4648,7 @@
     "lightly_active_minutes": "479",
     "hours_worn": 14,
     "calories": 3294,
-    "resting-heart-rate": 73,
+    "resting_heart_rate": 73,
     "minutes_asleep": 362,
     "minutes_awake": 70
   },
@@ -4659,7 +4659,7 @@
     "lightly_active_minutes": "193",
     "hours_worn": 18,
     "calories": 2854,
-    "resting-heart-rate": 72,
+    "resting_heart_rate": 72,
     "minutes_asleep": 382,
     "minutes_awake": 88
   },
@@ -4670,7 +4670,7 @@
     "lightly_active_minutes": "167",
     "hours_worn": 13,
     "calories": 2254,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 516,
     "minutes_awake": 67
   },
@@ -4681,7 +4681,7 @@
     "lightly_active_minutes": "432",
     "hours_worn": 17,
     "calories": 3168,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 344,
     "minutes_awake": 64
   },
@@ -4692,7 +4692,7 @@
     "lightly_active_minutes": "422",
     "hours_worn": 18,
     "calories": 3919,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 400,
     "minutes_awake": 60
   },
@@ -4703,7 +4703,7 @@
     "lightly_active_minutes": "28",
     "hours_worn": 5,
     "calories": 2711,
-    "resting-heart-rate": 66,
+    "resting_heart_rate": 66,
     "minutes_asleep": 384,
     "minutes_awake": 57
   },
@@ -4714,7 +4714,7 @@
     "lightly_active_minutes": "401",
     "hours_worn": 17,
     "calories": 2301,
-    "resting-heart-rate": 67,
+    "resting_heart_rate": 67,
     "minutes_asleep": 488,
     "minutes_awake": 58
   },
@@ -4725,7 +4725,7 @@
     "lightly_active_minutes": "238",
     "hours_worn": 18,
     "calories": 3654,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 337,
     "minutes_awake": 73
   },
@@ -4736,7 +4736,7 @@
     "lightly_active_minutes": "318",
     "hours_worn": 15,
     "calories": 3163,
-    "resting-heart-rate": 67,
+    "resting_heart_rate": 67,
     "minutes_asleep": 448,
     "minutes_awake": 77
   },
@@ -4747,7 +4747,7 @@
     "lightly_active_minutes": "374",
     "hours_worn": 18,
     "calories": 4241,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 330,
     "minutes_awake": 55
   },
@@ -4758,7 +4758,7 @@
     "lightly_active_minutes": "296",
     "hours_worn": 16,
     "calories": 2805,
-    "resting-heart-rate": 67,
+    "resting_heart_rate": 67,
     "minutes_asleep": 378,
     "minutes_awake": 45
   },
@@ -4769,7 +4769,7 @@
     "lightly_active_minutes": "143",
     "hours_worn": 17,
     "calories": 2700,
-    "resting-heart-rate": 66,
+    "resting_heart_rate": 66,
     "minutes_asleep": 434,
     "minutes_awake": 79
   },
@@ -4780,7 +4780,7 @@
     "lightly_active_minutes": "191",
     "hours_worn": 12,
     "calories": 2683,
-    "resting-heart-rate": 64,
+    "resting_heart_rate": 64,
     "minutes_asleep": 351,
     "minutes_awake": 67
   },
@@ -4791,7 +4791,7 @@
     "lightly_active_minutes": "115",
     "hours_worn": 11,
     "calories": 2120,
-    "resting-heart-rate": 66,
+    "resting_heart_rate": 66,
     "minutes_asleep": 512,
     "minutes_awake": 88
   },
@@ -4802,7 +4802,7 @@
     "lightly_active_minutes": "236",
     "hours_worn": 18,
     "calories": 2425,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 331,
     "minutes_awake": 87
   },
@@ -4813,7 +4813,7 @@
     "lightly_active_minutes": "319",
     "hours_worn": 15,
     "calories": 3405,
-    "resting-heart-rate": 67,
+    "resting_heart_rate": 67,
     "minutes_asleep": 423,
     "minutes_awake": 83
   },
@@ -4824,7 +4824,7 @@
     "lightly_active_minutes": "231",
     "hours_worn": 16,
     "calories": 4429,
-    "resting-heart-rate": 65,
+    "resting_heart_rate": 65,
     "minutes_asleep": 309,
     "minutes_awake": 54
   },
@@ -4835,7 +4835,7 @@
     "lightly_active_minutes": "150",
     "hours_worn": 17,
     "calories": 2355,
-    "resting-heart-rate": 65,
+    "resting_heart_rate": 65,
     "minutes_asleep": 357,
     "minutes_awake": 60
   },
@@ -4846,7 +4846,7 @@
     "lightly_active_minutes": "158",
     "hours_worn": 17,
     "calories": 2479,
-    "resting-heart-rate": 66,
+    "resting_heart_rate": 66,
     "minutes_asleep": 381,
     "minutes_awake": 69
   },
@@ -4857,7 +4857,7 @@
     "lightly_active_minutes": "324",
     "hours_worn": 16,
     "calories": 2935,
-    "resting-heart-rate": 64,
+    "resting_heart_rate": 64,
     "minutes_asleep": 387,
     "minutes_awake": 49
   },
@@ -4868,7 +4868,7 @@
     "lightly_active_minutes": "158",
     "hours_worn": 15,
     "calories": 2835,
-    "resting-heart-rate": 64,
+    "resting_heart_rate": 64,
     "minutes_asleep": 514,
     "minutes_awake": 78
   },
@@ -4879,7 +4879,7 @@
     "lightly_active_minutes": "268",
     "hours_worn": 21,
     "calories": 2917,
-    "resting-heart-rate": 64,
+    "resting_heart_rate": 64,
     "minutes_asleep": 361,
     "minutes_awake": 54
   },
@@ -4890,7 +4890,7 @@
     "lightly_active_minutes": "346",
     "hours_worn": 18,
     "calories": 2834,
-    "resting-heart-rate": 65,
+    "resting_heart_rate": 65,
     "minutes_asleep": 378,
     "minutes_awake": 50
   },
@@ -4901,7 +4901,7 @@
     "lightly_active_minutes": "325",
     "hours_worn": 15,
     "calories": 3913,
-    "resting-heart-rate": 66,
+    "resting_heart_rate": 66,
     "minutes_asleep": 360,
     "minutes_awake": 63
   },
@@ -4912,7 +4912,7 @@
     "lightly_active_minutes": "207",
     "hours_worn": 17,
     "calories": 3013,
-    "resting-heart-rate": 64,
+    "resting_heart_rate": 64,
     "minutes_asleep": 339,
     "minutes_awake": 57
   },
@@ -4923,7 +4923,7 @@
     "lightly_active_minutes": "281",
     "hours_worn": 16,
     "calories": 2614,
-    "resting-heart-rate": 63,
+    "resting_heart_rate": 63,
     "minutes_asleep": 382,
     "minutes_awake": 61
   },
@@ -4934,7 +4934,7 @@
     "lightly_active_minutes": "402",
     "hours_worn": 20,
     "calories": 3136,
-    "resting-heart-rate": 63,
+    "resting_heart_rate": 63,
     "minutes_asleep": 306,
     "minutes_awake": 114
   },
@@ -4945,7 +4945,7 @@
     "lightly_active_minutes": "223",
     "hours_worn": 14,
     "calories": 3601,
-    "resting-heart-rate": 64,
+    "resting_heart_rate": 64,
     "minutes_asleep": 481,
     "minutes_awake": 80
   },
@@ -4956,7 +4956,7 @@
     "lightly_active_minutes": "224",
     "hours_worn": 18,
     "calories": 2614,
-    "resting-heart-rate": 65,
+    "resting_heart_rate": 65,
     "minutes_asleep": 315,
     "minutes_awake": 54
   },
@@ -4967,7 +4967,7 @@
     "lightly_active_minutes": "249",
     "hours_worn": 17,
     "calories": 2638,
-    "resting-heart-rate": 66,
+    "resting_heart_rate": 66,
     "minutes_asleep": 390,
     "minutes_awake": 78
   },
@@ -4978,7 +4978,7 @@
     "lightly_active_minutes": "193",
     "hours_worn": 15,
     "calories": 2693,
-    "resting-heart-rate": 66,
+    "resting_heart_rate": 66,
     "minutes_asleep": 340,
     "minutes_awake": 40
   },
@@ -4989,7 +4989,7 @@
     "lightly_active_minutes": "241",
     "hours_worn": 15,
     "calories": 2408,
-    "resting-heart-rate": 66,
+    "resting_heart_rate": 66,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -5000,7 +5000,7 @@
     "lightly_active_minutes": "215",
     "hours_worn": 16,
     "calories": 2937,
-    "resting-heart-rate": 67,
+    "resting_heart_rate": 67,
     "minutes_asleep": 355,
     "minutes_awake": 65
   },
@@ -5011,7 +5011,7 @@
     "lightly_active_minutes": "291",
     "hours_worn": 18,
     "calories": 2660,
-    "resting-heart-rate": 65,
+    "resting_heart_rate": 65,
     "minutes_asleep": 379,
     "minutes_awake": 35
   },
@@ -5022,7 +5022,7 @@
     "lightly_active_minutes": "291",
     "hours_worn": 17,
     "calories": 3191,
-    "resting-heart-rate": 65,
+    "resting_heart_rate": 65,
     "minutes_asleep": 351,
     "minutes_awake": 78
   },
@@ -5033,7 +5033,7 @@
     "lightly_active_minutes": "184",
     "hours_worn": 13,
     "calories": 3481,
-    "resting-heart-rate": 66,
+    "resting_heart_rate": 66,
     "minutes_asleep": 354,
     "minutes_awake": 49
   },
@@ -5044,7 +5044,7 @@
     "lightly_active_minutes": "337",
     "hours_worn": 21,
     "calories": 2403,
-    "resting-heart-rate": 67,
+    "resting_heart_rate": 67,
     "minutes_asleep": 324,
     "minutes_awake": 55
   },
@@ -5055,7 +5055,7 @@
     "lightly_active_minutes": "190",
     "hours_worn": 20,
     "calories": 2956,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 346,
     "minutes_awake": 41
   },
@@ -5066,7 +5066,7 @@
     "lightly_active_minutes": "190",
     "hours_worn": 19,
     "calories": 2375,
-    "resting-heart-rate": 67,
+    "resting_heart_rate": 67,
     "minutes_asleep": 297,
     "minutes_awake": 74
   },
@@ -5077,7 +5077,7 @@
     "lightly_active_minutes": "232",
     "hours_worn": 18,
     "calories": 2820,
-    "resting-heart-rate": 66,
+    "resting_heart_rate": 66,
     "minutes_asleep": 435,
     "minutes_awake": 82
   },
@@ -5088,7 +5088,7 @@
     "lightly_active_minutes": "403",
     "hours_worn": 17,
     "calories": 2853,
-    "resting-heart-rate": 63,
+    "resting_heart_rate": 63,
     "minutes_asleep": 369,
     "minutes_awake": 80
   },
@@ -5099,7 +5099,7 @@
     "lightly_active_minutes": "236",
     "hours_worn": 15,
     "calories": 3358,
-    "resting-heart-rate": 64,
+    "resting_heart_rate": 64,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -5110,7 +5110,7 @@
     "lightly_active_minutes": "108",
     "hours_worn": 8,
     "calories": 2549,
-    "resting-heart-rate": 65,
+    "resting_heart_rate": 65,
     "minutes_asleep": 405,
     "minutes_awake": 55
   },
@@ -5121,7 +5121,7 @@
     "lightly_active_minutes": "255",
     "hours_worn": 14,
     "calories": 1894,
-    "resting-heart-rate": 66,
+    "resting_heart_rate": 66,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -5132,7 +5132,7 @@
     "lightly_active_minutes": "175",
     "hours_worn": 18,
     "calories": 2683,
-    "resting-heart-rate": 66,
+    "resting_heart_rate": 66,
     "minutes_asleep": 400,
     "minutes_awake": 51
   },
@@ -5143,7 +5143,7 @@
     "lightly_active_minutes": "256",
     "hours_worn": 16,
     "calories": 2199,
-    "resting-heart-rate": 66,
+    "resting_heart_rate": 66,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -5154,7 +5154,7 @@
     "lightly_active_minutes": "193",
     "hours_worn": 19,
     "calories": 2408,
-    "resting-heart-rate": 64,
+    "resting_heart_rate": 64,
     "minutes_asleep": 278,
     "minutes_awake": 66
   },
@@ -5165,7 +5165,7 @@
     "lightly_active_minutes": "492",
     "hours_worn": 18,
     "calories": 3016,
-    "resting-heart-rate": 64,
+    "resting_heart_rate": 64,
     "minutes_asleep": 366,
     "minutes_awake": 53
   },
@@ -5176,7 +5176,7 @@
     "lightly_active_minutes": "286",
     "hours_worn": 12,
     "calories": 3830,
-    "resting-heart-rate": 64,
+    "resting_heart_rate": 64,
     "minutes_asleep": 449,
     "minutes_awake": 82
   },
@@ -5187,7 +5187,7 @@
     "lightly_active_minutes": "229",
     "hours_worn": 12,
     "calories": 2907,
-    "resting-heart-rate": 65,
+    "resting_heart_rate": 65,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -5198,7 +5198,7 @@
     "lightly_active_minutes": "372",
     "hours_worn": 18,
     "calories": 3113,
-    "resting-heart-rate": 66,
+    "resting_heart_rate": 66,
     "minutes_asleep": 362,
     "minutes_awake": 55
   },
@@ -5209,7 +5209,7 @@
     "lightly_active_minutes": "80",
     "hours_worn": 11,
     "calories": 2539,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 516,
     "minutes_awake": 86
   },
@@ -5220,7 +5220,7 @@
     "lightly_active_minutes": "163",
     "hours_worn": 17,
     "calories": 2117,
-    "resting-heart-rate": 66,
+    "resting_heart_rate": 66,
     "minutes_asleep": 323,
     "minutes_awake": 62
   },
@@ -5231,7 +5231,7 @@
     "lightly_active_minutes": "188",
     "hours_worn": 15,
     "calories": 2218,
-    "resting-heart-rate": 66,
+    "resting_heart_rate": 66,
     "minutes_asleep": 400,
     "minutes_awake": 89
   },
@@ -5242,7 +5242,7 @@
     "lightly_active_minutes": "336",
     "hours_worn": 14,
     "calories": 3525,
-    "resting-heart-rate": 67,
+    "resting_heart_rate": 67,
     "minutes_asleep": 403,
     "minutes_awake": 54
   },
@@ -5253,7 +5253,7 @@
     "lightly_active_minutes": "102",
     "hours_worn": 12,
     "calories": 3105,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -5264,7 +5264,7 @@
     "lightly_active_minutes": "233",
     "hours_worn": 18,
     "calories": 2656,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 357,
     "minutes_awake": 68
   },
@@ -5275,7 +5275,7 @@
     "lightly_active_minutes": "195",
     "hours_worn": 18,
     "calories": 2624,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 321,
     "minutes_awake": 31
   },
@@ -5286,7 +5286,7 @@
     "lightly_active_minutes": "234",
     "hours_worn": 18,
     "calories": 2295,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 419,
     "minutes_awake": 69
   },
@@ -5297,7 +5297,7 @@
     "lightly_active_minutes": "108",
     "hours_worn": 15,
     "calories": 2414,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 420,
     "minutes_awake": 61
   },
@@ -5308,7 +5308,7 @@
     "lightly_active_minutes": "266",
     "hours_worn": 14,
     "calories": 2522,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -5319,7 +5319,7 @@
     "lightly_active_minutes": "468",
     "hours_worn": 17,
     "calories": 3564,
-    "resting-heart-rate": 66,
+    "resting_heart_rate": 66,
     "minutes_asleep": 378,
     "minutes_awake": 60
   },
@@ -5330,7 +5330,7 @@
     "lightly_active_minutes": "375",
     "hours_worn": 17,
     "calories": 3878,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 410,
     "minutes_awake": 48
   },
@@ -5341,7 +5341,7 @@
     "lightly_active_minutes": "175",
     "hours_worn": 17,
     "calories": 2805,
-    "resting-heart-rate": 67,
+    "resting_heart_rate": 67,
     "minutes_asleep": 366,
     "minutes_awake": 58
   },
@@ -5352,7 +5352,7 @@
     "lightly_active_minutes": "210",
     "hours_worn": 17,
     "calories": 2495,
-    "resting-heart-rate": 67,
+    "resting_heart_rate": 67,
     "minutes_asleep": 417,
     "minutes_awake": 75
   },
@@ -5363,7 +5363,7 @@
     "lightly_active_minutes": "12",
     "hours_worn": 0,
     "calories": 2310,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -5374,7 +5374,7 @@
     "lightly_active_minutes": "110",
     "hours_worn": 18,
     "calories": 1992,
-    "resting-heart-rate": 67,
+    "resting_heart_rate": 67,
     "minutes_asleep": 315,
     "minutes_awake": 45
   },
@@ -5385,7 +5385,7 @@
     "lightly_active_minutes": "107",
     "hours_worn": 12,
     "calories": 1949,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 437,
     "minutes_awake": 71
   },
@@ -5396,7 +5396,7 @@
     "lightly_active_minutes": "368",
     "hours_worn": 16,
     "calories": 3182,
-    "resting-heart-rate": 72,
+    "resting_heart_rate": 72,
     "minutes_asleep": 357,
     "minutes_awake": 68
   },
@@ -5407,7 +5407,7 @@
     "lightly_active_minutes": "45",
     "hours_worn": 6,
     "calories": 2706,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 444,
     "minutes_awake": 101
   },
@@ -5418,7 +5418,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -5429,7 +5429,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1627,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -5440,7 +5440,7 @@
     "lightly_active_minutes": "48",
     "hours_worn": 5,
     "calories": 1627,
-    "resting-heart-rate": 70,
+    "resting_heart_rate": 70,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -5451,7 +5451,7 @@
     "lightly_active_minutes": "246",
     "hours_worn": 16,
     "calories": 2310,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 347,
     "minutes_awake": 38
   },
@@ -5462,7 +5462,7 @@
     "lightly_active_minutes": "144",
     "hours_worn": 13,
     "calories": 2491,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -5473,7 +5473,7 @@
     "lightly_active_minutes": "453",
     "hours_worn": 18,
     "calories": 3105,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 548,
     "minutes_awake": 64
   },
@@ -5484,7 +5484,7 @@
     "lightly_active_minutes": "356",
     "hours_worn": 17,
     "calories": 3427,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 473,
     "minutes_awake": 61
   },
@@ -5495,7 +5495,7 @@
     "lightly_active_minutes": "60",
     "hours_worn": 4,
     "calories": 2670,
-    "resting-heart-rate": 67,
+    "resting_heart_rate": 67,
     "minutes_asleep": 365,
     "minutes_awake": 47
   },
@@ -5506,7 +5506,7 @@
     "lightly_active_minutes": "266",
     "hours_worn": 14,
     "calories": 1901,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -5517,7 +5517,7 @@
     "lightly_active_minutes": "190",
     "hours_worn": 16,
     "calories": 2720,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 414,
     "minutes_awake": 49
   },
@@ -5528,7 +5528,7 @@
     "lightly_active_minutes": "163",
     "hours_worn": 15,
     "calories": 2163,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 369,
     "minutes_awake": 61
   },
@@ -5539,7 +5539,7 @@
     "lightly_active_minutes": "163",
     "hours_worn": 15,
     "calories": 2297,
-    "resting-heart-rate": 66,
+    "resting_heart_rate": 66,
     "minutes_asleep": 375,
     "minutes_awake": 53
   },
@@ -5550,7 +5550,7 @@
     "lightly_active_minutes": "413",
     "hours_worn": 15,
     "calories": 2728,
-    "resting-heart-rate": 67,
+    "resting_heart_rate": 67,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -5561,7 +5561,7 @@
     "lightly_active_minutes": "233",
     "hours_worn": 17,
     "calories": 3103,
-    "resting-heart-rate": 65,
+    "resting_heart_rate": 65,
     "minutes_asleep": 411,
     "minutes_awake": 57
   },
@@ -5572,7 +5572,7 @@
     "lightly_active_minutes": "202",
     "hours_worn": 19,
     "calories": 2599,
-    "resting-heart-rate": 63,
+    "resting_heart_rate": 63,
     "minutes_asleep": 348,
     "minutes_awake": 47
   },
@@ -5583,7 +5583,7 @@
     "lightly_active_minutes": "231",
     "hours_worn": 18,
     "calories": 2514,
-    "resting-heart-rate": 62,
+    "resting_heart_rate": 62,
     "minutes_asleep": 329,
     "minutes_awake": 74
   },
@@ -5594,7 +5594,7 @@
     "lightly_active_minutes": "192",
     "hours_worn": 14,
     "calories": 2732,
-    "resting-heart-rate": 64,
+    "resting_heart_rate": 64,
     "minutes_asleep": 448,
     "minutes_awake": 29
   },
@@ -5605,7 +5605,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1999,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -5616,7 +5616,7 @@
     "lightly_active_minutes": "258",
     "hours_worn": 16,
     "calories": 2022,
-    "resting-heart-rate": 65,
+    "resting_heart_rate": 65,
     "minutes_asleep": 342,
     "minutes_awake": 63
   },
@@ -5627,7 +5627,7 @@
     "lightly_active_minutes": "270",
     "hours_worn": 11,
     "calories": 2801,
-    "resting-heart-rate": 66,
+    "resting_heart_rate": 66,
     "minutes_asleep": 455,
     "minutes_awake": 76
   },
@@ -5638,7 +5638,7 @@
     "lightly_active_minutes": "223",
     "hours_worn": 16,
     "calories": 3561,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 316,
     "minutes_awake": 53
   },
@@ -5649,7 +5649,7 @@
     "lightly_active_minutes": "124",
     "hours_worn": 16,
     "calories": 2252,
-    "resting-heart-rate": 66,
+    "resting_heart_rate": 66,
     "minutes_asleep": 352,
     "minutes_awake": 43
   },
@@ -5660,7 +5660,7 @@
     "lightly_active_minutes": "190",
     "hours_worn": 18,
     "calories": 2219,
-    "resting-heart-rate": 65,
+    "resting_heart_rate": 65,
     "minutes_asleep": 398,
     "minutes_awake": 70
   },
@@ -5671,7 +5671,7 @@
     "lightly_active_minutes": "297",
     "hours_worn": 18,
     "calories": 2575,
-    "resting-heart-rate": 63,
+    "resting_heart_rate": 63,
     "minutes_asleep": 414,
     "minutes_awake": 59
   },
@@ -5682,7 +5682,7 @@
     "lightly_active_minutes": "135",
     "hours_worn": 15,
     "calories": 2608,
-    "resting-heart-rate": 63,
+    "resting_heart_rate": 63,
     "minutes_asleep": 317,
     "minutes_awake": 58
   },
@@ -5693,7 +5693,7 @@
     "lightly_active_minutes": "168",
     "hours_worn": 19,
     "calories": 2486,
-    "resting-heart-rate": 64,
+    "resting_heart_rate": 64,
     "minutes_asleep": 387,
     "minutes_awake": 58
   },
@@ -5704,7 +5704,7 @@
     "lightly_active_minutes": "319",
     "hours_worn": 13,
     "calories": 2571,
-    "resting-heart-rate": 66,
+    "resting_heart_rate": 66,
     "minutes_asleep": 97,
     "minutes_awake": 11
   },
@@ -5715,7 +5715,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 2718,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -5726,7 +5726,7 @@
     "lightly_active_minutes": "120",
     "hours_worn": 11,
     "calories": 2020,
-    "resting-heart-rate": 66,
+    "resting_heart_rate": 66,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -5737,7 +5737,7 @@
     "lightly_active_minutes": "0",
     "hours_worn": 0,
     "calories": 1799,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -5748,7 +5748,7 @@
     "lightly_active_minutes": "339",
     "hours_worn": 11,
     "calories": 2077,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -5759,7 +5759,7 @@
     "lightly_active_minutes": "167",
     "hours_worn": 18,
     "calories": 3592,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 513,
     "minutes_awake": 83
   },
@@ -5770,7 +5770,7 @@
     "lightly_active_minutes": "7",
     "hours_worn": 2,
     "calories": 2141,
-    "resting-heart-rate": 68,
+    "resting_heart_rate": 68,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -5781,7 +5781,7 @@
     "lightly_active_minutes": "387",
     "hours_worn": 13,
     "calories": 2567,
-    "resting-heart-rate": 69,
+    "resting_heart_rate": 69,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -5792,7 +5792,7 @@
     "lightly_active_minutes": "155",
     "hours_worn": 16,
     "calories": 2680,
-    "resting-heart-rate": 67,
+    "resting_heart_rate": 67,
     "minutes_asleep": 447,
     "minutes_awake": 78
   },
@@ -5803,7 +5803,7 @@
     "lightly_active_minutes": "136",
     "hours_worn": 16,
     "calories": 2119,
-    "resting-heart-rate": 65,
+    "resting_heart_rate": 65,
     "minutes_asleep": 441,
     "minutes_awake": 63
   },
@@ -5814,7 +5814,7 @@
     "lightly_active_minutes": "188",
     "hours_worn": 14,
     "calories": 2183,
-    "resting-heart-rate": 66,
+    "resting_heart_rate": 66,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -5825,7 +5825,7 @@
     "lightly_active_minutes": "207",
     "hours_worn": 18,
     "calories": 2686,
-    "resting-heart-rate": 64,
+    "resting_heart_rate": 64,
     "minutes_asleep": 383,
     "minutes_awake": 56
   },
@@ -5836,7 +5836,7 @@
     "lightly_active_minutes": "135",
     "hours_worn": 9,
     "calories": 1926,
-    "resting-heart-rate": 64,
+    "resting_heart_rate": 64,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -5847,7 +5847,7 @@
     "lightly_active_minutes": "184",
     "hours_worn": 14,
     "calories": 2760,
-    "resting-heart-rate": 67,
+    "resting_heart_rate": 67,
     "minutes_asleep": 259,
     "minutes_awake": 47
   },
@@ -5858,7 +5858,7 @@
     "lightly_active_minutes": "215",
     "hours_worn": 12,
     "calories": 2120,
-    "resting-heart-rate": 67,
+    "resting_heart_rate": 67,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -5869,7 +5869,7 @@
     "lightly_active_minutes": "414",
     "hours_worn": 18,
     "calories": 3656,
-    "resting-heart-rate": 65,
+    "resting_heart_rate": 65,
     "minutes_asleep": 352,
     "minutes_awake": 57
   },
@@ -5880,7 +5880,7 @@
     "lightly_active_minutes": "148",
     "hours_worn": 14,
     "calories": 2719,
-    "resting-heart-rate": 65,
+    "resting_heart_rate": 65,
     "minutes_asleep": 434,
     "minutes_awake": 74
   },
@@ -5891,7 +5891,7 @@
     "lightly_active_minutes": "138",
     "hours_worn": 13,
     "calories": 2391,
-    "resting-heart-rate": 65,
+    "resting_heart_rate": 65,
     "minutes_asleep": 411,
     "minutes_awake": 66
   },
@@ -5902,7 +5902,7 @@
     "lightly_active_minutes": "94",
     "hours_worn": 13,
     "calories": 1937,
-    "resting-heart-rate": 65,
+    "resting_heart_rate": 65,
     "minutes_asleep": 412,
     "minutes_awake": 56
   },
@@ -5913,7 +5913,7 @@
     "lightly_active_minutes": "300",
     "hours_worn": 19,
     "calories": 3043,
-    "resting-heart-rate": 65,
+    "resting_heart_rate": 65,
     "minutes_asleep": 273,
     "minutes_awake": 54
   },
@@ -5924,7 +5924,7 @@
     "lightly_active_minutes": "312",
     "hours_worn": 14,
     "calories": 2455,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -5935,7 +5935,7 @@
     "lightly_active_minutes": "18",
     "hours_worn": 4,
     "calories": 2599,
-    "resting-heart-rate": 65,
+    "resting_heart_rate": 65,
     "minutes_asleep": 65,
     "minutes_awake": 4
   },
@@ -5946,7 +5946,7 @@
     "lightly_active_minutes": "148",
     "hours_worn": 17,
     "calories": 1883,
-    "resting-heart-rate": 63,
+    "resting_heart_rate": 63,
     "minutes_asleep": 316,
     "minutes_awake": 59
   },
@@ -5957,7 +5957,7 @@
     "lightly_active_minutes": "10",
     "hours_worn": 1,
     "calories": 1946,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -5968,7 +5968,7 @@
     "lightly_active_minutes": "119",
     "hours_worn": 14,
     "calories": 1776,
-    "resting-heart-rate": 64,
+    "resting_heart_rate": 64,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -5979,7 +5979,7 @@
     "lightly_active_minutes": "8",
     "hours_worn": 0,
     "calories": 1977,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -5990,7 +5990,7 @@
     "lightly_active_minutes": "272",
     "hours_worn": 13,
     "calories": 2170,
-    "resting-heart-rate": 66,
+    "resting_heart_rate": 66,
     "minutes_asleep": 133,
     "minutes_awake": 2
   },
@@ -6001,7 +6001,7 @@
     "lightly_active_minutes": "142",
     "hours_worn": 14,
     "calories": 3590,
-    "resting-heart-rate": 66,
+    "resting_heart_rate": 66,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -6012,7 +6012,7 @@
     "lightly_active_minutes": "359",
     "hours_worn": 18,
     "calories": 2718,
-    "resting-heart-rate": 63,
+    "resting_heart_rate": 63,
     "minutes_asleep": 382,
     "minutes_awake": 70
   },
@@ -6023,7 +6023,7 @@
     "lightly_active_minutes": "183",
     "hours_worn": 17,
     "calories": 3373,
-    "resting-heart-rate": 62,
+    "resting_heart_rate": 62,
     "minutes_asleep": 375,
     "minutes_awake": 41
   },
@@ -6034,7 +6034,7 @@
     "lightly_active_minutes": "455",
     "hours_worn": 17,
     "calories": 3063,
-    "resting-heart-rate": 64,
+    "resting_heart_rate": 64,
     "minutes_asleep": 402,
     "minutes_awake": 70
   },
@@ -6045,7 +6045,7 @@
     "lightly_active_minutes": "433",
     "hours_worn": 17,
     "calories": 3207,
-    "resting-heart-rate": 63,
+    "resting_heart_rate": 63,
     "minutes_asleep": 486,
     "minutes_awake": 66
   },
@@ -6056,7 +6056,7 @@
     "lightly_active_minutes": "6",
     "hours_worn": 2,
     "calories": 2513,
-    "resting-heart-rate": 64,
+    "resting_heart_rate": 64,
     "minutes_asleep": 432,
     "minutes_awake": 93
   },
@@ -6067,7 +6067,7 @@
     "lightly_active_minutes": "353",
     "hours_worn": 11,
     "calories": 2136,
-    "resting-heart-rate": 64,
+    "resting_heart_rate": 64,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -6078,7 +6078,7 @@
     "lightly_active_minutes": "357",
     "hours_worn": 14,
     "calories": 3561,
-    "resting-heart-rate": 64,
+    "resting_heart_rate": 64,
     "minutes_asleep": 470,
     "minutes_awake": 73
   },
@@ -6089,7 +6089,7 @@
     "lightly_active_minutes": "473",
     "hours_worn": 18,
     "calories": 4009,
-    "resting-heart-rate": 65,
+    "resting_heart_rate": 65,
     "minutes_asleep": 356,
     "minutes_awake": 88
   },
@@ -6100,7 +6100,7 @@
     "lightly_active_minutes": "55",
     "hours_worn": 9,
     "calories": 2774,
-    "resting-heart-rate": 66,
+    "resting_heart_rate": 66,
     "minutes_asleep": 492,
     "minutes_awake": 68
   },
@@ -6111,7 +6111,7 @@
     "lightly_active_minutes": "191",
     "hours_worn": 10,
     "calories": 1777,
-    "resting-heart-rate": 66,
+    "resting_heart_rate": 66,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -6122,7 +6122,7 @@
     "lightly_active_minutes": "288",
     "hours_worn": 18,
     "calories": 2384,
-    "resting-heart-rate": 65,
+    "resting_heart_rate": 65,
     "minutes_asleep": 409,
     "minutes_awake": 80
   },
@@ -6133,7 +6133,7 @@
     "lightly_active_minutes": "236",
     "hours_worn": 15,
     "calories": 2640,
-    "resting-heart-rate": 63,
+    "resting_heart_rate": 63,
     "minutes_asleep": 436,
     "minutes_awake": 67
   },
@@ -6144,7 +6144,7 @@
     "lightly_active_minutes": "120",
     "hours_worn": 14,
     "calories": 2689,
-    "resting-heart-rate": 64,
+    "resting_heart_rate": 64,
     "minutes_asleep": 297,
     "minutes_awake": 64
   },
@@ -6155,7 +6155,7 @@
     "lightly_active_minutes": "163",
     "hours_worn": 16,
     "calories": 2035,
-    "resting-heart-rate": 62,
+    "resting_heart_rate": 62,
     "minutes_asleep": 289,
     "minutes_awake": 86
   },
@@ -6166,7 +6166,7 @@
     "lightly_active_minutes": "321",
     "hours_worn": 16,
     "calories": 2828,
-    "resting-heart-rate": 63,
+    "resting_heart_rate": 63,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -6177,7 +6177,7 @@
     "lightly_active_minutes": "185",
     "hours_worn": 14,
     "calories": 2694,
-    "resting-heart-rate": 63,
+    "resting_heart_rate": 63,
     "minutes_asleep": 412,
     "minutes_awake": 47
   },
@@ -6188,7 +6188,7 @@
     "lightly_active_minutes": "7",
     "hours_worn": 2,
     "calories": 2139,
-    "resting-heart-rate": 0,
+    "resting_heart_rate": 0,
     "minutes_asleep": 0,
     "minutes_awake": 0
   },
@@ -6199,7 +6199,7 @@
     "lightly_active_minutes": "186",
     "hours_worn": 11,
     "calories": 2017,
-    "resting-heart-rate": 64,
+    "resting_heart_rate": 64,
     "minutes_asleep": 684,
     "minutes_awake": 50
   },
@@ -6210,7 +6210,7 @@
     "lightly_active_minutes": "220",
     "hours_worn": 18,
     "calories": 2179,
-    "resting-heart-rate": 64,
+    "resting_heart_rate": 64,
     "minutes_asleep": 378,
     "minutes_awake": 54
   },
@@ -6221,7 +6221,7 @@
     "lightly_active_minutes": "217",
     "hours_worn": 19,
     "calories": 2452,
-    "resting-heart-rate": 66,
+    "resting_heart_rate": 66,
     "minutes_asleep": 333,
     "minutes_awake": 47
   },
@@ -6232,7 +6232,7 @@
     "lightly_active_minutes": "241",
     "hours_worn": 20,
     "calories": 2758,
-    "resting-heart-rate": 65,
+    "resting_heart_rate": 65,
     "minutes_asleep": 363,
     "minutes_awake": 47
   },
@@ -6243,7 +6243,7 @@
     "lightly_active_minutes": "451",
     "hours_worn": 19,
     "calories": 3026,
-    "resting-heart-rate": 64,
+    "resting_heart_rate": 64,
     "minutes_asleep": 413,
     "minutes_awake": 61
   },
@@ -6254,7 +6254,7 @@
     "lightly_active_minutes": "351",
     "hours_worn": 16,
     "calories": 3590,
-    "resting-heart-rate": 64,
+    "resting_heart_rate": 64,
     "minutes_asleep": 435,
     "minutes_awake": 62
   },
@@ -6265,7 +6265,7 @@
     "lightly_active_minutes": "86",
     "hours_worn": 8,
     "calories": 2630,
-    "resting-heart-rate": 66,
+    "resting_heart_rate": 66,
     "minutes_asleep": 456,
     "minutes_awake": 68
   }

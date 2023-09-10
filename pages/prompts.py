@@ -37,7 +37,7 @@ for page in prompt_pages:
 prompt_pages['total']['prompt'] = np.random.choice(
             np.array([prompt_pages['steps']['prompt'], prompt_pages['lightly_active_minutes']['prompt'], 
                       prompt_pages['fairly_active_minutes']['prompt'], prompt_pages['missing_data']['prompt']]))
-print(prompt_pages)
+#print(prompt_pages)
 
 layout = dbc.Row([dbc.Col([
     dbc.Row(html.H1("Prompt")),

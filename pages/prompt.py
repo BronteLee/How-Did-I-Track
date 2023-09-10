@@ -5,6 +5,8 @@ from datetime import datetime
 import plotly.graph_objects as go
 import numpy as np
 import dash_bootstrap_components as dbc
+from reflection import reflection_panel
+from correlationgraph import corr_graph
 
 dash.register_page(__name__, path_template="/prompt/<prompt_id>")
 
@@ -52,25 +54,6 @@ def make_figure(padff, type):
     graph.add_hline(y=mean, annotation_text="Average: "+str(int(round(mean, 0))), annotation_font_size=20)
     return graph
 
-reflections = [
-    dbc.Row(html.H3("My Reflections", className="reflection--heading")),
-    dbc.Row(html.P("What have I learnt?", className="reflection-question")),
-    dbc.Row(dcc.Textarea(
-        id="text-learn",
-        placeholder="I learnt ...",
-        style={"width":"90%", "margin": "auto"})),
-    dbc.Row(html.Button("Add", id="confirm-learn", className="reflection--button"), style={"padding": "10px"}),
-    dbc.Row(html.P(id="all-learn")),
-    dbc.Row(html.Hr()),
-    dbc.Row(html.P("What will I do?", className="reflection-question")),
-    dbc.Row(dcc.Textarea(
-        id="text-do",
-        placeholder="I will ...",
-        style={"width":"90%", "margin": "auto"})),
-    dbc.Row(html.Button("Add", id="confirm-do", className="reflection--button"), style={"padding": "10px"}),
-    dbc.Row(html.P(id="all-do"))
-    ]
-
 def layout(prompt_id):
     dff = df.iloc[int(prompt_id)-1]
     start_date = dff['start_date']
@@ -84,9 +67,11 @@ def layout(prompt_id):
         dbc.Row(html.H4(graph_label(dff['type']))),
         dbc.Row(dcc.Graph(id="prompt graph", figure=make_figure(padff, dff['type']), 
             config={'displayModeBar': False})),
+        dbc.Row(html.P("Contextual Factors")),
+        dbc.Row(dcc.Graph(id="prompt-correlations", figure=corr_graph(padff, dff['type']))),
         dbc.Row(html.H4("Questions")),
         dbc.Row(html.P(dff["question1"])),
         dbc.Row(html.P(dff["question2"]))
         ], width=9),
-        dbc.Col(reflections, width=3, className="reflection--panel")
+        dbc.Col(reflection_panel(None), width=3, className="reflection--panel")
         ], style={"padding-left": "10px", "max-width": "100%"})

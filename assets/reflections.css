@@ -1,0 +1,95 @@
+.reflections--text {
+    margin: auto;
+    resize: none;
+    width: 60%;
+    height: 30px;
+}
+.reflections--search {
+    border-radius: 15px;
+    background-color: sandybrown;
+    border-color: sandybrown;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 35%
+}
+
+.reflections--search:hover {
+    background-color: orange;
+}
+
+.reflections--tag {
+    border-radius: 5px;
+    background-color: plum;
+    border-color: plum;
+}
+
+.reflections--tag:hover {
+    background-color: rgb(241, 187, 241);
+    border-color: rgb(241, 187, 241);
+}
+
+.reflections--clear {
+    width: 15%;
+    background-color: rgb(244, 102, 102);
+    border-color: rgb(244, 102, 102);
+    border-radius: 15px;
+    margin: auto;
+}
+
+.reflections--clear:hover {
+    background-color: red;
+    color: white;
+}
+
+.reflections--edit {
+    border-radius: 5px;
+    float: right;
+}
+
+.reflections--edit:hover {
+    background-color: white;
+}
+
+.reflections--delete {
+    background-color: rgb(244, 102, 102);
+    border-color: rgb(244, 102, 102);
+    border-radius: 5px;
+    float: right;
+    margin: 10px;
+}
+
+.reflections--delete:hover {
+    background-color: red;
+    border-color: red;
+    color: white;
+}
+
+.reflections--dropdown {
+    width: 75%;
+    margin: auto;
+}
+
+.reflections--save {
+    border-radius: 5px;
+    background-color: rgb(3, 201, 3);
+    border-color: rgb(3, 201, 3);
+    margin-top: 10px;
+}
+
+.reflections--save:hover {
+    background-color: green;
+    border-color: green;
+    color: white;
+}
+
+.reflections--cancel {
+    border-radius: 5px;
+    border-color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.reflections--cancel:hover {
+    background-color: gray;
+    color: white;
+}

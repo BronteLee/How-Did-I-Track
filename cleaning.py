@@ -126,4 +126,22 @@ def add_sleep():
     out_file = open("data/daily-data-2.json", "w")
     json.dump(new_data, out_file, indent=2)
     out_file.close()
-add_sleep()
+
+daily = json.load(open("data/daily-data-2.json", encoding="utf-8"))
+result = []
+for i in daily:
+    k = {}
+    k["date"] = i["date"]
+    k["steps"] = i["steps"]
+    k["fairly_active_minutes"] = i["fairly_active_minutes"]
+    k["lightly_active_minutes"] = i["lightly_active_minutes"]
+    k["hours_worn"] = i["hours_worn"]
+    k["calories"] = i["calories"]
+    k["resting_heart_rate"] = i["resting-heart-rate"]
+    k["minutes_asleep"] = i["minutes_asleep"]
+    k["minutes_awake"] = i["minutes_awake"]
+    result.append(k)
+    print(result)
+out_file = open("data/daily-data-2.json", "w")
+json.dump(result, out_file, indent=2)
+out_file.close()
