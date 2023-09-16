@@ -21,15 +21,14 @@ def make_hover_text(data, datatype):
         vals.append(data[datatype][i])
         metrics.append(i)
     for k in range(0,len(vals)):
-        text = "The more " + metrics[k] + " you did"
+        text = "The higher your " + metrics[k].replace("_", " ")
         if vals[k] > 0:
             text += " the more "
         else:
             text += " the less "
-        text += datatype
+        text += datatype.replace("_", " ")
         text += " you did"
         hover_text.append(text)
-    #print("LEN DATA",len(data), "LEN HOVER", len(hover_text))
     #print("HOVER",hover_text)
     return hover_text
 
@@ -65,7 +64,7 @@ def corr_graph(dff, datatype):
             zmin= -1,
             zmax = 1,
             hovertemplate=("%{customdata}"),
-            customdata=np.stack(make_hover_text(data, datatype), axis=-1),
+            customdata=[make_hover_text(data, datatype)],
             colorbar=dict(
                 tickmode="array",
                 tickvals=[-1, 1],
@@ -79,5 +78,5 @@ def corr_graph(dff, datatype):
         ),
         yaxis=dict(visible= False),
         xaxis=dict(showline=True),
-        height=90)
+        height=145),
         )

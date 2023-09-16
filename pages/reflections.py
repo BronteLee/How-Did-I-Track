@@ -8,6 +8,15 @@ import json
 
 dash.register_page(__name__, path_template="/reflections")
 
+filter_con = sqlite3.connect('data/reflecting.db')
+filter_cur = filter_con.cursor()
+filter_result = filter_cur.execute("SELECT tag FROM tags").fetchall()
+filter_tags = []
+for tag in filter_result:
+    filter_tags.append(tag[0])
+filter_con.close()
+filter_tags.sort()
+
 layout = dbc.Row([dbc.Col([
     dbc.Row(html.H1("Reflections")),
     dbc.Row([
@@ -17,12 +26,8 @@ layout = dbc.Row([dbc.Col([
         html.Button("Search", id="confirm-search", className="reflections--search")
     ], style={"width": "50%", "margin": "auto", "float": "unset"}),
     dbc.Row([
-        dbc.Col(html.P("Filters")),
-        dbc.Col(html.Button("steps", id="steps-tag", className="reflections--tag")),
-        dbc.Col(html.Button("holiday", id="holiday-tag",className="reflections--tag")),
-        dbc.Col(html.Button("sport", id="sport-tag", className="reflections--tag")),
-        dbc.Col(html.Button("sleep", id="sleep-tag", className="reflections--tag")),
-        dbc.Col(html.Button("active minutes", id="am-tag", className="reflections--tag"))
+        html.P("Filter By", style={"width": "fit-content", "margin-left": "10%"}),
+        html.Div(dcc.Dropdown(filter_tags, id='dropdown-filter', clearable=False, style={"width": "100%"}), style={"width": "50%"})
     ], style={"width": "65%", "margin": "auto", "padding": "20px"}),
     dbc.Row(html.Button("Clear All", id="clear", className="reflections--clear")),
     dbc.Row([
@@ -70,14 +75,10 @@ def make_reflections(data):
     Output("expanded-do", "children"),
     State("search", "value"),
     Input("confirm-search", "n_clicks"),
-    Input("steps-tag", "n_clicks"),
-    Input("holiday-tag", "n_clicks"),
-    Input("sport-tag", "n_clicks"),
-    Input("sleep-tag", "n_clicks"),
-    Input("am-tag", "n_clicks"),
+    Input("dropdown-filter", "value"),
     Input("clear", "n_clicks"),
 )
-def search(text, n1, n2, n3, n4, n5, n6, n7):
+def search(text, n1, dropdown, n2):
     view_con = sqlite3.connect("data/reflecting.db")
     view_cur = view_con.cursor()
     trigger_id = ctx.triggered[0]["prop_id"].split(".")[0]
@@ -90,12 +91,9 @@ def search(text, n1, n2, n3, n4, n5, n6, n7):
         search_term = '%'+text+'%'
         learn_data = view_cur.execute('SELECT * FROM reflections WHERE text LIKE ? AND type LIKE "learn"', (search_term,)).fetchall()
         do_data = view_cur.execute('SELECT * FROM reflections WHERE text LIKE ? AND type LIKE "do"', (search_term,)).fetchall()
-    else:
-        tag = trigger_id.split("-")[0]
-        if tag == "am":
-            tag = "active minutes"
-        learn_data = view_cur.execute('SELECT * FROM reflections JOIN reflections_tags ON reflections.reflection_id = reflections_tags.reflection_id JOIN tags ON reflections_tags.tag_id = tags.tag_id WHERE tag = ? AND type LIKE "learn"', (tag,)).fetchall()
-        do_data = view_cur.execute('SELECT * FROM reflections JOIN reflections_tags ON reflections.reflection_id = reflections_tags.reflection_id JOIN tags ON reflections_tags.tag_id = tags.tag_id WHERE tag = ? AND type LIKE "do"', (tag,)).fetchall()
+    elif dropdown:
+        learn_data = view_cur.execute('SELECT * FROM reflections JOIN reflections_tags ON reflections.reflection_id = reflections_tags.reflection_id JOIN tags ON reflections_tags.tag_id = tags.tag_id WHERE tag = ? AND type LIKE "learn"', (dropdown,)).fetchall()
+        do_data = view_cur.execute('SELECT * FROM reflections JOIN reflections_tags ON reflections.reflection_id = reflections_tags.reflection_id JOIN tags ON reflections_tags.tag_id = tags.tag_id WHERE tag = ? AND type LIKE "do"', (dropdown,)).fetchall()
     view_con.close()
     return make_reflections(learn_data), make_reflections(do_data)
 
@@ -146,6 +144,9 @@ def update(text, tags, n1, n2, n3):
     if update_type == 'delete':
         save_cur.execute("DELETE FROM reflections WHERE reflection_id = ?", (save_id,))
         save_cur.execute("DELETE FROM reflections_tags WHERE reflection_id = ?", (save_id,))
+        save_con.commit()
+        save_con.close()
+        return []
     elif update_type == 'save':
         save_cur.execute("UPDATE reflections SET text = ? WHERE reflection_id = ?", (text, save_id))
         save_cur.execute("DELETE FROM reflections_tags WHERE reflection_id = ?", (save_id,))

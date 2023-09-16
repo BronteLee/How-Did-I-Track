@@ -3,7 +3,7 @@
     position: fixed;
     right: 0;
     border-left: 4px solid rgb(94, 94, 94);
-    background-color: lemonchiffon;
+    background-color: aliceblue;
     height: 100vh;
 }
 
@@ -48,7 +48,7 @@
     overflow: auto;
     border: 3px solid rgb(94, 94, 94);
     min-height: 50px; 
-    background-color: beige;
+    background-color: whitesmoke;
     padding-left: 5px;
 }
 

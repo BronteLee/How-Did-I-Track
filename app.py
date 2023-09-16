@@ -21,7 +21,7 @@ navbar = dbc.Navbar(
 
 app.layout = dbc.Container(
     [
-        dbc.Row(navbar, style={"margin": "0px", "max-width": "100%"}),
+        dbc.Row(navbar, style={"margin": "0px", "max-width": "100%", "position": "sticky", "top": "0", "z-index": "999"}),
         dbc.Row(dash.page_container, 
         style={"max-width": "100%", "padding-left": "10px", "background-color": "#fcfcfc"}
         )
@@ -32,3 +32,4 @@ app.layout = dbc.Container(
 
 if __name__ == '__main__':
     app.run(debug=True)
+    #app.run(debug=False)

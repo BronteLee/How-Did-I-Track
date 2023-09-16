@@ -4,6 +4,7 @@ import pytz
 import json
 import csv
 import os
+import sqlite3
 
 
 # merges multiple json files into one
@@ -205,7 +206,11 @@ def json_to_csv():
         csv_writer.writerow(entry.values())
     new_file.close()
 
-#merge("data/heart/", "resting-heart.json")
-#sort_fix()
-#add_daily_zeros("sleep.json")
-print(len(json.load(open("sleep.json", encoding="utf-8"))))
+
+filter_con = sqlite3.connect('data/reflecting.db')
+filter_cur = filter_con.cursor()
+r = filter_cur.execute("SELECT * FROM prompts").fetchall()
+for k in r:
+    print(k)
+filter_con.close()
+#filter_result = filter_cur.execute("SELECT tag FROM tags").fetchall()

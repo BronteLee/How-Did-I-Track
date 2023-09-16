@@ -1,45 +1,47 @@
 import dash
-from dash import html, dcc
+from dash import html
 import dash_bootstrap_components as dbc
 import pandas as pd
 import json
 import numpy as np
+import sqlite3
 
 dash.register_page(__name__, path="/prompt")
 
-prompt_pages = {}
+def layout():
+    con = sqlite3.connect('data/reflecting.db')
+    con.set_trace_callback(print)
+    cur = con.cursor()
+    prompt_pages = {}
+    prompt_options = []
+    for entry in ["total", "steps", "lightly_active_minutes", "fairly_active_minutes", "missing_data"]:
+        prompt_page = {}
+        print(entry)
+        if entry == 'total':
+            prompt_page['total'] = cur.execute("SELECT COUNT(*) FROM prompts").fetchone()[0]
+            prompt_page['complete'] = cur.execute("SELECT COUNT(*) FROM prompts WHERE complete = 1").fetchone()[0]
+            prompt_page['percentage'] = round((prompt_page['complete']/prompt_page['total'])*100)
 
-data = json.load(open("data/test.json", encoding='utf-8'))
-for entry in data: 
-    prompt_type = entry['type']
-    complete = 1 if entry['complete'] == 'True' else 0
-    if prompt_type in prompt_pages:
-        prompt_pages[prompt_type]['total'] += 1
-        prompt_pages[prompt_type]['complete'] += complete
-        if prompt_pages[prompt_type]["prompt"] == 0 and complete == 0:
-            prompt_pages[prompt_type]["prompt"] = entry['id']
-    else:
-        prompt_pages[prompt_type] = {"complete": complete, "total": 1}
-        if complete == 0:
-            prompt_pages[prompt_type]["prompt"] = entry['id']
         else:
-            prompt_pages[prompt_type]["prompt"] = 0
-    if "total" in prompt_pages:
-        prompt_pages['total']['complete'] += complete
-        prompt_pages['total']['total'] += 1
-    else:
-        prompt_pages['total'] = {"complete": complete, "total": 1}
-    if complete == 0 and "prompt" not in prompt_pages[prompt_type]:
-        prompt_pages[prompt_type]['prompt'] = entry['id']
-for page in prompt_pages:
-    prompt_page = prompt_pages[page]
-    prompt_page['percentage'] = round((prompt_page['complete']/prompt_page['total'])*100)
-prompt_pages['total']['prompt'] = np.random.choice(
-            np.array([prompt_pages['steps']['prompt'], prompt_pages['lightly_active_minutes']['prompt'], 
-                      prompt_pages['fairly_active_minutes']['prompt'], prompt_pages['missing_data']['prompt']]))
-#print(prompt_pages)
-
-layout = dbc.Row([dbc.Col([
+            prompt_page['total'] = cur.execute("SELECT COUNT(*) FROM prompts WHERE type = ?", (entry,)).fetchone()[0]
+            prompt_page['complete'] = cur.execute("SELECT COUNT(*) FROM prompts WHERE type = ? AND complete = 1", (entry,)).fetchone()[0]
+            prompt_page['prompt'] = cur.execute("SELECT prompt_id FROM prompts WHERE type = ? AND complete = 0", (entry,)).fetchone()
+            if prompt_page["prompt"] is None:
+                prompt_page['prompt'] = cur.execute("SELECT prompt_id FROM prompts WHERE type = ?", (entry,)).fetchone()[0]
+            else:
+                prompt_page["prompt"] = prompt_page["prompt"][0]
+                prompt_options.append(prompt_page["prompt"])
+            prompt_page['percentage'] = round((prompt_page['complete']/prompt_page['total'])*100)
+        prompt_pages[entry] = prompt_page
+        print("total", prompt_page['total'])
+        print("complete", prompt_page['complete'])
+        if entry != "total":
+            print("prompt", prompt_page['prompt'])
+    con.close()
+    prompt_pages['total']['prompt'] = np.random.choice(
+            np.array(prompt_options))
+    print(prompt_pages)
+    return dbc.Row([dbc.Col([
     dbc.Row(html.H1("Prompt")),
     dbc.Row(html.P("""How-Did-I-Track? has analysed your data and found periods of the highest and lowest 
                    physical activity, trends, and gaps in your data. Prompts for these periods have been 

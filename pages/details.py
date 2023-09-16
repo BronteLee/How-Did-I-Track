@@ -10,7 +10,7 @@ from reflection import reflection_panel
 from correlationgraph import corr_graph
 
 
-df = pd.read_json('data/daily-data.json', convert_dates=False)
+df = pd.read_json('data/synthetic-daily-data.json', convert_dates=False)
 df['date'] = pd.to_datetime(df['date'], dayfirst=True)
 
 dash.register_page(__name__)
@@ -23,29 +23,28 @@ layout = dbc.Row([dbc.Col([
         dbc.Row(dmc.DateRangePicker(
             id="date-picker",
             minDate=date(2017, 12, 25),
-            maxDate=date(2023, 7, 31),
-            value=[date(2023, 1, 1), date(2023, 7, 20)],
+            maxDate=date(2023, 9, 6),
+            value=[date(2023, 1, 1), date(2023, 9, 6)],
             clearable=False,
             style={"margin": "auto"}
     ))]),
     dbc.Col([
-        dbc.Row(html.P(" Low Wear Threshold: ", style={"text-align": "center"})),
+        dbc.Row(html.P(" Low Wear Threshold ", style={"text-align": "center"})),
         dbc.Row(dcc.Dropdown(
             [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24],
             id="low-wear-dropdown",
-            value=8,
-            clearable=False,
-            style={"width": "10vh", "margin": "auto"}), style={"bottom": "0"})
+            value=10,
+            clearable=False), 
+            style={"bottom": "0", "width": "50%", "margin": "auto"})
     ]),
         dbc.Col([
-            dbc.Row("Show Low Wear Days", style={"text-align": "center"}),
+            dbc.Row(html.P("Show Low Wear Days", style={"text-align": "center"})),
             dbc.Row(dmc.Switch(
         id="low-wear-switch",
         size="lg",
         radius="sm",
         checked=True,
-        color="orange"
-        ))
+        color="orange", style={"width": "fit-content", "margin": "auto"}), )
         ])
     ]),
         dbc.Row(html.H3(children="My Steps")),
