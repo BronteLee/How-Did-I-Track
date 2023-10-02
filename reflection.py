@@ -10,7 +10,7 @@ def reflection_panel(questions):
         questions = ["What have I learnt?", "What will I do?"]
     return [
     dbc.Row(html.H3("My Reflections", className="reflection--heading")),
-    dbc.Row(html.P(questions[0], className="reflection-question")),
+    dbc.Row(html.P(questions[0], className="reflection--question")),
     dbc.Row([
         dbc.Col(dcc.Textarea(
         id="text-learn",
@@ -20,7 +20,7 @@ def reflection_panel(questions):
     ]),
     dbc.Row(html.Div(id="all-learn", className="reflection--text"), style={"padding-left":"9px", "padding-right":"5px", "padding-bottom":"10px"}),
     dbc.Row(html.Hr()),
-    dbc.Row(html.P(questions[1], className="reflection-question")),
+    dbc.Row(html.P(questions[1], className="reflection--question")),
     dbc.Row([
         dbc.Col(dcc.Textarea(
         id="text-do",

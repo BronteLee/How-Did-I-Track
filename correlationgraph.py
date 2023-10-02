@@ -52,6 +52,7 @@ def x_labels(datatype):
     return labels
 
 def corr_graph(dff, datatype):
+    dff = dff.query("hours_worn > 0")
     data = dff[['steps', 'fairly_active_minutes', 'lightly_active_minutes',
             'calories', 'resting_heart_rate', 'minutes_asleep', 'minutes_awake']].corr(method="spearman")
     data = pd.DataFrame(data.iloc[get_index(datatype)]).drop([datatype])

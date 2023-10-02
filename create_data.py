@@ -1,6 +1,9 @@
 import json
 from datetime import datetime, date, timedelta
 import random
+import pandas as pd
+import numpy as np
+import sqlite3
 
 
 def timeframe(data):
@@ -212,11 +215,53 @@ def update_ams(data):
                     entry['lightly_active_minutes'] = random.randint(250, 400)
         result.append(entry)
     return result
-
-data = json.load(open("data/eval-daily-data.json", encoding='utf-8'))
-result = add_data(data)
-result1 = update_steps(result)
-result2 = update_ams(result1)
+"""
+data = json.load(open("data/synthetic-daily-data.json", encoding='utf-8'))
+result = []
+for day in data:
+    if day['fairly_active_minutes'] > 30:
+        day['minutes_asleep'] += 30
+    result.append(day)
 out_file = open("data/synthetic-daily-data.json", "w")
-json.dump(result2, out_file, indent=2)
-out_file.close()
+json.dump(result, out_file, indent=2)
+out_file.close()"""
+
+
+def analyse():
+    df = pd.read_json("data/synthetic-daily-data.json", convert_dates=False)
+    df['date'] = pd.to_datetime(df['date'], dayfirst=True)
+    months = []
+    month_index = 0
+    week_index = 0
+    weeks = []
+    hours_worn = []
+    longest_gap = 0
+    gap = []
+    current_gap = [None, None]
+    index = 0
+    last_day = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+    while index < len(last_day):
+        start_date = date(2022,index+1,1)
+        end_date = date(2022,index+1,last_day[index])
+        dff = df.query("date >= @start_date & date <= @end_date & hours_worn > 0")
+        months.append(int(round(np.mean(dff['steps']), 0)))
+        index += 1
+    for i in months:
+        print(i)
+
+def add_prompt():
+    prompt_con = sqlite3.connect('data/reflecting.db')
+    prompt_cur = prompt_con.cursor()
+    pa_type = 'steps'
+    complete = 0
+    start_date = '1/7/2022'
+    end_date = '31/7/2022'
+    prompt = 'Low Average Step Count Month'
+    text = 'In July you recorded your lowest montly average step count for 2022. You took the least steps on the 1st.'
+    question1 = 'Why do you think you did less steps in this month?'
+    question2 = 'Is there something you could do or avoid doing in the future to increase your steps?'
+    prompt_cur.execute("INSERT INTO prompts(type, complete, start_date, end_date, prompt, text, question1, question2) VALUES(?, ?, ?, ?, ?, ?, ?, ?)", (pa_type, complete, start_date, end_date, prompt, text, question1, question2))
+    prompt_con.commit()
+    prompt_con.close()
+
+analyse()

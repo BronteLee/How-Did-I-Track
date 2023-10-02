@@ -11,7 +11,7 @@ import sqlite3
 
 dash.register_page(__name__, path_template="/prompt/<prompt_id>")
 
-padf = pd.read_json("data/eval-daily-data.json", convert_dates=False)
+padf = pd.read_json("data/synthetic-daily-data.json", convert_dates=False)
 padf['date'] = pd.to_datetime(padf['date'], dayfirst=True)
 
 def graph_label(value):
@@ -19,6 +19,8 @@ def graph_label(value):
         return "Lightly Active Minutes"
     if value == "fairly_active_minutes":
         return "Fairly Active Minutes"
+    if value == "hours_worn":
+        return "Hours Worn"
     else:
         return "Steps"
 
@@ -42,14 +44,23 @@ def make_figure(padff, type):
     ), height=300
     )
     graph = go.Figure(data=[go.Bar(
-        x=padff['date'], y=padff[type if type != "missing_data" else "steps"],
+        x=padff['date'], y=padff[type if type != "missing_data" else "hours_worn"],
         marker_color=adherence_colour(padff, 10)
     )], layout=graph_layout)
     graph.update_xaxes(title_text="Date", title_font={"size": 16})
     graph.update_yaxes(title_text=graph_label(type), title_font={"size": 16})
-    mean = np.mean(padff[type if type != "missing_data" else "steps"])
-    graph.add_hline(y=mean, annotation_text="Average: "+str(int(round(mean, 0))), annotation_font_size=20)
+    mean = np.mean(padff[type if type != "missing_data" else "hours_worn"])
+    graph.add_hline(y=mean, line_width=3,
+                    annotation_text="Average: "+str(int(round(mean, 0))), 
+                    annotation_font_size=12, annotation_bgcolor="white")
     return graph
+def contextual_factors(padff, prompt_id, datatype):
+    if datatype == 'hours_worn':
+        return ''
+    else:
+        return [dbc.Row(html.P("Contextual Factors")),
+        dbc.Row(dcc.Graph(id="prompt-correlations", figure=corr_graph(padff, datatype), config={'displayModeBar': False})),]
+
 
 def layout(prompt_id):
     prompt_con = sqlite3.connect('data/reflecting.db')
@@ -65,7 +76,7 @@ def layout(prompt_id):
     end_date = datetime.strptime(prompt[4], "%d/%m/%Y")
     padff = padf.query("date >= @start_date & date <= @end_date")
     if prompt[1] == 'missing_data':
-        prompt[1] = 'steps'
+        prompt[1] = 'hours_worn'
     return dbc.Row([dbc.Col([
         dbc.Row(html.H1("Prompt")),
         dbc.Row([dbc.Col(html.H3(prompt[5]), width=8), 
@@ -74,17 +85,14 @@ def layout(prompt_id):
                  dbc.Col(html.Button(id="button_complete", className="prompt--complete"))]),
         dbc.Row(html.P(f"Date Range: {start_date.strftime('%d %b %Y')} to {end_date.strftime('%d %b %Y')}")),
         dbc.Row(html.P(prompt[6])),
+        dbc.Row(html.P("Days when you wore your tracker for less than 10 hours are shown in orange.")),
         dbc.Row(html.H4(graph_label(prompt[1]))),
         dbc.Row(dcc.Graph(id="prompt graph", figure=make_figure(padff, prompt[1]), 
             config={'displayModeBar': False})),
-        dbc.Row(html.P("Contextual Factors")),
-        dbc.Row(dcc.Graph(id="prompt-correlations", figure=corr_graph(padff, prompt[1]), config={'displayModeBar': False})),
-        dbc.Row(html.H4("Questions")),
-        dbc.Row(html.P(prompt[7])),
-        dbc.Row(html.P(prompt[8])),
+        dbc.Row(contextual_factors(padff, prompt_id, prompt[1])),
         dbc.Row(dcc.Store(id='prompt_id', data=prompt_id))
         ], width=9),
-        dbc.Col(reflection_panel(None), width=3, className="reflection--panel")
+        dbc.Col(reflection_panel([prompt[7],prompt[8]]), width=3, className="reflection--panel")
         ], style={"padding-left": "10px", "max-width": "100%"})
 
 @callback(

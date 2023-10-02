@@ -63,6 +63,7 @@ def make_reflections(data):
     tag_con = sqlite3.connect("data/reflecting.db")
     tag_cur = tag_con.cursor()
     reflections.append(html.Hr())
+    data.reverse()
     for entry in data: 
         tags = tag_cur.execute("SELECT tag FROM tags JOIN reflections_tags ON (tags.tag_id = reflections_tags.tag_id) WHERE reflection_id = ?", (entry[0],)).fetchall()
         reflection = make_reflection(entry, tags)

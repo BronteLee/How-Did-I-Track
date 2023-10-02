@@ -29,7 +29,7 @@ layout = dbc.Row([dbc.Col([
             style={"margin": "auto"}
     ))]),
     dbc.Col([
-        dbc.Row(html.P(" Low Wear Threshold ", style={"text-align": "center"})),
+        dbc.Row(html.P("Minimum Hours of Tracker Wear", style={"text-align": "center"})),
         dbc.Row(dcc.Dropdown(
             [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24],
             id="low-wear-dropdown",
@@ -38,7 +38,7 @@ layout = dbc.Row([dbc.Col([
             style={"bottom": "0", "width": "50%", "margin": "auto"})
     ]),
         dbc.Col([
-            dbc.Row(html.P("Show Low Wear Days", style={"text-align": "center"})),
+            dbc.Row(html.P("Show Days Below Minimum", style={"text-align": "center"})),
             dbc.Row(dmc.Switch(
         id="low-wear-switch",
         size="lg",
@@ -112,8 +112,9 @@ def update_graph(on, dates, value):
     steps.update_xaxes(title_text="Date", title_font={"size": 16})
     steps.update_yaxes(title_text="Steps", title_font={"size": 16})
     mean = np.mean(dff['steps'])
-    steps.add_hline(y=mean, annotation_text="Average: "+str(int(round(mean, 0))), annotation_font_size=20)
-
+    steps.add_hline(y=mean, line_width=3,
+                    annotation_text="Average: "+str(int(round(mean, 0))), 
+                    annotation_font_size=12, annotation_bgcolor="white")
     fairly_am = go.Figure(data=[go.Bar(
         x=dff['date'], y=dff['fairly_active_minutes'],
         marker_color=adherence_colour(dff, value)
@@ -121,7 +122,9 @@ def update_graph(on, dates, value):
     fairly_am.update_xaxes(title_text="Date", title_font={"size": 16})
     fairly_am.update_yaxes(title_text="Fairly Active Minutes", title_font={"size": 16})
     mean = np.mean(dff['fairly_active_minutes'])
-    fairly_am.add_hline(y=mean, annotation_text="Average: "+str(int(round(mean, 0))), annotation_font_size=20)
+    fairly_am.add_hline(y=mean, line_width=3,
+                        annotation_text="Average: "+str(int(round(mean, 0))), 
+                        annotation_font_size=12,  annotation_bgcolor="white")
 
     lightly_am = go.Figure(data=[go.Bar(
         x=dff['date'], y=dff['lightly_active_minutes'],
@@ -130,7 +133,9 @@ def update_graph(on, dates, value):
     lightly_am.update_xaxes(title_text="Date", title_font={"size": 16})
     lightly_am.update_yaxes(title_text="Lightly Active Minutes", title_font={"size": 16})
     mean = np.mean(dff['lightly_active_minutes'])
-    lightly_am.add_hline(y=mean, annotation_text="Average: "+str(int(round(mean, 0))), annotation_font_size=20)
+    lightly_am.add_hline(y=mean, line_width=3,
+                         annotation_text="Average: "+str(int(round(mean, 0))), 
+                         annotation_font_size=12,  annotation_bgcolor="white")
 
 
     return steps, corr_graph(dff, 'steps'), fairly_am, corr_graph(dff, 'fairly_active_minutes'), lightly_am, corr_graph(dff, 'lightly_active_minutes')

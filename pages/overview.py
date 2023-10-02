@@ -29,7 +29,7 @@ layout = dbc.Row([dbc.Col([
             ))
         ]),
         dbc.Row([html.H3("My Steps", style={"width":"fit-content","display":"inline-block"}),
-                 html.Abbr("\ufffd", title="Testing", style={"width":"fit-content","display":"inline-block", "font-size": "20px"})]),
+                 html.Abbr("\ufffd", title="This shows your daily steps recorded by your Fitbit", style={"width":"fit-content","display":"inline-block", "font-size": "20px"})]),
         dbc.Row(dcc.Loading(type="circle", children=dcc.Graph(
             id="cal_steps", config={'displayModeBar': False})), style={"padding-bottom": "30px"}),
         dbc.Row([html.P("Contextual Factors", style={"width":"fit-content","display":"inline-block"}),
@@ -37,7 +37,7 @@ layout = dbc.Row([dbc.Col([
         dbc.Row(dcc.Loading(type="circle", children=dcc.Graph(
             id="context_steps", config={'displayModeBar': False})), style={"padding-bottom": "20px"}),
         dbc.Row([html.H3("My Fairly Active Minutes", style={"width":"fit-content","display":"inline-block"}),
-                 html.Abbr("\ufffd", title="Testing", style={"width":"fit-content","display":"inline-block", "font-size": "20px"})]),  
+                 html.Abbr("\ufffd", title="This is activity of a moderate intensity which includes brisk walking, dancing, and soccer", style={"width":"fit-content","display":"inline-block", "font-size": "20px"})]),  
         dbc.Row(dcc.Loading(type="circle",children=dcc.Graph(id="cal_fairly_AM", config={
         'displayModeBar': False}))),
         dbc.Row([html.P("Contextual Factors", style={"width":"fit-content","display":"inline-block"}),
@@ -45,7 +45,7 @@ layout = dbc.Row([dbc.Col([
         dbc.Row(dcc.Loading(type="circle", children=dcc.Graph(
             id="context_fairly_AM", config={'displayModeBar': False})), style={"padding-bottom": "20px"}),
         dbc.Row([html.H3("My Lightly Active Minutes", style={"width":"fit-content","display":"inline-block"}),
-                 html.Abbr("\ufffd", title="Testing", style={"width":"fit-content","display":"inline-block", "font-size": "20px"})]),
+                 html.Abbr("\ufffd", title="Light activity can include a leisurely walk, housework, or low-intensity sports", style={"width":"fit-content","display":"inline-block", "font-size": "20px"})]),
         dbc.Row(dcc.Loading(type="circle", children=dcc.Graph(id="cal_lightly_AM", config={
         'displayModeBar': False}))),
         dbc.Row([html.P("Contextual Factors", style={"width":"fit-content","display":"inline-block"}),
