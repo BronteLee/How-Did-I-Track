@@ -7,7 +7,7 @@ from datetime import date
 import dash_mantine_components as dmc
 import dash_bootstrap_components as dbc
 from reflection import reflection_panel
-from correlationgraph import corr_graph
+from correlation_graph import corr_graph
 
 
 df = pd.read_json('data/synthetic-daily-data.json', convert_dates=False)

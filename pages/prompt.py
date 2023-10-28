@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 import numpy as np
 import dash_bootstrap_components as dbc
 from reflection import reflection_panel
-from correlationgraph import corr_graph
+from correlation_graph import corr_graph
 import sqlite3
 
 dash.register_page(__name__, path_template="/prompt/<prompt_id>")

@@ -6,7 +6,7 @@ import dash_bootstrap_components as dbc
 import plotly.graph_objects as go
 from new_calplot import create_heatmap
 from reflection import reflection_panel
-from correlationgraph import corr_graph
+from correlation_graph import corr_graph
 
 dash.register_page(__name__, path='/')
 
