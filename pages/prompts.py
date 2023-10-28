@@ -1,8 +1,6 @@
 import dash
 from dash import html
 import dash_bootstrap_components as dbc
-import pandas as pd
-import json
 import numpy as np
 import sqlite3
 
@@ -10,13 +8,11 @@ dash.register_page(__name__, path="/prompt")
 
 def layout():
     con = sqlite3.connect('data/reflecting.db')
-    con.set_trace_callback(print)
     cur = con.cursor()
     prompt_pages = {}
     prompt_options = []
     for entry in ["total", "steps", "lightly_active_minutes", "fairly_active_minutes", "missing_data"]:
         prompt_page = {}
-        print(entry)
         if entry == 'total':
             prompt_page['total'] = cur.execute("SELECT COUNT(*) FROM prompts").fetchone()[0]
             prompt_page['complete'] = cur.execute("SELECT COUNT(*) FROM prompts WHERE complete = 1").fetchone()[0]
@@ -33,19 +29,15 @@ def layout():
                 prompt_options.append(prompt_page["prompt"])
             prompt_page['percentage'] = round((prompt_page['complete']/prompt_page['total'])*100)
         prompt_pages[entry] = prompt_page
-        print("total", prompt_page['total'])
-        print("complete", prompt_page['complete'])
-        if entry != "total":
-            print("prompt", prompt_page['prompt'])
     con.close()
     prompt_pages['total']['prompt'] = np.random.choice(
             np.array(prompt_options))
-    print(prompt_pages)
     return dbc.Row([dbc.Col([
     dbc.Row(html.H1("Prompt")),
     dbc.Row(html.P("""How-Did-I-Track? has analysed your data and found periods of the highest and lowest 
                    physical activity, trends, and gaps in your data. Prompts for these periods have been 
-                   created to help you to understand and reflect on your physical activity""", 
+                   created to help you to understand and reflect on your physical activity. 
+                   Your progress towards reviewing the prompts is tracked below.""", 
                    className="prompts--text"), style={"width": "70%", "margin": "auto"}),
     dbc.Row([
         dbc.Col(html.H3("Total Progress", className="prompts--heading"), width=5),
@@ -55,7 +47,7 @@ def layout():
             className="prompts--button"), width=3),
     ], className="prompts--row"),
     dbc.Row([
-        dbc.Col(html.H3("Steps", className="prompts--heading"), width=5),
+        dbc.Col(html.H4("Steps", className="prompts--heading"), width=5),
         dbc.Col(dbc.Progress(value=prompt_pages['steps']['percentage'], 
                              color="info"), width=3),
         dbc.Col(html.P(str(prompt_pages['steps']['percentage'])+"%"), width=1),
@@ -63,21 +55,21 @@ def layout():
             className="prompts--button"), width=3),
     ], className="prompts--row"),
     dbc.Row([
-        dbc.Col(html.H3("Fairly Active Minutes", className="prompts--heading"), width=5),
+        dbc.Col(html.H4("Fairly Active Minutes", className="prompts--heading"), width=5),
         dbc.Col(dbc.Progress(value=prompt_pages['fairly_active_minutes']['percentage'], color="info"), width=3),
         dbc.Col(html.P(str(prompt_pages['fairly_active_minutes']['percentage'])+"%"), width=1),
         dbc.Col(dbc.NavLink("Fairly Active Minutes Prompt", href="/prompt/"+str(prompt_pages['fairly_active_minutes']['prompt']), 
             className="prompts--button"), width=3),
     ], className="prompts--row"),
     dbc.Row([
-        dbc.Col(html.H3("Lightly Active Minutes", className="prompts--heading"), width=5),
+        dbc.Col(html.H4("Lightly Active Minutes", className="prompts--heading"), width=5),
         dbc.Col(dbc.Progress(value=prompt_pages['lightly_active_minutes']['percentage'], color="info"), width=3),
         dbc.Col(html.P(str(prompt_pages['lightly_active_minutes']['percentage'])+"%"), width=1),
         dbc.Col(dbc.NavLink("Lightly Active Minutes Prompt", href="/prompt/"+str(prompt_pages['lightly_active_minutes']['prompt']), 
             className="prompts--button"), width=3),
     ], className="prompts--row"),
     dbc.Row([
-        dbc.Col(html.H3("Missing Data", className="prompts--heading"), width=5),
+        dbc.Col(html.H4("Missing Data", className="prompts--heading"), width=5),
         dbc.Col(dbc.Progress(value=prompt_pages['missing_data']['percentage'], color="info"), width=3),
         dbc.Col(html.P(str(prompt_pages['missing_data']['percentage'])+"%"), width=1),
         dbc.Col(dbc.NavLink("Missing Data Prompt", href="/prompt/"+str(prompt_pages['missing_data']['prompt']), className="prompts--button"), width=3),

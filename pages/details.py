@@ -80,6 +80,22 @@ def adherence_colour(df, min_wear):
             colours.append("blueviolet")
     return colours
 
+def val_to_text(val):
+    if val == "steps":
+        return "Steps"
+    if val == "fairly_active_minutes":
+        return "Fairly Active Minutes"
+    if val == "hours_worn":
+        return "Hours Worn"
+    else:
+        return "Lightly Active Minutes"
+
+def make_hover_text(dff, datatype):
+    hover_text = []
+    for i in dff.index:
+        hover_text.append(f"{dff['date'][i].strftime('%a %d/%m/%Y')}<br>{val_to_text(datatype)}: {int(dff[datatype][i])}")
+    return hover_text
+
 @callback(
     Output(component_id="steps", component_property="figure"),
     Output(component_id="context_steps_details", component_property="figure"),
@@ -108,6 +124,8 @@ def update_graph(on, dates, value):
     steps = go.Figure(data=[go.Bar(
         x=dff['date'], y=dff['steps'],
         marker_color=adherence_colour(dff, value),
+        hovertemplate=("%{customdata}"),
+        customdata=make_hover_text(dff, 'steps'),
     )], layout=graph_layout)
     steps.update_xaxes(title_text="Date", title_font={"size": 16})
     steps.update_yaxes(title_text="Steps", title_font={"size": 16})
@@ -117,7 +135,9 @@ def update_graph(on, dates, value):
                     annotation_font_size=12, annotation_bgcolor="white")
     fairly_am = go.Figure(data=[go.Bar(
         x=dff['date'], y=dff['fairly_active_minutes'],
-        marker_color=adherence_colour(dff, value)
+        marker_color=adherence_colour(dff, value),
+        hovertemplate=("%{customdata}"),
+        customdata=make_hover_text(dff, 'fairly_active_minutes'),
     )], layout=graph_layout)
     fairly_am.update_xaxes(title_text="Date", title_font={"size": 16})
     fairly_am.update_yaxes(title_text="Fairly Active Minutes", title_font={"size": 16})
@@ -128,7 +148,9 @@ def update_graph(on, dates, value):
 
     lightly_am = go.Figure(data=[go.Bar(
         x=dff['date'], y=dff['lightly_active_minutes'],
-        marker_color=adherence_colour(dff, value)
+        marker_color=adherence_colour(dff, value),
+        hovertemplate=("%{customdata}"),
+        customdata=make_hover_text(dff, 'lightly_active_minutes'),
     )], layout=graph_layout)
     lightly_am.update_xaxes(title_text="Date", title_font={"size": 16})
     lightly_am.update_yaxes(title_text="Lightly Active Minutes", title_font={"size": 16})

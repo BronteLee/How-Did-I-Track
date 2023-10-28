@@ -24,15 +24,32 @@ def graph_label(value):
     else:
         return "Steps"
 
-def adherence_colour(df, min_wear):
+def adherence_colour(df, min_wear, type):
     vals = df['hours_worn'].tolist()
     colours = []
     for i in vals:
-        if i < min_wear:
+        if i < min_wear and type != 'hours_worn':
             colours.append("orange")
         else:
             colours.append("blueviolet")
     return colours
+
+def val_to_text(val):
+    if val == "steps":
+        return "Steps"
+    if val == "fairly_active_minutes":
+        return "Fairly Active Minutes"
+    if val == "hours_worn":
+        return "Hours Worn"
+    else:
+        return "Lightly Active Minutes"
+
+def make_hover_text(dff, datatype):
+    hover_text = []
+    for i in dff.index:
+        hover_text.append(f"{dff['date'][i].strftime('%a %d/%m/%Y')}<br>{val_to_text(datatype)}: {int(dff[datatype][i])}")
+    return hover_text
+    
 
 def make_figure(padff, type):
     graph_layout = go.Layout(
@@ -45,7 +62,9 @@ def make_figure(padff, type):
     )
     graph = go.Figure(data=[go.Bar(
         x=padff['date'], y=padff[type if type != "missing_data" else "hours_worn"],
-        marker_color=adherence_colour(padff, 10)
+        marker_color=adherence_colour(padff, 10, type),
+        hovertemplate=("%{customdata}"),
+        customdata=make_hover_text(padff, type),
     )], layout=graph_layout)
     graph.update_xaxes(title_text="Date", title_font={"size": 16})
     graph.update_yaxes(title_text=graph_label(type), title_font={"size": 16})
@@ -85,7 +104,7 @@ def layout(prompt_id):
                  dbc.Col(html.Button(id="button_complete", className="prompt--complete"))]),
         dbc.Row(html.P(f"Date Range: {start_date.strftime('%d %b %Y')} to {end_date.strftime('%d %b %Y')}")),
         dbc.Row(html.P(prompt[6])),
-        dbc.Row(html.P("Days when you wore your tracker for less than 10 hours are shown in orange.")),
+        dbc.Row(html.P("Days when you wore your tracker for less than 10 hours are shown in orange." if prompt[1] != 'hours_worn' else "")),
         dbc.Row(html.H4(graph_label(prompt[1]))),
         dbc.Row(dcc.Graph(id="prompt graph", figure=make_figure(padff, prompt[1]), 
             config={'displayModeBar': False})),

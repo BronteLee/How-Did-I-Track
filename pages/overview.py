@@ -4,7 +4,7 @@ import pandas as pd
 from datetime import date
 import dash_bootstrap_components as dbc
 import plotly.graph_objects as go
-from newcal import create_heatmap
+from new_calplot import create_heatmap
 from reflection import reflection_panel
 from correlationgraph import corr_graph
 

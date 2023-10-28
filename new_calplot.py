@@ -1,9 +1,9 @@
 import pandas as pd
-from plotly_calplot.date_extractors import get_date_coordinates, get_month_names
+from plotly_calplot.date_extractors import get_date_coordinates
+from plotly_calplot.layout_formatter import create_month_lines
 from datetime import date
 import plotly.graph_objects as go
 import numpy as np
-from datetime import datetime, timedelta
 
 def val_to_text(val):
     if val == "steps":
@@ -25,10 +25,11 @@ def make_hover_text(dff, datatype):
     return hover_text
     
 
-def raw_heatmap(dff, datatype, year, weekdays_in_year, weeknumber_of_dates
+def custom_heatmap(dff, datatype, year, weekdays_in_year, 
+                   weeknumber_of_dates, month_names, month_positions
 ):
     wear = dff['hours_worn'].tolist()
-    heatmap = [go.Heatmap(
+    heatmap = go.Figure(data=go.Heatmap(
             x = weeknumber_of_dates,
             y = weekdays_in_year,
             z = dff[datatype],
@@ -39,8 +40,7 @@ def raw_heatmap(dff, datatype, year, weekdays_in_year, weeknumber_of_dates
             hovertemplate=("%{customdata}"),
             customdata=make_hover_text(dff, datatype),
             name=year
-    )]
-        ## Modified code from plotly-calpot layout_formatter.py
+    ), layout=make_layout(month_names, month_positions))
     kwargs = dict(
         mode="lines",
         line=dict(color="black", width=2),
@@ -48,15 +48,12 @@ def raw_heatmap(dff, datatype, year, weekdays_in_year, weeknumber_of_dates
     )
     for date, dow, wkn in zip(dff['date'], weekdays_in_year, weeknumber_of_dates):
         if date.day == 1:
-            heatmap += [go.Scatter(x=[wkn - 0.5, wkn - 0.5], y=[dow - 0.5, 6.5], **kwargs)]
+            heatmap.add_trace(go.Scatter(x=[wkn - 0.5, wkn - 0.5], y=[dow - 0.5, 6.5], **kwargs))
             if dow:
-                heatmap += [
+                heatmap.add_trace(
                     go.Scatter(
-                        x=[wkn - 0.5, wkn + 0.5], y=[dow - 0.5, dow - 0.5], **kwargs
-                    ),
-                    go.Scatter(x=[wkn + 0.5, wkn + 0.5], y=[dow - 0.5, -0.5], **kwargs),
-                ]
-    ##end modified code
+                        x=[wkn - 0.5, wkn + 0.5], y=[dow - 0.5, dow - 0.5], **kwargs))
+                heatmap.add_trace(go.Scatter(x=[wkn + 0.5, wkn + 0.5], y=[dow - 0.5, - 0.5], **kwargs))
     return heatmap
     
 def make_layout(month_names, month_positions):
@@ -87,20 +84,22 @@ def make_layout(month_names, month_positions):
                 tickmode="array",
                 ticktext=month_names,
                 tickvals=month_positions,
-            ),
+            )
     )
 
-def create_heatmap(datatype, dff, year):
-    last_date = datetime(int(year), 1, 1) + timedelta(days=-1)
+def create_heatmap(datatype, dff, year) -> go.Figure:
     first_date = date(year=int(year), month=1, day=1)
-    last_date = date(year=int(year), month=12, day=last_date.day)
+    last_date = date(year=int(year), month=12, day=31)
     all_year = pd.DataFrame({'date': pd.date_range(first_date, last_date)})
     dff = all_year.merge(dff, on='date', how="left")
     for i in dff.index:
         if dff['hours_worn'][i] == 0:
             dff.loc[i, [datatype]] = np.nan
-    month_names = get_month_names(dff, 'date', 1, 12)
+    month_names = []
+    for i in range (1, 13):
+        month_date = date(2023, i, 1)
+        month_names.append(month_date.strftime('%B'))
     month_positions, weekdays_in_year, weeknumber_of_dates = get_date_coordinates(
     dff, 'date', 1, 12)
-    return go.Figure(data=raw_heatmap(dff, datatype, year, weekdays_in_year, weeknumber_of_dates), layout=make_layout(month_names, month_positions))
-
+    #return go.Figure(data=custom_heatmap(dff, datatype, year, weekdays_in_year, weeknumber_of_dates), layout=make_layout(month_names, month_positions))
+    return custom_heatmap(dff, datatype, year, weekdays_in_year, weeknumber_of_dates, month_names, month_positions)

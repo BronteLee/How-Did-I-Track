@@ -1,8 +1,5 @@
 import pandas as pd
-from datetime import date
-import dash_bootstrap_components as dbc
 import plotly.graph_objects as go
-import numpy as np
 
 def make_hover_text(data, datatype):
     hover_text = []
@@ -21,15 +18,14 @@ def make_hover_text(data, datatype):
         vals.append(data[datatype][i])
         metrics.append(i)
     for k in range(0,len(vals)):
-        text = "The higher your " + metrics[k].replace("_", " ")
+        text = "The higher your " + metrics[k].replace("_", " ") + " the "
         if vals[k] > 0:
-            text += " the more "
+            text += "more "
         else:
-            text += " the less "
+            text += "less "
         text += datatype.replace("_", " ")
         text += " you did"
         hover_text.append(text)
-    #print("HOVER",hover_text)
     return hover_text
 
 def get_index(datatype):
@@ -54,7 +50,8 @@ def x_labels(datatype):
 def corr_graph(dff, datatype):
     dff = dff.query("hours_worn > 0")
     data = dff[['steps', 'fairly_active_minutes', 'lightly_active_minutes',
-            'calories', 'resting_heart_rate', 'minutes_asleep', 'minutes_awake']].corr(method="spearman")
+            'calories', 'resting_heart_rate', 'minutes_asleep', 'minutes_awake']
+            ].corr(method="spearman")
     data = pd.DataFrame(data.iloc[get_index(datatype)]).drop([datatype])
     return go.Figure(
         data=go.Heatmap(
@@ -79,5 +76,4 @@ def corr_graph(dff, datatype):
         ),
         yaxis=dict(visible= False),
         xaxis=dict(showline=True),
-        height=145),
-        )
+        height=145),)
