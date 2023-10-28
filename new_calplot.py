@@ -1,9 +1,7 @@
 import pandas as pd
 from plotly_calplot.date_extractors import get_date_coordinates
-from plotly_calplot.layout_formatter import create_month_lines
 from datetime import date
 import plotly.graph_objects as go
-import numpy as np
 
 def val_to_text(val):
     if val == "steps":
@@ -46,14 +44,14 @@ def custom_heatmap(dff, datatype, year, weekdays_in_year,
         line=dict(color="black", width=2),
         hoverinfo="skip",
     )
-    for date, dow, wkn in zip(dff['date'], weekdays_in_year, weeknumber_of_dates):
+    for date, day, week in zip(dff['date'], weekdays_in_year, weeknumber_of_dates):
         if date.day == 1:
-            heatmap.add_trace(go.Scatter(x=[wkn - 0.5, wkn - 0.5], y=[dow - 0.5, 6.5], **kwargs))
-            if dow:
+            heatmap.add_trace(go.Scatter(x=[week - 0.5, week - 0.5], y=[day - 0.5, 6.5], **kwargs))
+            if day:
                 heatmap.add_trace(
                     go.Scatter(
-                        x=[wkn - 0.5, wkn + 0.5], y=[dow - 0.5, dow - 0.5], **kwargs))
-                heatmap.add_trace(go.Scatter(x=[wkn + 0.5, wkn + 0.5], y=[dow - 0.5, - 0.5], **kwargs))
+                        x=[week - 0.5, week + 0.5], y=[day - 0.5, day - 0.5], **kwargs))
+                heatmap.add_trace(go.Scatter(x=[week + 0.5, week + 0.5], y=[day - 0.5, - 0.5], **kwargs))
     return heatmap
     
 def make_layout(month_names, month_positions):
@@ -94,12 +92,11 @@ def create_heatmap(datatype, dff, year) -> go.Figure:
     dff = all_year.merge(dff, on='date', how="left")
     for i in dff.index:
         if dff['hours_worn'][i] == 0:
-            dff.loc[i, [datatype]] = np.nan
+            dff.loc[i, [datatype]] = float('nan')
     month_names = []
     for i in range (1, 13):
         month_date = date(2023, i, 1)
         month_names.append(month_date.strftime('%B'))
     month_positions, weekdays_in_year, weeknumber_of_dates = get_date_coordinates(
     dff, 'date', 1, 12)
-    #return go.Figure(data=custom_heatmap(dff, datatype, year, weekdays_in_year, weeknumber_of_dates), layout=make_layout(month_names, month_positions))
     return custom_heatmap(dff, datatype, year, weekdays_in_year, weeknumber_of_dates, month_names, month_positions)

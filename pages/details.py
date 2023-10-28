@@ -78,7 +78,8 @@ style={"padding-left": "10px", "max-width": "100%"}
     Output(component_id="context_lightly_AM_details", component_property="figure"),
     Input(component_id='low-wear-switch', component_property='checked'),
     Input(component_id='date-picker', component_property='value'),
-    Input(component_id='low-wear-dropdown', component_property='value'))
+    Input(component_id='low-wear-dropdown', component_property='value')
+)
 def update_details(on, dates, value):
     start_date = date.fromisoformat(dates[0])
     end_date = date.fromisoformat(dates[1])

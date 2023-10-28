@@ -1,7 +1,5 @@
 import dash
-from dash import html, dcc, callback, Input, Output, State, ctx, ALL, MATCH
-import pandas as pd
-from datetime import datetime
+from dash import html, dcc, callback, Input, Output, State, ctx, MATCH
 import dash_bootstrap_components as dbc
 import sqlite3
 import json 
@@ -99,8 +97,8 @@ def search_and_filter(text, n1, dropdown, n2):
     return make_reflections(learn_data), make_reflections(do_data)
 
 @callback(
-        Output({'role': 'reflection', "index": MATCH}, "children", allow_duplicate=True),
-        Input({'role': 'edit', 'index': MATCH}, "n_clicks"), prevent_initial_call=True
+    Output({'role': 'reflection', "index": MATCH}, "children", allow_duplicate=True),
+    Input({'role': 'edit', 'index': MATCH}, "n_clicks"), prevent_initial_call=True
 )
 def editing(n):
     if n is None:
