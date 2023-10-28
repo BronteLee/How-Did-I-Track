@@ -1,9 +1,8 @@
 import dash
+import dash_bootstrap_components as dbc
 from dash import html, dcc, callback, Input, Output
 import pandas as pd
 from datetime import date
-import dash_bootstrap_components as dbc
-import plotly.graph_objects as go
 from new_calplot import create_heatmap
 from reflection import reflection_panel
 from correlation_graph import corr_graph
@@ -67,7 +66,7 @@ layout = dbc.Row([dbc.Col([
     Output(component_id="context_lightly_AM", component_property="figure"),
     Input(component_id='year_select', component_property='value'),
 )
-def update_graph(value):
+def update_overview(value):
     start_date = date(value, 1, 1)
     end_date = date(value, 12, 31)
     dff = df.query("date >= @start_date & date <= @end_date")
@@ -78,4 +77,3 @@ def update_graph(value):
     lightly_AM = create_heatmap('lightly_active_minutes', dff, str(value))
     context_lightly_AM = corr_graph(dff, 'lightly_active_minutes')
     return steps, context_steps, fairly_AM, context_fairly_AM, lightly_AM, context_lightly_AM
-    #return steps, None, fairly_AM, None, lightly_AM, None

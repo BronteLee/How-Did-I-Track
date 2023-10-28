@@ -79,7 +79,7 @@ def make_reflections(data):
     Input("dropdown-filter", "value"),
     Input("clear", "n_clicks"),
 )
-def search(text, n1, dropdown, n2):
+def search_and_filter(text, n1, dropdown, n2):
     view_con = sqlite3.connect("data/reflecting.db")
     view_cur = view_con.cursor()
     trigger_id = ctx.triggered[0]["prop_id"].split(".")[0]
@@ -134,7 +134,7 @@ def editing(n):
          Input({'role': 'delete', 'index': MATCH}, "n_clicks"),
          Input({'role': 'cancel', 'index': MATCH}, "n_clicks")]
 )
-def update(text, tags, n1, n2, n3):
+def update_reflection(text, tags, n1, n2, n3):
     if n1 is None and n2 is None and n3 is None:
         return dash.no_update
     trigger_id = json.loads(dash.callback_context.triggered[0]["prop_id"].split(".")[0])

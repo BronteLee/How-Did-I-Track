@@ -1,4 +1,4 @@
-from dash import Dash, dash, html, dcc, callback, Input, Output, State, ctx
+from dash import Dash, dash, html
 import dash_bootstrap_components as dbc
 
 
@@ -7,7 +7,7 @@ app = Dash(__name__, suppress_callback_exceptions=True, use_pages=True, external
 navbar = dbc.Navbar(
     dbc.Container(
         dbc.Row([
-            dbc.Col(html.P("How-Did-I-Track?", style={"font-size": "16px", "text-decoration": "wavy"})),
+            dbc.Col(html.P("How-Did-I-Track?", style={"font-size": "16px"})),
             dbc.Col(dbc.NavLink("Overview", href="/", class_name="nav")),
             dbc.Col(dbc.NavLink("Details", href="/details", class_name="nav")),
             dbc.Col(dbc.NavLink("Prompt", href="/prompt", class_name="nav")),
@@ -31,5 +31,4 @@ app.layout = dbc.Container(
 )
 
 if __name__ == '__main__':
-    #app.run(debug=True)
     app.run(debug=False)

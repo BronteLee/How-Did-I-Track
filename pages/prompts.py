@@ -1,8 +1,8 @@
 import dash
-from dash import html
 import dash_bootstrap_components as dbc
 import numpy as np
 import sqlite3
+from dash import html
 
 dash.register_page(__name__, path="/prompt")
 

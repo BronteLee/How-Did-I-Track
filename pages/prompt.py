@@ -1,13 +1,12 @@
 import dash
-from dash import html, dcc, Input, Output, callback
-import pandas as pd
-from datetime import datetime
-import plotly.graph_objects as go
-import numpy as np
 import dash_bootstrap_components as dbc
+import pandas as pd
+import sqlite3
+from dash import html, dcc, Input, Output, callback
+from datetime import datetime
 from reflection import reflection_panel
 from correlation_graph import corr_graph
-import sqlite3
+from bar_graph import make_bar_graph
 
 dash.register_page(__name__, path_template="/prompt/<prompt_id>")
 
@@ -24,56 +23,7 @@ def graph_label(value):
     else:
         return "Steps"
 
-def adherence_colour(df, min_wear, type):
-    vals = df['hours_worn'].tolist()
-    colours = []
-    for i in vals:
-        if i < min_wear and type != 'hours_worn':
-            colours.append("orange")
-        else:
-            colours.append("blueviolet")
-    return colours
-
-def val_to_text(val):
-    if val == "steps":
-        return "Steps"
-    if val == "fairly_active_minutes":
-        return "Fairly Active Minutes"
-    if val == "hours_worn":
-        return "Hours Worn"
-    else:
-        return "Lightly Active Minutes"
-
-def make_hover_text(dff, datatype):
-    hover_text = []
-    for i in dff.index:
-        hover_text.append(f"{dff['date'][i].strftime('%a %d/%m/%Y')}<br>{val_to_text(datatype)}: {int(dff[datatype][i])}")
-    return hover_text
-    
-
-def make_figure(padff, type):
-    graph_layout = go.Layout(
-    margin=go.layout.Margin(
-        l=0,
-        r=0,
-        b=0,
-        t=0
-    ), height=300
-    )
-    graph = go.Figure(data=[go.Bar(
-        x=padff['date'], y=padff[type if type != "missing_data" else "hours_worn"],
-        marker_color=adherence_colour(padff, 10, type),
-        hovertemplate=("%{customdata}"),
-        customdata=make_hover_text(padff, type),
-    )], layout=graph_layout)
-    graph.update_xaxes(title_text="Date", title_font={"size": 16})
-    graph.update_yaxes(title_text=graph_label(type), title_font={"size": 16})
-    mean = np.mean(padff[type if type != "missing_data" else "hours_worn"])
-    graph.add_hline(y=mean, line_width=3,
-                    annotation_text="Average: "+str(int(round(mean, 0))), 
-                    annotation_font_size=12, annotation_bgcolor="white")
-    return graph
-def contextual_factors(padff, prompt_id, datatype):
+def contextual_factors(padff, datatype):
     if datatype == 'hours_worn':
         return ''
     else:
@@ -106,9 +56,9 @@ def layout(prompt_id):
         dbc.Row(html.P(prompt[6])),
         dbc.Row(html.P("Days when you wore your tracker for less than 10 hours are shown in orange." if prompt[1] != 'hours_worn' else "")),
         dbc.Row(html.H4(graph_label(prompt[1]))),
-        dbc.Row(dcc.Graph(id="prompt graph", figure=make_figure(padff, prompt[1]), 
+        dbc.Row(dcc.Graph(id="prompt graph", figure=make_bar_graph(padff, prompt[1], 10), 
             config={'displayModeBar': False})),
-        dbc.Row(contextual_factors(padff, prompt_id, prompt[1])),
+        dbc.Row(contextual_factors(padff, prompt[1])),
         dbc.Row(dcc.Store(id='prompt_id', data=prompt_id))
         ], width=9),
         dbc.Col(reflection_panel([prompt[7],prompt[8]]), width=3, className="reflection--panel")
